@@ -3,6 +3,7 @@ import { hotspots } from "@/data/hotspots";
 import { areas } from "@/data/areas";
 import { upcomingGames } from "@/data/games";
 import { misconceptions } from "@/data/misconceptions";
+import { events } from "@/data/events";
 import type {
   OfficialFanZone,
   CountryHotspot,
@@ -10,6 +11,7 @@ import type {
   Game,
   MisconceptionFAQ,
   QuickPick,
+  CommunityEvent,
 } from "@/types";
 
 // Fan Zones
@@ -43,6 +45,15 @@ export function getAllAreas(): AreaGuide[] {
 
 export function getAreaBySlug(slug: string): AreaGuide | undefined {
   return areas.find((a) => a.slug === slug);
+}
+
+// Events
+export function getAllEvents(): CommunityEvent[] {
+  return events;
+}
+
+export function getEventBySlug(slug: string): CommunityEvent | undefined {
+  return events.find((e) => e.slug === slug);
 }
 
 // Games

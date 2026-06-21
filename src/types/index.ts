@@ -160,3 +160,41 @@ export interface QuickPick {
   entryType: EntryType;
   imageSrc?: string;
 }
+
+export type CommunityEventType =
+  | "watch-party"
+  | "screening"
+  | "street-festival"
+  | "march"
+  | "other";
+
+export interface CommunityEvent extends TrustMeta {
+  slug: string;
+  name: string;
+  eventType: CommunityEventType;
+  startDateTime: string;
+  endDateTime: string | null;
+  neighbourhood: string;
+  venueName: string | null;
+  relatedCountry: string | null;
+  entryType: EntryType;
+  sourceSignalId: string | null;
+}
+
+export interface CandidateSignal {
+  id: string;
+  sourceType:
+    | "ticketmaster"
+    | "eventbrite"
+    | "toronto_open_data"
+    | "reddit"
+    | "official_page"
+    | "sportsdb";
+  sourceUrl: string;
+  fetchedAt: string; // ISO timestamp of the ingestion run
+  rawTitle: string;
+  rawText: string;
+  parsedGuess: Partial<OfficialFanZone | CountryHotspot | CommunityEvent | Game>;
+  status: "needs_review" | "approved" | "rejected" | "published";
+  dedupeKey: string; // hash(sourceType + external id) - keeps reruns idempotent
+}
