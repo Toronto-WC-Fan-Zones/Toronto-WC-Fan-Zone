@@ -3,6 +3,8 @@ import path from "node:path";
 import type { CandidateSignal } from "../../src/types";
 import { fetchEventbriteCandidates } from "./sources/eventbrite";
 import { fetchFootballDataCandidates } from "./sources/football-data";
+import { fetchRedditCandidates } from "./sources/reddit";
+import { fetchTicketmasterCandidates } from "./sources/ticketmaster";
 import { fetchTorontoOpenDataCandidates } from "./sources/toronto-open-data";
 
 const STAGING_PATH = path.join(
@@ -16,6 +18,8 @@ const CONNECTORS: Record<string, () => Promise<CandidateSignal[]>> = {
   eventbrite: fetchEventbriteCandidates,
   toronto_open_data: fetchTorontoOpenDataCandidates,
   football_data: fetchFootballDataCandidates,
+  ticketmaster: fetchTicketmasterCandidates,
+  reddit: fetchRedditCandidates,
 };
 
 function parseArgs() {
