@@ -1,0 +1,38 @@
+name: Ingest event candidates
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # flat 6h cadence
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm ci
+
+      - name: Run ingestion
+        env:
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+          EVENTBRITE_ORGANIZER_IDS: ${{ vars.EVENTBRITE_ORGANIZER_IDS }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: npm run ingest
+
+      - name: Open review PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data-staging/auto-ingest
+          commit-message: "chore: refresh event candidate staging data"
+          title: "Staged candidates from scheduled ingest"
+          body: "Auto-generated. Review data/staging/candidates.json before merging - nothing publishes until merged."
+          add-paths: data/staging/candidates.json

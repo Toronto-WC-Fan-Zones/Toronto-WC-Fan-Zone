@@ -189,7 +189,7 @@ export interface CandidateSignal {
     | "toronto_open_data"
     | "reddit"
     | "official_page"
-    | "sportsdb";
+    | "football_data";
   sourceUrl: string;
   fetchedAt: string; // ISO timestamp of the ingestion run
   rawTitle: string;

@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "ingest": "tsx scripts/ingest/index.ts"
   },
   "dependencies": {
     "next": "^15.0.0",
@@ -21,6 +22,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "^15.0.0",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }
