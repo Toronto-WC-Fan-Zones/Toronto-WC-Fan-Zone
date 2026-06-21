@@ -1,0 +1,88 @@
+[      90ms] [LOG] %c
+▲
+
+ _____ _              _                    _   _             __
+|_   _| |__   ___    / \   __ _  ___ _ __ | |_(_) ___       / /
+  | | | '_ \ / _ \  / _ \ / _` |/ _ \ '_ \| __| |/ __|     / /
+  | | | | | |  __/ / ___ \ (_| |  __/ | | | |_| | (__     /_/
+  |_| |_| |_|\___|/_/   \_\__, |\___|_| |_|\__|_|\___|    (_)
+                           |___/
+ ___        __               _                   _                 _
+|_ _|_ __  / _|_ __ __ _ ___| |_ _ __ _   _  ___| |_ _   _ _ __ ___
+ | || '_ \| |_| '__/ _` / __| __| '__| | | |/ __| __| | | | '__/ _ \
+ | || | | |  _| | | (_| \__ \ |_| |  | |_| | (__| |_| |_| | | |  __/
+|___|_| |_|_| |_|  \__,_|___/\__|_|   \__,_|\___|\__|\__,_|_|  \___|
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/25p8_vrulfy60.js:78
+[     670ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/35f7sqvgbv-2a.js:18
+[     714ms] [ERROR] Failed to load resource: the server responded with a status of 403 () @ https://vercel.com/api/jwt:0
+[    2421ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-804810655%3A1781848014846918&client_id=258013614557-nema0dumfbottebi6to7aqi85qot9pvs.apps.googleusercontent.com&o2v=2&redirect_uri=https%3A%2F%2Fvercel.com%2Fapi%2Fregistration%2Fgoogle%2Fcallback&response_type=code&scope=openid+profile+email&service=lso&state=43d6c84dfdda15b8ac8af09ba3ee5767821f83af29a0a4c0acf5cd40f701d3bebd0379f05e1f3d4d44cc6394591ee423ef6ef9b33f3e1ba0ee78edbaa7ef7e42e3c9950d217344928f689196ff4286e9b4dccca7708e5d6ede0bb0f24d67e962eee83e2d90aaf1664996d0474883f1e9b9bc690976ea2e5695cedf6bf44617f79b57ea3653633cedf149e0240e6e4e461a83c9429156dba62bbfe8f5b21df0b2115647d23427b3398667aeb8e8396196cfe9fffc62aeac3126b2d987aad3bf28e055e5f161148d55f08949e5558bd6e5974045675210bba6b960b93ccb8ed6f6639c2c30808d654e81f8b87817a2b9f47c2e0487ad5fdcc669cfac5a683c53aa901df469641d3ac716f1a09ccced88b1323075d538171ad87bcb7a21f67d5d98e3a0158accf26cd6e59951&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANJ20r9Bljt49gb5KaUDStxbdoXTiLDMFX8A5KJEPUG-zgL0zilLG02xUJ5H3UDnQveslNkNq8IrgU1KWDc1eyx0oi9gRYyaU3vbHGx9kYh4mX9aOtr6_t6TcJ48qTEuDlrdNfL1BZ9gRZLggLs7_BRO4rUW2Ii93829QBHz-9QzyPyLXDj3lWCvHRK8LecJoMALvNbn75jOLWOpwSPSHYy1jz53bkk6ry-sinki3LgpPeSWKGqer6cToPIrfZyZ65-NSVNn3jMrHRvG_vd7hjGj-2Xqbp3DdmoE5gM_aXN5a3bmPdBJWDY04H4-sUeZ49ITEM45QG7ZVJTlnF_UFeqm-xeFK9qIK-AtYa3Lui9ju8-b0bcU0_5k5nthyn0iIbWa6XoWbzkj2ZfCut6HITaRNf5WuhrXjL2ytaGhxzlpyMACkAPFkaAPAajWBoyAvpbntGtt0n6dodujmc9oxs8xRKCQw%26flowName%3DGeneralOAuthFlow%26as%3DS-804810655%253A1781848014846918%26client_id%3D258013614557-nema0dumfbottebi6to7aqi85qot9pvs.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fvercel.com&rart=ANgoxcfEOip2wrZy1RuQMOrbQ2c50x7JefWGsNJX0WCSr44Sg4MJP3133X0Fdp6TdFD0FWDCR6F7czrUlsoqqyRN9bWu_uJauQqdxJ4g0Lfkkzxl3JGYXlI:0
+[    2425ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.6ScBlw9gOxw.es5.O/am=EQ0AAAAwULyQAcD-_28kAAIIsh3wPQugCRAyAAAAAAAAAABgAQAAGgE/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlHbxsHmXRPe9Ez8JDfk3dSXvGSBFA/dti=1/m=_b,_tp:552
+[    2426ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.AccountsSignInUi.en_US.6ScBlw9gOxw.es5.O/am=EQ0AAAAwULyQAcD-_28kAAIIsh3wPQugCRAyAAAAAAAAAABgAQAAGgE/d=1/excm=_b,_tp,identifierview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlHbxsHmXRPe9Ez8JDfk3dSXvGSBFA/dti=1/m=_b,_tp:552
+[    2421ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ https://accounts.google.com/v3/signin/identifier?opparams=%253F&dsh=S-804810655%3A1781848014846918&client_id=258013614557-nema0dumfbottebi6to7aqi85qot9pvs.apps.googleusercontent.com&o2v=2&redirect_uri=https%3A%2F%2Fvercel.com%2Fapi%2Fregistration%2Fgoogle%2Fcallback&response_type=code&scope=openid+profile+email&service=lso&state=43d6c84dfdda15b8ac8af09ba3ee5767821f83af29a0a4c0acf5cd40f701d3bebd0379f05e1f3d4d44cc6394591ee423ef6ef9b33f3e1ba0ee78edbaa7ef7e42e3c9950d217344928f689196ff4286e9b4dccca7708e5d6ede0bb0f24d67e962eee83e2d90aaf1664996d0474883f1e9b9bc690976ea2e5695cedf6bf44617f79b57ea3653633cedf149e0240e6e4e461a83c9429156dba62bbfe8f5b21df0b2115647d23427b3398667aeb8e8396196cfe9fffc62aeac3126b2d987aad3bf28e055e5f161148d55f08949e5558bd6e5974045675210bba6b960b93ccb8ed6f6639c2c30808d654e81f8b87817a2b9f47c2e0487ad5fdcc669cfac5a683c53aa901df469641d3ac716f1a09ccced88b1323075d538171ad87bcb7a21f67d5d98e3a0158accf26cd6e59951&flowName=GeneralOAuthFlow&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANJ20r9Bljt49gb5KaUDStxbdoXTiLDMFX8A5KJEPUG-zgL0zilLG02xUJ5H3UDnQveslNkNq8IrgU1KWDc1eyx0oi9gRYyaU3vbHGx9kYh4mX9aOtr6_t6TcJ48qTEuDlrdNfL1BZ9gRZLggLs7_BRO4rUW2Ii93829QBHz-9QzyPyLXDj3lWCvHRK8LecJoMALvNbn75jOLWOpwSPSHYy1jz53bkk6ry-sinki3LgpPeSWKGqer6cToPIrfZyZ65-NSVNn3jMrHRvG_vd7hjGj-2Xqbp3DdmoE5gM_aXN5a3bmPdBJWDY04H4-sUeZ49ITEM45QG7ZVJTlnF_UFeqm-xeFK9qIK-AtYa3Lui9ju8-b0bcU0_5k5nthyn0iIbWa6XoWbzkj2ZfCut6HITaRNf5WuhrXjL2ytaGhxzlpyMACkAPFkaAPAajWBoyAvpbntGtt0n6dodujmc9oxs8xRKCQw%26flowName%3DGeneralOAuthFlow%26as%3DS-804810655%253A1781848014846918%26client_id%3D258013614557-nema0dumfbottebi6to7aqi85qot9pvs.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fvercel.com&rart=ANgoxcfEOip2wrZy1RuQMOrbQ2c50x7JefWGsNJX0WCSr44Sg4MJP3133X0Fdp6TdFD0FWDCR6F7czrUlsoqqyRN9bWu_uJauQqdxJ4g0Lfkkzxl3JGYXlI:0
+[   33674ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.OAuthUi.en_GB.icwce1khf7Y.es5.O/am=MgAAAADAAwYA_v_fAIJsB94zgAIEAAAAAAAAAAADAEAE/d=1/excm=_b,_tp,attributesview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlGdGzPtZyxp_Np9xjTOl2-x5i_YRw/dti=1/m=_b,_tp:538
+[   33674ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you don't understand. @ https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.OAuthUi.en_GB.icwce1khf7Y.es5.O/am=MgAAAADAAwYA_v_fAIJsB94zgAIEAAAAAAAAAAADAEAE/d=1/excm=_b,_tp,attributesview/ed=1/dg=0/wt=2/ujg=1/rs=AOaEmlGdGzPtZyxp_Np9xjTOl2-x5i_YRw/dti=1/m=_b,_tp:538
+[   37293ms] [LOG] %c
+▲
+
+__  __                                     _            __
+\ \/ /___  __  __   _________ _____       (_)_  _______/ /_
+ \  / __ \/ / / /  / ___/ __ `/ __ \     / / / / / ___/ __/
+ / / /_/ / /_/ /  / /__/ /_/ / / / /    / / /_/ (__  ) /_
+/_/\____/\__,_/   \___/\__,_/_/ /_/  __/ /\__,_/____/\__/
+         __    _          __  __    /___/
+   _____/ /_  (_)___     / /_/ /_  (_)___  ____ ______
+  / ___/ __ \/ / __ \   / __/ __ \/ / __ \/ __ `/ ___/
+ (__  ) / / / / /_/ /  / /_/ / / / / / / / /_/ (__  )
+/____/_/ /_/_/ .___/   \__/_/ /_/_/_/ /_/\__, /____/
+            /_/                         /____/
+  
+
+Hello!
+
+- Open Source https://vercel.com/oss
+- Careers https://vercel.com/careers
+- Status https://vercel-status.com
+
+ font-family: "Geist Mono", monospace; white-space: pre; line-height: 1; @ https://vercel.com/_next/static/immutable/chunks/25p8_vrulfy60.js:78
+[   37554ms] [WARNING] Deprecated API for given entry type. @ https://vercel.com/_next/static/immutable/chunks/35f7sqvgbv-2a.js:18
+[   38136ms] [ERROR] Failed to load resource: the server responded with a status of 429 () @ https://o205439.ingest.sentry.io/api/1323670/envelope/?sentry_key=d00780d432ac4ccf882f60dd02062e14&sentry_version=7&sentry_client=sentry.javascript.browser%2F7.111.0:0
+[   41661ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3l1vkaiao2o7o.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   41662ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1777f8dhtch_9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   41662ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/33tsg_p78-5mf.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   41662ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1_-gzlz1lfys2.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   51543ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3l1vkaiao2o7o.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   51543ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1777f8dhtch_9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   51543ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/33tsg_p78-5mf.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[   51543ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1_-gzlz1lfys2.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[  142983ms] [LOG] Error @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/a-4-a/c.js?i=0&v=3&h=vercel.com:0
+[  145168ms] [LOG] Error @ :2
+[  145200ms] [LOG] Error @ :2
+[  145202ms] [LOG] Error @ :2
+[  145646ms] [WARNING] Unable to create a text session because the service is not running. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145790ms] [WARNING] Unable to create a text session because the service is not running. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145803ms] [LOG] Error @ :2
+[  145848ms] [WARNING] Unable to create a text session because the service is not running. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145848ms] [WARNING] Unable to create a text session because the service is not running. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145848ms] [WARNING] The requested language options are not supported. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145849ms] [ERROR] Unsupported Summarizer API languages were specified, and the request was aborted. API calls must only specify supported languages to ensure successful processing and guarantee output characteristics. Please only specify supported language codes: [de, en, es, fr, ja] @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145849ms] [WARNING] The requested language options are not supported. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145849ms] [WARNING] The requested language options are not supported. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145858ms] [WARNING] The requested language options are not supported. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145859ms] [WARNING] Unable to create a text session because the service is not running. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145859ms] [WARNING] The requested language options are not supported. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  145859ms] [WARNING] The requested language options are not supported. @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/fp?x-kpsdk-v=j-1.2.490:0
+[  146373ms] [LOG] Error @ https://vercel.com/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/a-4-a/c.js?i=0&v=3&h=vercel.com:0
+[  149736ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/3l1vkaiao2o7o.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[  149736ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1777f8dhtch_9.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[  149736ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/33tsg_p78-5mf.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0
+[  149736ms] [WARNING] The resource https://vercel.com/_next/static/immutable/chunks/1_-gzlz1lfys2.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://vercel.com/oauth/device?user_code=HKCS-RMWP:0

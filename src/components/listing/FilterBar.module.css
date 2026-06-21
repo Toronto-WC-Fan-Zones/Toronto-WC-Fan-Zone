@@ -1,0 +1,129 @@
+.bar {
+  background: #fff;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+}
+
+.searchWrapper {
+  position: relative;
+  flex: 1;
+  min-width: 200px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  pointer-events: none;
+}
+
+.search {
+  width: 100%;
+  padding: 9px 12px 9px 36px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  background: var(--bg-page);
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+
+.search:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.search::placeholder {
+  color: var(--text-muted);
+}
+
+.selects {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.select {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  background: var(--bg-page);
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  min-height: 36px;
+}
+
+.select:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.select:hover {
+  border-color: var(--color-primary);
+}
+
+.activeFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  width: 100%;
+}
+
+.activeTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: var(--color-primary-light);
+  border: 1px solid var(--color-primary);
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.removeTag {
+  cursor: pointer;
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 0 2px;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+.removeTag:hover {
+  color: var(--color-primary-dark);
+}
+
+.resultsCount {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-left: auto;
+}
+
+@media (max-width: 640px) {
+  .selects {
+    width: 100%;
+  }
+
+  .select {
+    flex: 1;
+    min-width: 100px;
+  }
+}

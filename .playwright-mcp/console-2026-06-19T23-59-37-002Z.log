@@ -1,0 +1,5 @@
+[    3180ms] [LOG] {controller: null, formName: device-challenge-poll} @ https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js:0
+[    5661ms] [LOG] {controller: null, formName: select-authenticator-authenticate} @ https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js:0
+[    9333ms] [LOG] {controller: mfa-verify, formName: challenge-poll, authenticatorKey: okta_verify, methodType: signed_nonce} @ https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js:0
+[   12806ms] [LOG] {controller: null, formName: success-redirect} @ https://www.datadoghq-browser-agent.com/us1/v7/datadog-rum.js:0
+[   13249ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ https://corp.mongodb.com/login/token/redirect?stateToken=02.id.wjIOW22pt65EjhzdHGK4MHForSbaeDqbEkMMNK7Q:0

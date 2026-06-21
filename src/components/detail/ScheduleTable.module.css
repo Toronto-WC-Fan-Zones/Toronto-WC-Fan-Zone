@@ -1,0 +1,41 @@
+.section {
+  margin-bottom: 28px;
+}
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--text-primary);
+  margin-bottom: 0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--border-color);
+  gap: 16px;
+}
+
+.date {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 400;
+}
+
+.hours {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  font-weight: 400;
+  white-space: nowrap;
+}

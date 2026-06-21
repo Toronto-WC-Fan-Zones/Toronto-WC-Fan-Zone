@@ -1,0 +1,420 @@
+[    1046ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.adidas.ca/en/favicon.ico:0
+[    2932ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2932ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2932ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2932ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at ki (https://esm.glass.adidas.com/v1/react-dom@18.3.1:19:4899)
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:45232)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34404)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2933ms] Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+    at Aa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:44892)
+    at ja (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39462)
+    at Gf (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39393)
+    at qr (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:39252)
+    at Ii (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:35674)
+    at Oa (https://esm.glass.adidas.com/v1/react-dom@18.3.1:21:34630)
+    at Sl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2397)
+    at MessagePort.hl (https://esm.glass.adidas.com/v1/react-dom@18.3.1:14:2787)
+[    2938ms] [LOG] Content is cached for offline use. @ https://www.adidas.ca/go-assets/_next/static/chunks/pages/_app-11fe42b8d5e69a13.js:16
+[    3533ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://www.adidas.ca/api/bridge/sdk/retrieveBag:0
+[    3533ms] [ERROR] 2026-06-19T05:20:47.695Z - ERROR: [undefined]%o {msg: @ecom/bag getCustomer basket call failed, error: ErrorWithStatusCode: Failed to fetch mini bag
+    at yG (https://microfrontends.glass.adidas.com/he…} @ https://microfrontends.glass.adidas.com/header-mf/55b056eb2ba7b99ce797aa8f30044c2b3ee51185/index.js:11601
+[    4199ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[    6066ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[    7961ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[   10137ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[   17724ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[   77127ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  136102ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  195329ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  255429ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  304995ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  315585ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  375830ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  435741ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  494901ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  554337ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  605176ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  615487ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  675092ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  734759ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  794916ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  854127ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  913495ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[  974070ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1033231ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1093599ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1153888ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1205100ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1212934ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1274922ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1333942ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1569737ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1627987ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1673959ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1687377ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1747775ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1808167ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1867483ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1927683ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1973915ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 1988069ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2047272ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2108491ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2168926ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2228659ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2287797ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2349918ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2408240ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2467905ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2527827ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2574019ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2588428ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2647413ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2708198ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2769818ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2828527ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2888652ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 2949092ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 3008508ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 3970056ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 4900284ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 4944847ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 4960279ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 5891821ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 5952049ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 6881979ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[ 6882049ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781849642057&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=569060a6f58f4272a1148550bd259b46&S=1276248&b=5504&z=1:0
+[ 6882053ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[ 6882521ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[ 6883061ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_PACKET_WRITE_ERROR @ https://tr6.snapchat.com/p:0
+[ 6883994ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://eum-eu-west-1.instana.io/:0
+[ 6886058ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781849642599&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=b7aa4fe938764463a26a997f1f0f2be6&S=1276248&b=13740&z=1&E=1:0
+[ 6886058ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781849642131&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=dcf2903bd42841ab9adf7b6b399c88e5&S=1276248&b=5528&z=1&E=1:0
+[ 6886058ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781849642057&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=569060a6f58f4272a1148550bd259b46&S=1276248&b=5504&z=1&E=1:0
+[ 6990160ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[ 9058801ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10249531ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10270977ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10308770ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10369448ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10428552ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10489133ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10548249ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10607745ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10668246ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10727451ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10786658ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10849039ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10871078ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10909412ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[10968615ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[11029286ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[11088597ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[12145937ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[12158977ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[12206494ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[12265311ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[13241769ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[13300903ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[13360380ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[13374896ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[13421976ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[14505165ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[19149010ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://tr6.snapchat.com/p:0
+[19149010ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://tr6.snapchat.com/p:0
+[19149033ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[19150040ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[19151047ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[19153049ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851716785&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=962bcfb84a6a425e832525b8763fe743&S=1703620&b=13740&z=1:0
+[19153049ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851718799&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=b740fceaa1ea4f339c11b3b652ff4ca8&S=1703620&b=13760&z=1:0
+[19153049ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851717792&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=9d54311b94404107aa04d2b5419948c9&S=1703620&b=13760&z=1:0
+[19156075ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://eum-eu-west-1.instana.io/:0
+[19156075ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://eum-eu-west-1.instana.io/:0
+[19158551ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851716785&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=962bcfb84a6a425e832525b8763fe743&S=1703620&b=13740&z=1&E=3:0
+[19158551ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851718799&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=b740fceaa1ea4f339c11b3b652ff4ca8&S=1703620&b=13760&z=1&E=3:0
+[20127001ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851716785&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=962bcfb84a6a425e832525b8763fe743&S=1703620&b=13740&z=1&E=3:0
+[20127002ms] [ERROR] Failed to load resource: net::ERR_NETWORK_CHANGED @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851718799&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=b740fceaa1ea4f339c11b3b652ff4ca8&S=1703620&b=13760&z=1&E=3:0
+[23997161ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781851716785&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=962bcfb84a6a425e832525b8763fe743&S=1703620&b=13740&z=1&E=2:0
+[31270591ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[31486566ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://tr6.snapchat.com/p:0
+[31747438ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[32048014ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[32347552ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[32648732ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[33247228ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[33847316ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[34147894ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[34747262ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[34916983ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[34977241ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35036508ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35097752ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35159489ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35218690ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35220484ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35279132ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35338417ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35347347ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35399351ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35459648ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35520565ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35580054ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35639598ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35647542ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35700191ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35760569ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35821052ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35880174ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35941830ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[35947527ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36000936ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36060360ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36120655ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36180831ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36240243ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36247670ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36299792ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36360409ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36421093ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36480419ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36541793ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36547698ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36604017ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36664303ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36723638ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36784040ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36843695ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36847808ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36903813ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[36964304ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[37024645ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[37085228ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[37144606ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[37147758ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[37205195ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41486538ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41544294ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41603287ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41660910ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41723882ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41782510ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41843155ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41902687ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[41961407ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42021514ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42081934ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42143300ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42202478ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42263483ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42323680ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42383942ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42444052ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42502625ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42561257ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42622152ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42681509ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42742536ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42802383ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42863083ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42922480ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[42982957ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43042195ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43101792ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43161255ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43222096ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43281407ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43343156ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43402286ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43463953ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43523477ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43583925ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43643022ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43702456ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43761292ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43823109ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43882343ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[43942823ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44001984ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44061508ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44122544ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44182837ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44242714ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44301233ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44360648ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44362489ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44421243ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44480575ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44541187ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44600432ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44661217ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44720552ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44781167ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44840323ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44900905ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44960207ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[44962490ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45019532ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45079908ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45139274ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45199652ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45259984ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45261682ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45319354ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45379673ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45440238ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45499435ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45559909ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45561773ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45619351ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45679854ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45739519ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45798848ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45858790ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45861731ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45918779ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[45978095ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[46037439ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[46099854ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47059923ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47062306ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47385823ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47447040ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47505350ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47566066ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47625670ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47627841ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47685066ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47744824ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47804587ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47865059ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47926537ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[47986868ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48046356ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48105879ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48165162ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48224751ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48226852ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48285211ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48344789ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48405714ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48466098ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48526002ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48527873ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48586173ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48645991ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48705079ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48764558ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48824825ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48827145ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48883954ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[48943491ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49004128ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49063416ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49123851ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49127253ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49183321ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49245210ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49304391ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49365046ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49424424ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49427184ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[49484696ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[52472645ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://www.adidas.ca/X0Eg/xFoq/8F/K9Za/KZow/3tiXk03VOakuGOYrbO/SWMRIi4B/Rjc_S/g4HEA0C:0
+[52475284ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[52476824ms] [ERROR] Failed to load resource: net::ERR_QUIC_PROTOCOL_ERROR.QUIC_NETWORK_IDLE_TIMEOUT @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781864580288&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=5c052ca4c4864ecb986d7065b8a08d70&S=4368976&b=13740&z=1:0
+[53420737ms] [ERROR] Failed to load resource: net::ERR_NAME_NOT_RESOLVED @ https://ingesteu.quantummetric.com/horizon/adidasgroup?T=B&u=https%3A%2F%2Fwww.adidas.ca%2Fgo%2Fcampaign%2Fhomeofsoccer%2Ftoronto&t=1781846450219&v=1781864580288&H=b2d1346a06d6bb0aeaab1aee&s=87b7cc0676ab84b08897dcd99e3b26f4&Q=1&Y=1&X=5c052ca4c4864ecb986d7065b8a08d70&S=4368976&b=13740&z=1&E=1:0
+[53712717ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[54013884ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[54613364ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55214751ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55216138ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55260990ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55320922ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55381854ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55442137ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55466762ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0
+[55466807ms] [ERROR] Failed to load resource: the server responded with a status of 400 (Bad Request) @ https://eum-eu-west-1.instana.io/:0

@@ -1,0 +1,30 @@
+.regionList {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  padding-bottom: 32px;
+}
+
+.regionSection {
+  /* nothing by default - section gives semantic grouping */
+}
+
+.regionHeader {
+  margin-bottom: 18px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.regionTitle {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.regionDesc {
+  font-size: 0.84rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  max-width: 640px;
+}

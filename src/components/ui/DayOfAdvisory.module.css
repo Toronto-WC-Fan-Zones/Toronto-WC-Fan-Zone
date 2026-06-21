@@ -1,0 +1,31 @@
+.advisory {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  background: var(--color-amber-bg);
+  border: 1px solid var(--color-amber-border);
+  border-radius: 8px;
+  font-size: 0.85rem;
+  color: var(--color-amber);
+}
+
+.icon {
+  font-size: 1rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.text {
+  line-height: 1.5;
+}
+
+.link {
+  color: var(--color-primary);
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: var(--color-primary-dark);
+}

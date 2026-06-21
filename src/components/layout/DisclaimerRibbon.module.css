@@ -1,0 +1,17 @@
+.ribbon {
+  background: var(--color-navy);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 0.75rem;
+  text-align: center;
+  padding: 8px var(--content-padding);
+  line-height: 1.4;
+}
+
+.ribbon a {
+  color: var(--color-accent);
+  text-decoration: underline;
+}
+
+.ribbon a:hover {
+  color: #fff;
+}

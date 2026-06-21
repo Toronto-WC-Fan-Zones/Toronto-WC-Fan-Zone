@@ -1,0 +1,78 @@
+.box {
+  background: var(--color-grey-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: sticky;
+  top: 120px;
+}
+
+.heading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 0.83rem;
+}
+
+.rowLabel {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.rowValue {
+  font-weight: 600;
+  color: var(--text-primary);
+  text-align: right;
+}
+
+.rowValueMuted {
+  color: var(--text-muted);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.advisory {
+  margin-top: 4px;
+}
+
+.sourceLink {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: 500;
+  border-top: 1px solid var(--border-color);
+  padding-top: 12px;
+}
+
+.sourceLink:hover {
+  text-decoration: underline;
+}

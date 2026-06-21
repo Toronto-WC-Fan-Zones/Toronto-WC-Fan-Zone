@@ -1,0 +1,557 @@
+- generic [active] [ref=e1]:
+  - note [ref=e2]:
+    - strong [ref=e3]: Planning guide only
+    - text: — Information is manually maintained and may be outdated. Always verify before you leave.
+    - link "Official City of Toronto page →" [ref=e4] [cursor=pointer]:
+      - /url: https://www.toronto.ca/explore-enjoy/festivals-events/toronto-celebrates-2026-fifa-world-cup/
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - link "Toronto Fan Zones — Home" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - generic [ref=e8]: ⚽
+        - generic [ref=e9]:
+          - text: TORONTO FAN ZONES
+          - generic [ref=e10]: 2026 FIFA World Cup™ Guide
+      - navigation "Main navigation" [ref=e11]:
+        - link "Fan Zones" [ref=e12] [cursor=pointer]:
+          - /url: /fan-zones
+        - link "Country Hotspots" [ref=e13] [cursor=pointer]:
+          - /url: /hotspots
+        - link "Near Me" [ref=e14] [cursor=pointer]:
+          - /url: /areas
+      - link "Submit a spot (opens external form)" [ref=e15] [cursor=pointer]:
+        - /url: https://forms.gle/placeholder-toronto-fan-zones-submit
+        - text: + Submit a Spot
+  - main [ref=e16]:
+    - region "Where Toronto comes together for the game." [ref=e17]:
+      - generic [ref=e19]:
+        - generic [ref=e20]: ⚽ 2026 FIFA World Cup™ · Toronto
+        - heading "Where Toronto comes together for the game." [level=1] [ref=e21]:
+          - text: Where Toronto
+          - text: comes together
+          - text: for the game.
+        - paragraph [ref=e22]: Find official fan zones, country hotspots, and the best places near you to catch every match.
+        - generic "Key features" [ref=e23]:
+          - generic [ref=e24]:
+            - generic [ref=e25]: 🛡
+            - generic [ref=e26]:
+              - strong [ref=e27]: Trustworthy info
+              - text: Verified sources & regularly updated
+          - generic [ref=e28]:
+            - generic [ref=e29]: 👥
+            - generic [ref=e30]:
+              - strong [ref=e31]: Crowd & entry clarity
+              - text: Know what to expect before you go
+          - generic [ref=e32]:
+            - generic [ref=e33]: 📍
+            - generic [ref=e34]:
+              - strong [ref=e35]: Plan with confidence
+              - text: Arrival tips, transit, and real updates
+        - generic "Next upcoming game" [ref=e36]:
+          - generic [ref=e37]:
+            - paragraph [ref=e38]: Next Game
+            - paragraph [ref=e39]: Canada vs Morocco
+            - paragraph [ref=e40]: Thu, Jun 18, 7:00 p.m. EDT
+          - generic [ref=e41]: High Crowd Risk
+    - navigation "Quick filters" [ref=e42]:
+      - generic [ref=e43]:
+        - link "Official Fan Zones" [ref=e45] [cursor=pointer]:
+          - /url: /fan-zones
+          - generic [ref=e46]: 🏟
+          - text: Official Fan Zones
+        - link "Country Hotspots" [ref=e48] [cursor=pointer]:
+          - /url: /hotspots
+          - generic [ref=e49]: 🌍
+          - text: Country Hotspots
+        - link "Near Me" [ref=e51] [cursor=pointer]:
+          - /url: /areas
+          - generic [ref=e52]: 📍
+          - text: Near Me
+        - link "Free Entry" [ref=e54] [cursor=pointer]:
+          - /url: /fan-zones?entry=free
+          - generic [ref=e55]: ✓
+          - text: Free Entry
+        - link "Reservation" [ref=e57] [cursor=pointer]:
+          - /url: /fan-zones?entry=reservation
+          - generic [ref=e58]: 📋
+          - text: Reservation
+        - link "Walk-ins OK" [ref=e60] [cursor=pointer]:
+          - /url: /hotspots?entry=walk-in
+          - generic [ref=e61]: 🚶
+          - text: Walk-ins OK
+        - link "Canada Games" [ref=e63] [cursor=pointer]:
+          - /url: /hotspots?country=Canada
+          - generic [ref=e64]: 🇨🇦
+          - text: Canada Games
+    - generic [ref=e65]:
+      - region "Quick Picks" [ref=e66]:
+        - generic [ref=e67]:
+          - heading "Quick Picks" [level=2] [ref=e68]
+          - link "View all →" [ref=e69] [cursor=pointer]:
+            - /url: /fan-zones
+        - list [ref=e70]:
+          - listitem "Best for Canada games — Arrive 2–3 hrs early for Canada matches" [ref=e71] [cursor=pointer]:
+            - generic [ref=e72]: 🏟
+            - generic [ref=e73]:
+              - generic [ref=e74]: Best for Canada games
+              - paragraph [ref=e75]: Arrive 2–3 hrs early for Canada matches
+              - generic [ref=e76]:
+                - generic [ref=e77]: Free
+                - generic [ref=e78]:
+                  - generic [ref=e79]: ●
+                  - text: High Crowd Risk
+              - generic [ref=e80]: View details →
+          - listitem "Best Portuguese atmosphere — Bars, cafés & restaurants. Very busy for Portugal games." [ref=e81] [cursor=pointer]:
+            - generic [ref=e82]: 🌍
+            - generic [ref=e83]:
+              - generic [ref=e84]: Best Portuguese atmosphere
+              - paragraph [ref=e85]: Bars, cafés & restaurants. Very busy for Portugal games.
+              - generic [ref=e86]:
+                - generic [ref=e87]: Walk-ins OK
+                - generic [ref=e88]:
+                  - generic [ref=e89]: ●
+                  - text: High Crowd Risk
+              - generic [ref=e90]: View details →
+          - listitem "Best near downtown office — Steps from Union Station. Easy after-work stop." [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]: 🏟
+            - generic [ref=e93]:
+              - generic [ref=e94]: Best near downtown office
+              - paragraph [ref=e95]: Steps from Union Station. Easy after-work stop.
+              - generic [ref=e96]:
+                - generic [ref=e97]: Walk-ins OK
+                - generic [ref=e98]:
+                  - generic [ref=e99]: ●
+                  - text: Medium Crowd
+              - generic [ref=e100]: View details →
+      - generic [ref=e101]:
+        - generic [ref=e102]:
+          - generic [ref=e103]:
+            - heading "Official Fan Zones" [level=2] [ref=e104]: 🏟 Official Fan Zones
+            - link "View all" [ref=e105] [cursor=pointer]:
+              - /url: /fan-zones
+          - link "Nathan Phillips Square Free Very Packed Arrive 2–3 hours early for Canada games and knockout rounds" [ref=e106] [cursor=pointer]:
+            - /url: /fan-zones/nathan-phillips-square
+            - generic [ref=e107]: 🏟
+            - generic [ref=e108]:
+              - generic [ref=e109]: Nathan Phillips Square
+              - generic [ref=e110]:
+                - generic [ref=e111]: Free
+                - generic [ref=e112]:
+                  - generic [ref=e113]: ●
+                  - text: Very Packed
+              - generic [ref=e114]: Arrive 2–3 hours early for Canada games and knockout rounds
+          - 'link "Harbourfront Centre Free High Crowd Risk Normal group stage: 45–90 min early" [ref=e115] [cursor=pointer]':
+            - /url: /fan-zones/harbourfront-centre
+            - generic [ref=e116]: 🏟
+            - generic [ref=e117]:
+              - generic [ref=e118]: Harbourfront Centre
+              - generic [ref=e119]:
+                - generic [ref=e120]: Free
+                - generic [ref=e121]:
+                  - generic [ref=e122]: ●
+                  - text: High Crowd Risk
+              - generic [ref=e123]: "Normal group stage: 45–90 min early"
+          - link "Exhibition Place Fan Zone Ticket Required High Crowd Risk Arrive 2+ hours early for knockout and semifinal matches" [ref=e124] [cursor=pointer]:
+            - /url: /fan-zones/exhibition-place-fan-zone
+            - generic [ref=e125]: 🏟
+            - generic [ref=e126]:
+              - generic [ref=e127]: Exhibition Place Fan Zone
+              - generic [ref=e128]:
+                - generic [ref=e129]: Ticket Required
+                - generic [ref=e130]:
+                  - generic [ref=e131]: ●
+                  - text: High Crowd Risk
+              - generic [ref=e132]: Arrive 2+ hours early for knockout and semifinal matches
+          - link "View all fan zones →" [ref=e133] [cursor=pointer]:
+            - /url: /fan-zones
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - heading "Country Fan Hotspots" [level=2] [ref=e136]: 🌍 Country Fan Hotspots
+            - link "View all" [ref=e137] [cursor=pointer]:
+              - /url: /hotspots
+          - link "Little Portugal / Dundas West High Crowd Risk Verified Little Portugal" [ref=e138] [cursor=pointer]:
+            - /url: /hotspots/little-portugal-dundas-west
+            - generic [ref=e139]: 🇵🇹
+            - generic [ref=e140]:
+              - generic [ref=e141]: Little Portugal / Dundas West
+              - generic [ref=e142]:
+                - generic [ref=e143]:
+                  - generic [ref=e144]: ●
+                  - text: High Crowd Risk
+                - generic [ref=e145]:
+                  - generic [ref=e146]: ✓
+                  - text: Verified
+              - generic [ref=e147]: Little Portugal
+          - link "Bloor West Sports Bars Medium Crowd Verified Bloor West Village" [ref=e148] [cursor=pointer]:
+            - /url: /hotspots/bloor-west-sports-bars
+            - generic [ref=e149]: 🇧🇷
+            - generic [ref=e150]:
+              - generic [ref=e151]: Bloor West Sports Bars
+              - generic [ref=e152]:
+                - generic [ref=e153]:
+                  - generic [ref=e154]: ●
+                  - text: Medium Crowd
+                - generic [ref=e155]:
+                  - generic [ref=e156]: ✓
+                  - text: Verified
+              - generic [ref=e157]: Bloor West Village
+          - link "Downtown English Pub Strip Medium Crowd Verified Financial District / King West" [ref=e158] [cursor=pointer]:
+            - /url: /hotspots/downtown-english-pub-strip
+            - generic [ref=e159]: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+            - generic [ref=e160]:
+              - generic [ref=e161]: Downtown English Pub Strip
+              - generic [ref=e162]:
+                - generic [ref=e163]:
+                  - generic [ref=e164]: ●
+                  - text: Medium Crowd
+                - generic [ref=e165]:
+                  - generic [ref=e166]: ✓
+                  - text: Verified
+              - generic [ref=e167]: Financial District / King West
+          - link "View all countries →" [ref=e168] [cursor=pointer]:
+            - /url: /hotspots
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - heading "Find Spots Near You" [level=2] [ref=e171]: 📍 Find Spots Near You
+            - link "View all" [ref=e172] [cursor=pointer]:
+              - /url: /areas
+          - 'link "Downtown Core Last checked: Jun 15, 2026 2 fan zones · 1 hotspots" [ref=e173] [cursor=pointer]':
+            - /url: /areas/downtown-core
+            - generic [ref=e174]: 🗺
+            - generic [ref=e175]:
+              - generic [ref=e176]: Downtown Core
+              - generic [ref=e178]: "Last checked: Jun 15, 2026"
+              - generic [ref=e180]: 2 fan zones · 1 hotspots
+          - 'link "Little Portugal (Dundas West) Last checked: Jun 14, 2026 0 fan zones · 1 hotspots" [ref=e181] [cursor=pointer]':
+            - /url: /areas/little-portugal
+            - generic [ref=e182]: 🗺
+            - generic [ref=e183]:
+              - generic [ref=e184]: Little Portugal (Dundas West)
+              - generic [ref=e186]: "Last checked: Jun 14, 2026"
+              - generic [ref=e188]: 0 fan zones · 1 hotspots
+          - 'link "Waterfront Last checked: Jun 15, 2026 1 fan zones · 0 hotspots" [ref=e189] [cursor=pointer]':
+            - /url: /areas/waterfront
+            - generic [ref=e190]: 🗺
+            - generic [ref=e191]:
+              - generic [ref=e192]: Waterfront
+              - generic [ref=e194]: "Last checked: Jun 15, 2026"
+              - generic [ref=e196]: 1 fan zones · 0 hotspots
+          - link "View all areas →" [ref=e197] [cursor=pointer]:
+            - /url: /areas
+      - region "Official Fan Zones" [ref=e198]:
+        - generic [ref=e199]:
+          - heading "Official Fan Zones" [level=2] [ref=e200]:
+            - generic [ref=e201]: 🏟
+            - text: Official Fan Zones
+          - link "View all" [ref=e202] [cursor=pointer]:
+            - /url: /fan-zones
+        - generic [ref=e203]:
+          - 'link "Free Very Packed Outdoor venue Nathan Phillips Square Downtown Core ⚑ Day-of tickets sometimes available Arrive 2–3 hours early for Canada games and knockout rounds. 45–60 min early for group stage matches. Last checked: Jun 15, 2026 View details → Official" [ref=e204] [cursor=pointer]':
+            - /url: /fan-zones/nathan-phillips-square
+            - generic [ref=e205]:
+              - generic [ref=e206]: Free
+              - generic [ref=e207]:
+                - generic [ref=e208]: ●
+                - text: Very Packed
+              - generic "Outdoor venue" [ref=e209]: 🌤 Outdoor
+            - heading "Nathan Phillips Square" [level=3] [ref=e210]
+            - paragraph [ref=e211]:
+              - generic [ref=e212]: 📍
+              - text: Downtown Core
+            - generic [ref=e213]:
+              - generic [ref=e214]:
+                - emphasis [ref=e215]: ⚑
+                - text: Day-of tickets sometimes available
+              - paragraph [ref=e216]: Arrive 2–3 hours early for Canada games and knockout rounds. 45–60 min early for group stage matches.
+            - generic [ref=e217]:
+              - generic [ref=e218]: "Last checked: Jun 15, 2026"
+              - generic [ref=e220]: View details →
+            - generic [ref=e222]:
+              - generic [ref=e223]: ✓
+              - text: Official
+          - 'link "Free High Crowd Risk Outdoor venue Harbourfront Centre Waterfront ⚑ Day-of tickets sometimes available Normal group stage: 45–90 min early. Canada games: 2–3 hours early. Knockout / Final: 2–4 hours early. Last checked: Jun 15, 2026 View details → Official" [ref=e224] [cursor=pointer]':
+            - /url: /fan-zones/harbourfront-centre
+            - generic [ref=e225]:
+              - generic [ref=e226]: Free
+              - generic [ref=e227]:
+                - generic [ref=e228]: ●
+                - text: High Crowd Risk
+              - generic "Outdoor venue" [ref=e229]: 🌤 Outdoor
+            - heading "Harbourfront Centre" [level=3] [ref=e230]
+            - paragraph [ref=e231]:
+              - generic [ref=e232]: 📍
+              - text: Waterfront
+            - generic [ref=e233]:
+              - generic [ref=e234]:
+                - emphasis [ref=e235]: ⚑
+                - text: Day-of tickets sometimes available
+              - paragraph [ref=e236]: "Normal group stage: 45–90 min early. Canada games: 2–3 hours early. Knockout / Final: 2–4 hours early."
+            - generic [ref=e237]:
+              - generic [ref=e238]: "Last checked: Jun 15, 2026"
+              - generic [ref=e240]: View details →
+            - generic [ref=e242]:
+              - generic [ref=e243]: ✓
+              - text: Official
+          - 'link "Ticket Required High Crowd Risk Outdoor venue Exhibition Place Fan Zone Exhibition Place / King West ⚑ Day-of tickets sometimes available Arrive 2+ hours early for knockout and semifinal matches. 1 hour early for group stage. Last checked: Jun 14, 2026 View details → Official" [ref=e244] [cursor=pointer]':
+            - /url: /fan-zones/exhibition-place-fan-zone
+            - generic [ref=e245]:
+              - generic [ref=e246]: Ticket Required
+              - generic [ref=e247]:
+                - generic [ref=e248]: ●
+                - text: High Crowd Risk
+              - generic "Outdoor venue" [ref=e249]: 🌤 Outdoor
+            - heading "Exhibition Place Fan Zone" [level=3] [ref=e250]
+            - paragraph [ref=e251]:
+              - generic [ref=e252]: 📍
+              - text: Exhibition Place / King West
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - emphasis [ref=e255]: ⚑
+                - text: Day-of tickets sometimes available
+              - paragraph [ref=e256]: Arrive 2+ hours early for knockout and semifinal matches. 1 hour early for group stage.
+            - generic [ref=e257]:
+              - generic [ref=e258]: "Last checked: Jun 14, 2026"
+              - generic [ref=e260]: View details →
+            - generic [ref=e262]:
+              - generic [ref=e263]: ✓
+              - text: Official
+      - region "Country Fan Hotspots" [ref=e264]:
+        - generic [ref=e265]:
+          - heading "Country Fan Hotspots" [level=2] [ref=e266]:
+            - generic [ref=e267]: 🌍
+            - text: Country Fan Hotspots
+          - link "View all" [ref=e268] [cursor=pointer]:
+            - /url: /hotspots
+        - generic [ref=e269]:
+          - 'link "Portugal Fans Little Portugal / Dundas West Verified Walk-ins OK High Crowd Risk Little Portugal Passionate, loud, street-level celebrations. Expect chants. Flags everywhere. Força Portugal! Arrive 1–2 hours early for Portugal matches. The street fills up fast. Last checked: Jun 14, 2026 View hotspot →" [ref=e270] [cursor=pointer]':
+            - /url: /hotspots/little-portugal-dundas-west
+            - generic [ref=e271]:
+              - generic [ref=e272]: 🇵🇹
+              - generic [ref=e273]:
+                - generic [ref=e274]: Portugal Fans
+                - heading "Little Portugal / Dundas West" [level=3] [ref=e275]
+              - generic [ref=e277]:
+                - generic [ref=e278]: ✓
+                - text: Verified
+            - generic [ref=e279]:
+              - generic [ref=e280]: Walk-ins OK
+              - generic [ref=e281]:
+                - generic [ref=e282]: ●
+                - text: High Crowd Risk
+            - paragraph [ref=e283]:
+              - generic [ref=e284]: 📍
+              - text: Little Portugal
+            - paragraph [ref=e285]: Passionate, loud, street-level celebrations. Expect chants. Flags everywhere. Força Portugal!
+            - paragraph [ref=e286]:
+              - generic [ref=e287]: 🕐
+              - text: Arrive 1–2 hours early for Portugal matches. The street fills up fast.
+            - generic [ref=e288]:
+              - generic [ref=e289]: "Last checked: Jun 14, 2026"
+              - generic [ref=e291]: View hotspot →
+          - 'link "Brazil Fans Bloor West Sports Bars Verified Walk-ins OK Medium Crowd Bloor West Village Passionate and street celebrations. Expect chants from Brazil, Argentina fans. Arrive 1 hour early for Brazil and Argentina games. Walk-in usually available for group stage. Last checked: Jun 13, 2026 View hotspot →" [ref=e292] [cursor=pointer]':
+            - /url: /hotspots/bloor-west-sports-bars
+            - generic [ref=e293]:
+              - generic [ref=e294]: 🇧🇷
+              - generic [ref=e295]:
+                - generic [ref=e296]: Brazil Fans
+                - heading "Bloor West Sports Bars" [level=3] [ref=e297]
+              - generic [ref=e299]:
+                - generic [ref=e300]: ✓
+                - text: Verified
+            - generic [ref=e301]:
+              - generic [ref=e302]: Walk-ins OK
+              - generic [ref=e303]:
+                - generic [ref=e304]: ●
+                - text: Medium Crowd
+            - paragraph [ref=e305]:
+              - generic [ref=e306]: 📍
+              - text: Bloor West Village
+            - paragraph [ref=e307]: Passionate and street celebrations. Expect chants from Brazil, Argentina fans.
+            - paragraph [ref=e308]:
+              - generic [ref=e309]: 🕐
+              - text: Arrive 1 hour early for Brazil and Argentina games. Walk-in usually available for group stage.
+            - generic [ref=e310]:
+              - generic [ref=e311]: "Last checked: Jun 13, 2026"
+              - generic [ref=e313]: View hotspot →
+          - 'link "England Fans Downtown English Pub Strip Verified Reservation Recommended Medium Crowd Financial District / King West Pub atmosphere, chants, football-focused crowd. Book ahead for England knockout games. Walk-in typically available for group stage. Last checked: Jun 12, 2026 View hotspot →" [ref=e314] [cursor=pointer]':
+            - /url: /hotspots/downtown-english-pub-strip
+            - generic [ref=e315]:
+              - generic [ref=e316]: 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+              - generic [ref=e317]:
+                - generic [ref=e318]: England Fans
+                - heading "Downtown English Pub Strip" [level=3] [ref=e319]
+              - generic [ref=e321]:
+                - generic [ref=e322]: ✓
+                - text: Verified
+            - generic [ref=e323]:
+              - generic [ref=e324]: Reservation Recommended
+              - generic [ref=e325]:
+                - generic [ref=e326]: ●
+                - text: Medium Crowd
+            - paragraph [ref=e327]:
+              - generic [ref=e328]: 📍
+              - text: Financial District / King West
+            - paragraph [ref=e329]: Pub atmosphere, chants, football-focused crowd.
+            - paragraph [ref=e330]:
+              - generic [ref=e331]: 🕐
+              - text: Book ahead for England knockout games. Walk-in typically available for group stage.
+            - generic [ref=e332]:
+              - generic [ref=e333]: "Last checked: Jun 12, 2026"
+              - generic [ref=e335]: View hotspot →
+      - region "Nearby Recommendations" [ref=e336]:
+        - generic [ref=e337]:
+          - heading "Nearby Recommendations" [level=2] [ref=e338]:
+            - generic [ref=e339]: 📍
+            - text: Nearby Recommendations
+          - link "View all" [ref=e340] [cursor=pointer]:
+            - /url: /areas
+        - generic [ref=e341]:
+          - 'link "Downtown Core 2 fan zones 1 hotspots Home to the biggest official fan zones and highest foot traffic during the World Cup. Expect massive crowds for knockout games. Busy games: Arrive 2–3 hours early for knockout games. Expect transit delays — TTC will be very busy. Last checked: Jun 15, 2026 Explore area →" [ref=e342] [cursor=pointer]':
+            - /url: /areas/downtown-core
+            - heading "Downtown Core" [level=3] [ref=e343]
+            - generic [ref=e344]:
+              - generic [ref=e345]:
+                - generic [ref=e346]: 🏟
+                - generic [ref=e347]: "2"
+                - text: fan zones
+              - generic [ref=e348]:
+                - generic [ref=e349]: 🌍
+                - generic [ref=e350]: "1"
+                - text: hotspots
+            - paragraph [ref=e351]: Home to the biggest official fan zones and highest foot traffic during the World Cup. Expect massive crowds for knockout games.
+            - paragraph [ref=e352]:
+              - generic [ref=e353]: 🕐
+              - text: "Busy games: Arrive 2–3 hours early for knockout games. Expect transit delays — TTC will be very busy."
+            - generic [ref=e354]:
+              - generic [ref=e355]: "Last checked: Jun 15, 2026"
+              - generic [ref=e357]: Explore area →
+          - 'link "Little Portugal (Dundas West) 0 fan zones 1 hotspots Toronto''s most passionate neighbourhood for the World Cup. Street parties, bar patios, and community energy unlike anywhere else in the city. Busy games: Arrive 1–2 hours early for Portugal games. Streets fill up fast. Last checked: Jun 14, 2026 Explore area →" [ref=e358] [cursor=pointer]':
+            - /url: /areas/little-portugal
+            - heading "Little Portugal (Dundas West)" [level=3] [ref=e359]
+            - generic [ref=e360]:
+              - generic [ref=e361]:
+                - generic [ref=e362]: 🏟
+                - generic [ref=e363]: "0"
+                - text: fan zones
+              - generic [ref=e364]:
+                - generic [ref=e365]: 🌍
+                - generic [ref=e366]: "1"
+                - text: hotspots
+            - paragraph [ref=e367]: Toronto's most passionate neighbourhood for the World Cup. Street parties, bar patios, and community energy unlike anywhere else in the city.
+            - paragraph [ref=e368]:
+              - generic [ref=e369]: 🕐
+              - text: "Busy games: Arrive 1–2 hours early for Portugal games. Streets fill up fast."
+            - generic [ref=e370]:
+              - generic [ref=e371]: "Last checked: Jun 14, 2026"
+              - generic [ref=e373]: Explore area →
+          - 'link "Waterfront 1 fan zones 0 hotspots Harbourfront Centre and the waterfront trail offer a scenic, high-capacity outdoor viewing experience. Great for families and big groups. Busy games: Arrive 2+ hours early for knockout games. Parking is limited — take TTC or walk from Union Station. Last checked: Jun 15, 2026 Explore area →" [ref=e374] [cursor=pointer]':
+            - /url: /areas/waterfront
+            - heading "Waterfront" [level=3] [ref=e375]
+            - generic [ref=e376]:
+              - generic [ref=e377]:
+                - generic [ref=e378]: 🏟
+                - generic [ref=e379]: "1"
+                - text: fan zones
+              - generic [ref=e380]:
+                - generic [ref=e381]: 🌍
+                - generic [ref=e382]: "0"
+                - text: hotspots
+            - paragraph [ref=e383]: Harbourfront Centre and the waterfront trail offer a scenic, high-capacity outdoor viewing experience. Great for families and big groups.
+            - paragraph [ref=e384]:
+              - generic [ref=e385]: 🕐
+              - text: "Busy games: Arrive 2+ hours early for knockout games. Parking is limited — take TTC or walk from Union Station."
+            - generic [ref=e386]:
+              - generic [ref=e387]: "Last checked: Jun 15, 2026"
+              - generic [ref=e389]: Explore area →
+      - region "Common Misconceptions" [ref=e390]:
+        - heading "Common Misconceptions" [level=2] [ref=e391]
+        - paragraph [ref=e392]: Things people get wrong about World Cup fan zones — read before you go.
+        - generic [ref=e393]:
+          - group [ref=e394]:
+            - generic "Does a reservation guarantee entry?" [ref=e395] [cursor=pointer]:
+              - generic [ref=e396]: Does a reservation guarantee entry?
+              - generic [ref=e398]: ▾
+          - group [ref=e399]:
+            - generic "Are free tickets still available for official fan zones?" [ref=e400] [cursor=pointer]:
+              - generic [ref=e401]: Are free tickets still available for official fan zones?
+              - generic [ref=e403]: ▾
+          - group [ref=e404]:
+            - generic "Can I just show up without a ticket?" [ref=e405] [cursor=pointer]:
+              - generic [ref=e406]: Can I just show up without a ticket?
+              - generic [ref=e408]: ▾
+          - group [ref=e409]:
+            - generic "Does being in the walk-in queue mean I'll get in?" [ref=e410] [cursor=pointer]:
+              - generic [ref=e411]: Does being in the walk-in queue mean I'll get in?
+              - generic [ref=e413]: ▾
+          - group [ref=e414]:
+            - generic "Is this app showing live availability?" [ref=e415] [cursor=pointer]:
+              - generic [ref=e416]: Is this app showing live availability?
+              - generic [ref=e418]: ▾
+          - group [ref=e419]:
+            - generic "What does 'unconfirmed' mean?" [ref=e420] [cursor=pointer]:
+              - generic [ref=e421]: What does 'unconfirmed' mean?
+              - generic [ref=e423]: ▾
+          - group [ref=e424]:
+            - generic "How current is this information?" [ref=e425] [cursor=pointer]:
+              - generic [ref=e426]: How current is this information?
+              - generic [ref=e428]: ▾
+      - region "Know a spot we should include?" [ref=e429]:
+        - generic [ref=e430]:
+          - heading "Know a spot we should include?" [level=2] [ref=e431]
+          - paragraph [ref=e432]: Help other fans by submitting a fan zone, bar, restaurant, or watch party.
+          - list [ref=e433]:
+            - listitem [ref=e434]:
+              - generic [ref=e435]: 🔄
+              - generic [ref=e436]:
+                - strong [ref=e437]: Always Updated
+                - text: We monitor official sources and community updates.
+            - listitem [ref=e438]:
+              - generic [ref=e439]: ✓
+              - generic [ref=e440]:
+                - strong [ref=e441]: Verified & Community
+                - text: Info from official sources and real fans like you.
+            - listitem [ref=e442]:
+              - generic [ref=e443]: 👁
+              - generic [ref=e444]:
+                - strong [ref=e445]: Transparent
+                - text: We show what we know, and what we don't.
+            - listitem [ref=e446]:
+              - generic [ref=e447]: 🕐
+              - generic [ref=e448]:
+                - strong [ref=e449]: Last Checked
+                - text: Jun 16, 2026
+        - link "Submit a spot — opens external form" [ref=e450] [cursor=pointer]:
+          - /url: https://forms.gle/placeholder-toronto-fan-zones-submit
+          - text: Submit a Spot →
+  - contentinfo [ref=e451]:
+    - generic [ref=e452]:
+      - generic [ref=e453]:
+        - generic [ref=e454]:
+          - generic [ref=e455]: ⚽ TORONTO FAN ZONES
+          - paragraph [ref=e456]: Your guide to watching the 2026 FIFA World Cup™ in Toronto. Official fan zones, country hotspots, and local spots near you.
+          - paragraph [ref=e457]: Information is manually maintained and may change without notice. This is a planning guide, not a live tracker. Always verify with official sources before you go.
+        - generic [ref=e458]:
+          - paragraph [ref=e459]: Explore
+          - navigation "Footer navigation" [ref=e460]:
+            - link "Official Fan Zones" [ref=e461] [cursor=pointer]:
+              - /url: /fan-zones
+            - link "Country Hotspots" [ref=e462] [cursor=pointer]:
+              - /url: /hotspots
+            - link "Near Me" [ref=e463] [cursor=pointer]:
+              - /url: /areas
+            - link "Submit a Spot" [ref=e464] [cursor=pointer]:
+              - /url: /submit
+        - generic [ref=e465]:
+          - paragraph [ref=e466]: Official Sources
+          - generic [ref=e467]:
+            - link "City of Toronto" [ref=e468] [cursor=pointer]:
+              - /url: https://www.toronto.ca/explore-enjoy/festivals-events/toronto-celebrates-2026-fifa-world-cup/
+            - link "Toronto 2026" [ref=e469] [cursor=pointer]:
+              - /url: https://www.toronto2026.ca
+            - link "FIFA Tickets" [ref=e470] [cursor=pointer]:
+              - /url: https://www.fifa.com/tickets
+            - link "Submit a spot →" [ref=e471] [cursor=pointer]:
+              - /url: https://forms.gle/placeholder-toronto-fan-zones-submit
+      - generic [ref=e472]:
+        - generic [ref=e473]: © 2026 Toronto Fan Zones · Community guide · Not affiliated with FIFA or the City of Toronto
+        - generic [ref=e474]: "Last updated: Jun 16, 2026"

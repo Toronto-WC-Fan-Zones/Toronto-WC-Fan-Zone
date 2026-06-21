@@ -1,0 +1,6 @@
+[     -12ms] [ERROR] Setting the document's base URI to 'https://proxy.link.app/' violates the following Content Security Policy directive: "base-uri 'self'". The action has been blocked. @ https://forms.gle/placeholder-toronto-fan-zones-submit:0
+[       9ms] [LOG] %c%s color: red; background: yellow; font-size: 24px; WARNING! @ https://www.gstatic.com/_/mss/boq-devplatform/_/js/k=boq-devplatform.DurableDeepLinkUi.en_US.0b_D9DTCgiQ.2018.O/am=AAAAAGAG/d=1/excm=_b,_tp,viewddl/ed=1/dg=0/wt=2/ujg=1/rs=ADpVLP59CxTPw0x4-pwFYm_IM3CK8jNtnQ/dti=1/m=_b,_tp:239
+[       9ms] [LOG] %c%s font-size: 18px; Using this console may allow attackers to impersonate you and steal your information using an attack called Self-XSS.
+Do not enter or paste code that you do not understand. @ https://www.gstatic.com/_/mss/boq-devplatform/_/js/k=boq-devplatform.DurableDeepLinkUi.en_US.0b_D9DTCgiQ.2018.O/am=AAAAAGAG/d=1/excm=_b,_tp,viewddl/ed=1/dg=0/wt=2/ujg=1/rs=ADpVLP59CxTPw0x4-pwFYm_IM3CK8jNtnQ/dti=1/m=_b,_tp:239
+[      64ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://forms.gle/_/DurableDeepLinkUi/cspreport:0
+[     334ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://proxy.link.app/198886819888/forms.gle/placeholder-toronto-fan-zones-submit?_imcp=1:0
