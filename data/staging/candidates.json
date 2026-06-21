@@ -1,1 +1,1226 @@
-[]
+[
+  {
+    "id": "football_data-537327",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537327",
+    "fetchedAt": "2026-06-21T19:24:50.952Z",
+    "rawTitle": "Mexico vs South Africa",
+    "rawText": "Mexico vs South Africa - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Mexico",
+        "South Africa"
+      ],
+      "dateTime": "2026-06-11T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "23e73f9bf40974fb812466e3ceebdb92512ab791"
+  },
+  {
+    "id": "football_data-537328",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537328",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "South Korea vs Czechia",
+    "rawText": "South Korea vs Czechia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "South Korea",
+        "Czechia"
+      ],
+      "dateTime": "2026-06-12T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "3c05d1347be37c9db9fdea31e0c64f980f902529"
+  },
+  {
+    "id": "football_data-537333",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537333",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Canada vs Bosnia-Herzegovina",
+    "rawText": "Canada vs Bosnia-Herzegovina - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Canada",
+        "Bosnia-Herzegovina"
+      ],
+      "dateTime": "2026-06-12T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "22f1510aa45e7fea34c32e5dd761940a75a31243"
+  },
+  {
+    "id": "football_data-537345",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537345",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "United States vs Paraguay",
+    "rawText": "United States vs Paraguay - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "United States",
+        "Paraguay"
+      ],
+      "dateTime": "2026-06-13T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "0c97df53c5437d1452e82635615b0d10ed3b3a4f"
+  },
+  {
+    "id": "football_data-537334",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537334",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Qatar vs Switzerland",
+    "rawText": "Qatar vs Switzerland - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Qatar",
+        "Switzerland"
+      ],
+      "dateTime": "2026-06-13T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "274bf28506727a1dceec51c60c269608f697dab8"
+  },
+  {
+    "id": "football_data-537339",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537339",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Brazil vs Morocco",
+    "rawText": "Brazil vs Morocco - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Brazil",
+        "Morocco"
+      ],
+      "dateTime": "2026-06-13T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "ab477baa4e32577dcf7c465a41c5178088da6682"
+  },
+  {
+    "id": "football_data-537340",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537340",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Haiti vs Scotland",
+    "rawText": "Haiti vs Scotland - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Haiti",
+        "Scotland"
+      ],
+      "dateTime": "2026-06-14T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "7e51ee02badebf4a13151286c4690bce4c6b7b99"
+  },
+  {
+    "id": "football_data-537346",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537346",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Australia vs Turkey",
+    "rawText": "Australia vs Turkey - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Australia",
+        "Turkey"
+      ],
+      "dateTime": "2026-06-14T04:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "de1130afd3aa143c00a8a0e38d1d596cb26df5d0"
+  },
+  {
+    "id": "football_data-537351",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537351",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Germany vs Curaçao",
+    "rawText": "Germany vs Curaçao - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Germany",
+        "Curaçao"
+      ],
+      "dateTime": "2026-06-14T17:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "e2304295bdda3e5abb6bd40459ae6b5991b7d42b"
+  },
+  {
+    "id": "football_data-537357",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537357",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Netherlands vs Japan",
+    "rawText": "Netherlands vs Japan - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Netherlands",
+        "Japan"
+      ],
+      "dateTime": "2026-06-14T20:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "e8eceec838b8a51cfc0811d670ea158de36730e8"
+  },
+  {
+    "id": "football_data-537352",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537352",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Ivory Coast vs Ecuador",
+    "rawText": "Ivory Coast vs Ecuador - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Ivory Coast",
+        "Ecuador"
+      ],
+      "dateTime": "2026-06-14T23:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "62a581d061361330e9fda5baf20dd6ea73a676e6"
+  },
+  {
+    "id": "football_data-537358",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537358",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Sweden vs Tunisia",
+    "rawText": "Sweden vs Tunisia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Sweden",
+        "Tunisia"
+      ],
+      "dateTime": "2026-06-15T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "49220d2bdcc5be3d0cbe80597fe83acc2234aa72"
+  },
+  {
+    "id": "football_data-537369",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537369",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Spain vs Cape Verde Islands",
+    "rawText": "Spain vs Cape Verde Islands - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Spain",
+        "Cape Verde Islands"
+      ],
+      "dateTime": "2026-06-15T16:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "bb6743f8fbbdb574fe8ab32df80cb62b6cd422c1"
+  },
+  {
+    "id": "football_data-537363",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537363",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Belgium vs Egypt",
+    "rawText": "Belgium vs Egypt - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Belgium",
+        "Egypt"
+      ],
+      "dateTime": "2026-06-15T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "242e4a170006215216f8db354fcbd2ce73384a52"
+  },
+  {
+    "id": "football_data-537370",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537370",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Saudi Arabia vs Uruguay",
+    "rawText": "Saudi Arabia vs Uruguay - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Saudi Arabia",
+        "Uruguay"
+      ],
+      "dateTime": "2026-06-15T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "77fb5b80433f5d12539aee542fee60d5172a4c4f"
+  },
+  {
+    "id": "football_data-537364",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537364",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Iran vs New Zealand",
+    "rawText": "Iran vs New Zealand - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Iran",
+        "New Zealand"
+      ],
+      "dateTime": "2026-06-16T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "1a3138090dfa8c2bb6ee57644ebaef4260fb85f9"
+  },
+  {
+    "id": "football_data-537391",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537391",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "France vs Senegal",
+    "rawText": "France vs Senegal - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "France",
+        "Senegal"
+      ],
+      "dateTime": "2026-06-16T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "baab847960944d061faedfd4a4f060e2ca753bca"
+  },
+  {
+    "id": "football_data-537392",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537392",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Iraq vs Norway",
+    "rawText": "Iraq vs Norway - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Iraq",
+        "Norway"
+      ],
+      "dateTime": "2026-06-16T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "9cc3d53c30ce4a492cdecc61f3372fd04a27b766"
+  },
+  {
+    "id": "football_data-537397",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537397",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Argentina vs Algeria",
+    "rawText": "Argentina vs Algeria - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Argentina",
+        "Algeria"
+      ],
+      "dateTime": "2026-06-17T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "bcebc38ababb5de8afd6f1cfbb47e6f7412616b3"
+  },
+  {
+    "id": "football_data-537398",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537398",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Austria vs Jordan",
+    "rawText": "Austria vs Jordan - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Austria",
+        "Jordan"
+      ],
+      "dateTime": "2026-06-17T04:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "4cb0f58326841161595552e0a9c6e9f41c4e76bc"
+  },
+  {
+    "id": "football_data-537403",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537403",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Portugal vs Congo DR",
+    "rawText": "Portugal vs Congo DR - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Portugal",
+        "Congo DR"
+      ],
+      "dateTime": "2026-06-17T17:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "9825745bed73a9282d929a5b8a6ea7caec128e1c"
+  },
+  {
+    "id": "football_data-537409",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537409",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "England vs Croatia",
+    "rawText": "England vs Croatia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "England",
+        "Croatia"
+      ],
+      "dateTime": "2026-06-17T20:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "c0fed2440d3dd3a33c3db0b1179d9f26f8ec9f45"
+  },
+  {
+    "id": "football_data-537410",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537410",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Ghana vs Panama",
+    "rawText": "Ghana vs Panama - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Ghana",
+        "Panama"
+      ],
+      "dateTime": "2026-06-17T23:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "423f91f566bd97468f256b26da19af2441f3bbf9"
+  },
+  {
+    "id": "football_data-537404",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537404",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Uzbekistan vs Colombia",
+    "rawText": "Uzbekistan vs Colombia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Uzbekistan",
+        "Colombia"
+      ],
+      "dateTime": "2026-06-18T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "693d3894d7a250bc196da845ba29a774a8c99aca"
+  },
+  {
+    "id": "football_data-537329",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537329",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Czechia vs South Africa",
+    "rawText": "Czechia vs South Africa - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Czechia",
+        "South Africa"
+      ],
+      "dateTime": "2026-06-18T16:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "d77c984828c5201ca3f28b70112e1e735e63429b"
+  },
+  {
+    "id": "football_data-537335",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537335",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Switzerland vs Bosnia-Herzegovina",
+    "rawText": "Switzerland vs Bosnia-Herzegovina - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Switzerland",
+        "Bosnia-Herzegovina"
+      ],
+      "dateTime": "2026-06-18T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "47c65fcc82ed68f31a180d0395cade45a0771dea"
+  },
+  {
+    "id": "football_data-537336",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537336",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Canada vs Qatar",
+    "rawText": "Canada vs Qatar - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Canada",
+        "Qatar"
+      ],
+      "dateTime": "2026-06-18T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "7b942258d1ca51133dd4574bd127a666c82d634f"
+  },
+  {
+    "id": "football_data-537330",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537330",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Mexico vs South Korea",
+    "rawText": "Mexico vs South Korea - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Mexico",
+        "South Korea"
+      ],
+      "dateTime": "2026-06-19T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "9b90236a46110b43f070259a16fa76517329b2cc"
+  },
+  {
+    "id": "football_data-537348",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537348",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "United States vs Australia",
+    "rawText": "United States vs Australia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "United States",
+        "Australia"
+      ],
+      "dateTime": "2026-06-19T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "6c77c4fd1552aa05b7fd0e91e714357d22d0151e"
+  },
+  {
+    "id": "football_data-537342",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537342",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Scotland vs Morocco",
+    "rawText": "Scotland vs Morocco - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Scotland",
+        "Morocco"
+      ],
+      "dateTime": "2026-06-19T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "359c7140c5e3e7f302917206e158c5711287a77e"
+  },
+  {
+    "id": "football_data-537341",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537341",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Brazil vs Haiti",
+    "rawText": "Brazil vs Haiti - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Brazil",
+        "Haiti"
+      ],
+      "dateTime": "2026-06-20T00:30:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "5ff0f9c677bb2ca2a025d510c511e066a583bc72"
+  },
+  {
+    "id": "football_data-537347",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537347",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Turkey vs Paraguay",
+    "rawText": "Turkey vs Paraguay - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Turkey",
+        "Paraguay"
+      ],
+      "dateTime": "2026-06-20T03:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "bd9838347c248db22a4888eb263c48d294f1f540"
+  },
+  {
+    "id": "football_data-537359",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537359",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Netherlands vs Sweden",
+    "rawText": "Netherlands vs Sweden - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Netherlands",
+        "Sweden"
+      ],
+      "dateTime": "2026-06-20T17:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "c2bcae87bb2d2dd4d751844eddc4d568f43b9dbb"
+  },
+  {
+    "id": "football_data-537353",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537353",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Germany vs Ivory Coast",
+    "rawText": "Germany vs Ivory Coast - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Germany",
+        "Ivory Coast"
+      ],
+      "dateTime": "2026-06-20T20:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "7c4eb40be4eb9b75e9cf6cbb28431b59eaa9e8b2"
+  },
+  {
+    "id": "football_data-537354",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537354",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Ecuador vs Curaçao",
+    "rawText": "Ecuador vs Curaçao - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Ecuador",
+        "Curaçao"
+      ],
+      "dateTime": "2026-06-21T00:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "72db67313d6cb131ef3504986c923c83922c2b2d"
+  },
+  {
+    "id": "football_data-537360",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537360",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Tunisia vs Japan",
+    "rawText": "Tunisia vs Japan - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Tunisia",
+        "Japan"
+      ],
+      "dateTime": "2026-06-21T04:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "82b4e8453e32d13e21c14818ecb1af5484c6979e"
+  },
+  {
+    "id": "football_data-537371",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537371",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Spain vs Saudi Arabia",
+    "rawText": "Spain vs Saudi Arabia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Spain",
+        "Saudi Arabia"
+      ],
+      "dateTime": "2026-06-21T16:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "091bedcbc85b90bfd77ea22e2d48af1adab00bd6"
+  },
+  {
+    "id": "football_data-537365",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537365",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Belgium vs Iran",
+    "rawText": "Belgium vs Iran - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Belgium",
+        "Iran"
+      ],
+      "dateTime": "2026-06-21T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "f95bf4df20a928781bda52d00048574f2bb15bc3"
+  },
+  {
+    "id": "football_data-537372",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537372",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Uruguay vs Cape Verde Islands",
+    "rawText": "Uruguay vs Cape Verde Islands - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Uruguay",
+        "Cape Verde Islands"
+      ],
+      "dateTime": "2026-06-21T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "3e169d569385594d7f4e43dfa274127178d7eabc"
+  },
+  {
+    "id": "football_data-537366",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537366",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "New Zealand vs Egypt",
+    "rawText": "New Zealand vs Egypt - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "New Zealand",
+        "Egypt"
+      ],
+      "dateTime": "2026-06-22T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "b8b13e36bf61495673370deba3d6aafb11872014"
+  },
+  {
+    "id": "football_data-537399",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537399",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Argentina vs Austria",
+    "rawText": "Argentina vs Austria - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Argentina",
+        "Austria"
+      ],
+      "dateTime": "2026-06-22T17:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "67ab7d4a5f8e68251625b148c5b487f29e012bf8"
+  },
+  {
+    "id": "football_data-537393",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537393",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "France vs Iraq",
+    "rawText": "France vs Iraq - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "France",
+        "Iraq"
+      ],
+      "dateTime": "2026-06-22T21:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "0da1a3da59a2bd3d9f02679b438dda3376c45f00"
+  },
+  {
+    "id": "football_data-537394",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537394",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Norway vs Senegal",
+    "rawText": "Norway vs Senegal - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Norway",
+        "Senegal"
+      ],
+      "dateTime": "2026-06-23T00:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "2909ed8c8cd1eeeb1c35a4776f66cd78e43b4969"
+  },
+  {
+    "id": "football_data-537400",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537400",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Jordan vs Algeria",
+    "rawText": "Jordan vs Algeria - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Jordan",
+        "Algeria"
+      ],
+      "dateTime": "2026-06-23T03:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "92f3defb14316a269a312f14f68246ffc123a266"
+  },
+  {
+    "id": "football_data-537405",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537405",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Portugal vs Uzbekistan",
+    "rawText": "Portugal vs Uzbekistan - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Portugal",
+        "Uzbekistan"
+      ],
+      "dateTime": "2026-06-23T17:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "f9337e08fe1b23224cb2c1433da3f51c1d6fd931"
+  },
+  {
+    "id": "football_data-537411",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537411",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "England vs Ghana",
+    "rawText": "England vs Ghana - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "England",
+        "Ghana"
+      ],
+      "dateTime": "2026-06-23T20:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "04b8b75057dc94b67db3f3fec38f1adaf616b5d6"
+  },
+  {
+    "id": "football_data-537412",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537412",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Panama vs Croatia",
+    "rawText": "Panama vs Croatia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Panama",
+        "Croatia"
+      ],
+      "dateTime": "2026-06-23T23:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "a100fddc3cc955f4bcf2dc5af25d55b936c28a7a"
+  },
+  {
+    "id": "football_data-537406",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537406",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Colombia vs Congo DR",
+    "rawText": "Colombia vs Congo DR - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Colombia",
+        "Congo DR"
+      ],
+      "dateTime": "2026-06-24T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "d6037735b97873e5aebee52ae8d7c47649ed3737"
+  },
+  {
+    "id": "football_data-537337",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537337",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Switzerland vs Canada",
+    "rawText": "Switzerland vs Canada - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Switzerland",
+        "Canada"
+      ],
+      "dateTime": "2026-06-24T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "55a5c59b5536c375ab026a8a83786d3f7f11986d"
+  },
+  {
+    "id": "football_data-537338",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537338",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Bosnia-Herzegovina vs Qatar",
+    "rawText": "Bosnia-Herzegovina vs Qatar - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Bosnia-Herzegovina",
+        "Qatar"
+      ],
+      "dateTime": "2026-06-24T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "54fb7e51da34c1b8f5829cf1ba6831f076ace00e"
+  },
+  {
+    "id": "football_data-537344",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537344",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Morocco vs Haiti",
+    "rawText": "Morocco vs Haiti - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Morocco",
+        "Haiti"
+      ],
+      "dateTime": "2026-06-24T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "7cd71e039ea58d59f6369381d2fa8efa38507745"
+  },
+  {
+    "id": "football_data-537343",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537343",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Scotland vs Brazil",
+    "rawText": "Scotland vs Brazil - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Scotland",
+        "Brazil"
+      ],
+      "dateTime": "2026-06-24T22:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "0d3480e7f45a4e6428cda70aad0ffda8ecca4117"
+  },
+  {
+    "id": "football_data-537331",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537331",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Czechia vs Mexico",
+    "rawText": "Czechia vs Mexico - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Czechia",
+        "Mexico"
+      ],
+      "dateTime": "2026-06-25T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "0944b46da6a81ae56a5f9282a451a9f48df6d134"
+  },
+  {
+    "id": "football_data-537332",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537332",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "South Africa vs South Korea",
+    "rawText": "South Africa vs South Korea - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "South Africa",
+        "South Korea"
+      ],
+      "dateTime": "2026-06-25T01:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "9a39ca60b53f53909667201eae0fd1387626dd4b"
+  },
+  {
+    "id": "football_data-537355",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537355",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Ecuador vs Germany",
+    "rawText": "Ecuador vs Germany - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Ecuador",
+        "Germany"
+      ],
+      "dateTime": "2026-06-25T20:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "fb9a29e6967ab1f08ce1abc389ed90c851ebf17f"
+  },
+  {
+    "id": "football_data-537356",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537356",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Curaçao vs Ivory Coast",
+    "rawText": "Curaçao vs Ivory Coast - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Curaçao",
+        "Ivory Coast"
+      ],
+      "dateTime": "2026-06-25T20:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "18d4d9d6e9748baf07df87e87c6a0f34e1904789"
+  },
+  {
+    "id": "football_data-537361",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537361",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Tunisia vs Netherlands",
+    "rawText": "Tunisia vs Netherlands - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Tunisia",
+        "Netherlands"
+      ],
+      "dateTime": "2026-06-25T23:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "ec6fa01b694b86176cb4489ae0a4a36690321e55"
+  },
+  {
+    "id": "football_data-537362",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537362",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Japan vs Sweden",
+    "rawText": "Japan vs Sweden - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Japan",
+        "Sweden"
+      ],
+      "dateTime": "2026-06-25T23:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "fdaa70947d8be845d712c8d22865a7e577884f0c"
+  },
+  {
+    "id": "football_data-537349",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537349",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Turkey vs United States",
+    "rawText": "Turkey vs United States - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Turkey",
+        "United States"
+      ],
+      "dateTime": "2026-06-26T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "7a3e745babe1d19edf989e59e3096ae91d392c18"
+  },
+  {
+    "id": "football_data-537350",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537350",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Paraguay vs Australia",
+    "rawText": "Paraguay vs Australia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Paraguay",
+        "Australia"
+      ],
+      "dateTime": "2026-06-26T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "b594c525c43f82aafa3489bfaede76ea3bc01be3"
+  },
+  {
+    "id": "football_data-537395",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537395",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Norway vs France",
+    "rawText": "Norway vs France - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Norway",
+        "France"
+      ],
+      "dateTime": "2026-06-26T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "bbd6349731755580ad0f28ed03120a6395aa6587"
+  },
+  {
+    "id": "football_data-537396",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537396",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Senegal vs Iraq",
+    "rawText": "Senegal vs Iraq - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Senegal",
+        "Iraq"
+      ],
+      "dateTime": "2026-06-26T19:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "c5913748ea5736672c93b6085d464ff9bf3aea01"
+  },
+  {
+    "id": "football_data-537373",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537373",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Uruguay vs Spain",
+    "rawText": "Uruguay vs Spain - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Uruguay",
+        "Spain"
+      ],
+      "dateTime": "2026-06-27T00:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "344f24761f099fe6268465ee9b956d7e93d669f5"
+  },
+  {
+    "id": "football_data-537374",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537374",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Cape Verde Islands vs Saudi Arabia",
+    "rawText": "Cape Verde Islands vs Saudi Arabia - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Cape Verde Islands",
+        "Saudi Arabia"
+      ],
+      "dateTime": "2026-06-27T00:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "d3ede712fb2543ea82f3464f3f6c939658f2a21d"
+  },
+  {
+    "id": "football_data-537367",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537367",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "New Zealand vs Belgium",
+    "rawText": "New Zealand vs Belgium - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "New Zealand",
+        "Belgium"
+      ],
+      "dateTime": "2026-06-27T03:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "1cf7c36ebd556e2e152f5a9a01efe83cb64b5168"
+  },
+  {
+    "id": "football_data-537368",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537368",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Egypt vs Iran",
+    "rawText": "Egypt vs Iran - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Egypt",
+        "Iran"
+      ],
+      "dateTime": "2026-06-27T03:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "a96cd8f3f0f2f35c4b3c1f1ca24b8dd3784c0b12"
+  },
+  {
+    "id": "football_data-537413",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537413",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Panama vs England",
+    "rawText": "Panama vs England - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Panama",
+        "England"
+      ],
+      "dateTime": "2026-06-27T21:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "311e602062f947b482fbcdb6c8c9f951533bd8d0"
+  },
+  {
+    "id": "football_data-537414",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537414",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Croatia vs Ghana",
+    "rawText": "Croatia vs Ghana - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Croatia",
+        "Ghana"
+      ],
+      "dateTime": "2026-06-27T21:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "b5329f8be816c8b96a2fc4d8bc1de697c18548ac"
+  },
+  {
+    "id": "football_data-537407",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537407",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Colombia vs Portugal",
+    "rawText": "Colombia vs Portugal - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Colombia",
+        "Portugal"
+      ],
+      "dateTime": "2026-06-27T23:30:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "1e1880d75e426b2c81d0f3dd49bf683ce2be6159"
+  },
+  {
+    "id": "football_data-537408",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537408",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Congo DR vs Uzbekistan",
+    "rawText": "Congo DR vs Uzbekistan - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Congo DR",
+        "Uzbekistan"
+      ],
+      "dateTime": "2026-06-27T23:30:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "e84ca272ab10b4a65d538bf2d2f758f7ce199155"
+  },
+  {
+    "id": "football_data-537401",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537401",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Jordan vs Argentina",
+    "rawText": "Jordan vs Argentina - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Jordan",
+        "Argentina"
+      ],
+      "dateTime": "2026-06-28T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "955857fc314b7329e84c1270248670053446dc70"
+  },
+  {
+    "id": "football_data-537402",
+    "sourceType": "football_data",
+    "sourceUrl": "https://www.football-data.org/v4/matches/537402",
+    "fetchedAt": "2026-06-21T19:24:50.953Z",
+    "rawTitle": "Algeria vs Austria",
+    "rawText": "Algeria vs Austria - GROUP_STAGE",
+    "parsedGuess": {
+      "teams": [
+        "Algeria",
+        "Austria"
+      ],
+      "dateTime": "2026-06-28T02:00:00Z"
+    },
+    "status": "needs_review",
+    "dedupeKey": "082a17f8366bc140fa6e84e81137a24e67145c46"
+  }
+]
