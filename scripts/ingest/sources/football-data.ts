@@ -26,7 +26,15 @@ export async function fetchFootballDataCandidates(): Promise<
   }
   const { matches } = await res.json();
 
-  return (matches ?? []).map((m: any): CandidateSignal => ({
+  // Verified live 2026-06-21: future knockout-stage slots (LAST_32 etc.)
+  // come back as real match records with a real id/date/stage but with
+  // homeTeam.name / awayTeam.name both null until qualification is decided.
+  // Real data, not a bug - but useless for this guide until teams are set.
+  const decided = (matches ?? []).filter(
+    (m: any) => m.homeTeam?.name && m.awayTeam?.name
+  );
+
+  return decided.map((m: any): CandidateSignal => ({
     id: `football_data-${m.id}`,
     sourceType: "football_data",
     sourceUrl: `https://www.football-data.org/v4/matches/${m.id}`,
