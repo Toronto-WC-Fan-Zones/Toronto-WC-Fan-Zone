@@ -5,15 +5,25 @@ import { FilterChips } from "./FilterChips";
 import { FanZoneCard } from "@/components/cards/FanZoneCard";
 import { FEATURES } from "@/lib/features";
 import { LastChecked } from "@/components/ui/LastChecked";
-import type { OfficialFanZone, CountryHotspot, AreaGuide } from "@/types";
+import { getFlagEmoji } from "@/lib/countries";
+import type { OfficialFanZone, CountryHotspot, AreaGuide, CommunityEvent } from "@/types";
 
 interface HomeDashboardProps {
   fanZones: OfficialFanZone[];
   hotspots: CountryHotspot[];
   areas: AreaGuide[];
+  events: CommunityEvent[];
 }
 
-export function HomeDashboard({ fanZones, hotspots, areas }: HomeDashboardProps) {
+function formatEventDay(iso: string): string {
+  return new Date(iso).toLocaleString("en-CA", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+  });
+}
+
+export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboardProps) {
   return (
     <>
       {/* Hero */}
@@ -130,6 +140,56 @@ export function HomeDashboard({ fanZones, hotspots, areas }: HomeDashboardProps)
             View all {hotspots.length} country hotspots →
           </Link>
         </section>
+
+        {/* Watch Parties & Events */}
+        {events.length > 0 && (
+          <section className={styles.section} aria-labelledby="events-heading">
+            <div className={styles.sectionHeader}>
+              <h2 id="events-heading" className={styles.sectionHeading}>
+                Watch Parties & Events
+              </h2>
+              <Link href="/events" className={styles.viewAll}>
+                View all
+              </Link>
+            </div>
+            <div className={styles.hotspotGrid}>
+              {[...events]
+                .sort(
+                  (a, b) =>
+                    new Date(a.startDateTime).getTime() -
+                    new Date(b.startDateTime).getTime()
+                )
+                .slice(0, 6)
+                .map((e) => (
+                  <Link
+                    key={e.slug}
+                    href={`/events/${e.slug}`}
+                    className={styles.hotspotCard}
+                  >
+                    <span className={styles.hotspotFlag} aria-hidden="true">
+                      {e.relatedCountries
+                        .map((c) => getFlagEmoji(c))
+                        .filter(Boolean)
+                        .slice(0, 2)
+                        .join(" ")}
+                    </span>
+                    <div className={styles.hotspotCardBody}>
+                      <span className={styles.hotspotName}>{e.name}</span>
+                      <span className={styles.hotspotArea}>
+                        {formatEventDay(e.startDateTime)} · {e.neighbourhood}
+                      </span>
+                    </div>
+                    <span className={styles.hotspotArrow} aria-hidden="true">
+                      →
+                    </span>
+                  </Link>
+                ))}
+            </div>
+            <Link href="/events" className={styles.viewAllBottom}>
+              View all {events.length} events →
+            </Link>
+          </section>
+        )}
 
         {/* Find Spots Near You - hidden until FEATURES.nearMe is true */}
         {FEATURES.nearMe && (

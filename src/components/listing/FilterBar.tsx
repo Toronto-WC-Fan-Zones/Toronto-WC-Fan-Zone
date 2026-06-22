@@ -15,6 +15,7 @@ interface FilterBarProps {
   onChange: (filters: FilterState) => void;
   neighbourhoods: string[];
   countries?: string[];
+  showCrowdRisk?: boolean;
   placeholder?: string;
   resultsCount: number;
 }
@@ -24,6 +25,7 @@ export function FilterBar({
   onChange,
   neighbourhoods,
   countries,
+  showCrowdRisk = true,
   placeholder = "Search team, country, venue, or area...",
   resultsCount,
 }: FilterBarProps) {
@@ -94,18 +96,20 @@ export function FilterBar({
           </select>
         )}
 
-        <select
-          className={styles.select}
-          value={filters.crowdRisk}
-          onChange={(e) => update("crowdRisk", e.target.value)}
-          aria-label="Filter by crowd level"
-        >
-          <option value="">Any crowd</option>
-          <option value="low">Low Crowd</option>
-          <option value="medium">Medium Crowd</option>
-          <option value="high">High Crowd Risk</option>
-          <option value="packed">Very Packed</option>
-        </select>
+        {showCrowdRisk && (
+          <select
+            className={styles.select}
+            value={filters.crowdRisk}
+            onChange={(e) => update("crowdRisk", e.target.value)}
+            aria-label="Filter by crowd level"
+          >
+            <option value="">Any crowd</option>
+            <option value="low">Low Crowd</option>
+            <option value="medium">Medium Crowd</option>
+            <option value="high">High Crowd Risk</option>
+            <option value="packed">Very Packed</option>
+          </select>
+        )}
       </div>
 
       {activeFilters.length > 0 && (

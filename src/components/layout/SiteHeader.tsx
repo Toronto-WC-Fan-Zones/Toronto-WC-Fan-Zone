@@ -5,13 +5,14 @@ import { FEATURES } from "@/lib/features";
 const baseNavLinks = [
   { href: "/fan-zones", label: "Fan Zones" },
   { href: "/hotspots", label: "Country Hotspots" },
+  { href: "/events", label: "Events" },
   { href: "/fan-zones", label: "Games" },
 ];
 
 const nearMeLink = { href: "/areas", label: "Near Me" };
 
 const navLinks = FEATURES.nearMe
-  ? [baseNavLinks[0], baseNavLinks[1], nearMeLink, baseNavLinks[2]]
+  ? [baseNavLinks[0], baseNavLinks[1], baseNavLinks[2], nearMeLink, baseNavLinks[3]]
   : baseNavLinks;
 
 export function SiteHeader() {
