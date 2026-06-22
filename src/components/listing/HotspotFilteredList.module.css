@@ -1,3 +1,13 @@
+.eventsFilterToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin: 12px 0 20px;
+  cursor: pointer;
+}
+
 .regionList {
   display: flex;
   flex-direction: column;

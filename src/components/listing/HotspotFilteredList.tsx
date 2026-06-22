@@ -10,6 +10,7 @@ import type { CountryHotspot, HotspotRegion } from "@/types";
 
 interface HotspotFilteredListProps {
   hotspots: CountryHotspot[];
+  eventCounts: Record<string, number>;
 }
 
 const EMPTY_FILTERS: FilterState = {
@@ -40,8 +41,12 @@ function isFiltered(filters: FilterState): boolean {
   return Object.values(filters).some((v) => v !== "");
 }
 
-export function HotspotFilteredList({ hotspots }: HotspotFilteredListProps) {
+export function HotspotFilteredList({
+  hotspots,
+  eventCounts,
+}: HotspotFilteredListProps) {
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS);
+  const [onlyWithEvents, setOnlyWithEvents] = useState(false);
 
   const neighbourhoods = [...new Set(hotspots.map((h) => h.neighbourhood))];
   const countries = [...new Set(hotspots.map((h) => h.country))];
@@ -62,10 +67,22 @@ export function HotspotFilteredList({ hotspots }: HotspotFilteredListProps) {
       return false;
     if (filters.crowdRisk && h.crowdRisk !== filters.crowdRisk) return false;
     if (filters.country && h.country !== filters.country) return false;
+    if (onlyWithEvents && !eventCounts[h.slug]) return false;
     return true;
   });
 
-  const showGrouped = !isFiltered(filters);
+  const showGrouped = !isFiltered(filters) && !onlyWithEvents;
+
+  const eventsFilterToggle = (
+    <label className={styles.eventsFilterToggle}>
+      <input
+        type="checkbox"
+        checked={onlyWithEvents}
+        onChange={(e) => setOnlyWithEvents(e.target.checked)}
+      />
+      Only show hotspots with upcoming events
+    </label>
+  );
 
   if (showGrouped) {
     const byRegion = REGION_ORDER.reduce<Record<string, CountryHotspot[]>>(
@@ -87,6 +104,7 @@ export function HotspotFilteredList({ hotspots }: HotspotFilteredListProps) {
           placeholder="Search by country, neighbourhood, or region..."
           resultsCount={hotspots.length}
         />
+        {eventsFilterToggle}
 
         <div className={styles.regionList}>
           {Object.entries(byRegion).map(([region, items]) => (
@@ -100,7 +118,10 @@ export function HotspotFilteredList({ hotspots }: HotspotFilteredListProps) {
               <div className={listStyles.grid} role="list">
                 {items.map((h) => (
                   <div key={h.slug} role="listitem">
-                    <CountryHotspotCard hotspot={h} />
+                    <CountryHotspotCard
+                      hotspot={h}
+                      eventCount={eventCounts[h.slug] ?? 0}
+                    />
                   </div>
                 ))}
               </div>
@@ -121,17 +142,26 @@ export function HotspotFilteredList({ hotspots }: HotspotFilteredListProps) {
         placeholder="Search by country, neighbourhood, or region..."
         resultsCount={filtered.length}
       />
+      {eventsFilterToggle}
 
       {filtered.length > 0 ? (
         <div className={listStyles.grid} role="list">
           {filtered.map((h) => (
             <div key={h.slug} role="listitem">
-              <CountryHotspotCard hotspot={h} />
+              <CountryHotspotCard
+                hotspot={h}
+                eventCount={eventCounts[h.slug] ?? 0}
+              />
             </div>
           ))}
         </div>
       ) : (
-        <EmptyState onClear={() => setFilters(EMPTY_FILTERS)} />
+        <EmptyState
+          onClear={() => {
+            setFilters(EMPTY_FILTERS);
+            setOnlyWithEvents(false);
+          }}
+        />
       )}
     </>
   );

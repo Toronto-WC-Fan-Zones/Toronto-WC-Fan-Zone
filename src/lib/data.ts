@@ -56,6 +56,15 @@ export function getEventBySlug(slug: string): CommunityEvent | undefined {
   return events.find((e) => e.slug === slug);
 }
 
+// Cross-links events to hotspots by matching country name - no separate
+// foreign key needed since "Portugal" the hotspot country and "Portugal" in
+// an event's relatedCountries are already the same string in practice.
+export function getEventsByCountry(country: string): CommunityEvent[] {
+  return events.filter((e) =>
+    e.relatedCountries.some((c) => c.toLowerCase() === country.toLowerCase())
+  );
+}
+
 // Games
 export function getUpcomingGames(): Game[] {
   return upcomingGames;

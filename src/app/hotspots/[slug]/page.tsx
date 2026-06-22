@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { getAllHotspots, getHotspotBySlug } from "@/lib/data";
+import { getAllHotspots, getHotspotBySlug, getEventsByCountry } from "@/lib/data";
 import { CrowdRiskBadge } from "@/components/ui/CrowdRiskBadge";
 import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { EntryTypeBadge } from "@/components/ui/EntryTypeBadge";
@@ -11,6 +11,7 @@ import { QuickAnswerBox } from "@/components/detail/QuickAnswerBox";
 import { EntryRequirements } from "@/components/detail/EntryRequirements";
 import { RestrictionsList } from "@/components/detail/RestrictionsList";
 import { SourceList } from "@/components/detail/SourceList";
+import { CommunityEventCard } from "@/components/cards/CommunityEventCard";
 import styles from "./page.module.css";
 
 interface Props {
@@ -37,6 +38,7 @@ export default async function HotspotDetailPage({ params }: Props) {
   if (!hotspot) notFound();
 
   const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(hotspot.name + " Toronto")}`;
+  const relatedEvents = getEventsByCountry(hotspot.country);
 
   return (
     <div className={styles.page}>
@@ -101,6 +103,9 @@ export default async function HotspotDetailPage({ params }: Props) {
         <div className={`container ${styles.tabNavInner}`}>
           <a href="#overview" className={styles.tabLink}>Overview</a>
           <a href="#entry-rules" className={styles.tabLink}>Entry &amp; Rules</a>
+          {relatedEvents.length > 0 && (
+            <a href="#events" className={styles.tabLink}>Events</a>
+          )}
           <a href="#restrictions" className={styles.tabLink}>Restrictions</a>
           <a href="#good-to-know" className={styles.tabLink}>Good to Know</a>
         </div>
@@ -126,6 +131,19 @@ export default async function HotspotDetailPage({ params }: Props) {
             <div id="entry-rules">
               <EntryRequirements er={hotspot.entryRequirements} />
             </div>
+
+            {relatedEvents.length > 0 && (
+              <section className={styles.bestForSection} id="events">
+                <h2 className={styles.sectionHeading}>
+                  Upcoming Events for {hotspot.country} Fans
+                </h2>
+                <div className={styles.eventsGrid}>
+                  {relatedEvents.map((e) => (
+                    <CommunityEventCard key={e.slug} event={e} />
+                  ))}
+                </div>
+              </section>
+            )}
 
             <div id="restrictions">
               <RestrictionsList

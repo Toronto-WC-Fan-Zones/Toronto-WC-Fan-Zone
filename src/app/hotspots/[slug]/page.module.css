@@ -230,6 +230,18 @@
   margin-bottom: 12px;
 }
 
+.eventsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+@media (max-width: 640px) {
+  .eventsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .bestForList {
   display: flex;
   flex-wrap: wrap;

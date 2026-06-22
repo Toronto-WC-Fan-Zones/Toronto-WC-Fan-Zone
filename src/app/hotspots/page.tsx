@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getAllHotspots } from "@/lib/data";
+import { getAllHotspots, getEventsByCountry } from "@/lib/data";
 import { HotspotFilteredList } from "@/components/listing/HotspotFilteredList";
 import styles from "./page.module.css";
 
@@ -11,6 +11,9 @@ export const metadata: Metadata = {
 
 export default function HotspotsPage() {
   const hotspots = getAllHotspots();
+  const eventCounts = Object.fromEntries(
+    hotspots.map((h) => [h.slug, getEventsByCountry(h.country).length])
+  );
 
   return (
     <div className={styles.page}>
@@ -23,7 +26,7 @@ export default function HotspotsPage() {
           </p>
         </header>
 
-        <HotspotFilteredList hotspots={hotspots} />
+        <HotspotFilteredList hotspots={hotspots} eventCounts={eventCounts} />
       </div>
     </div>
   );

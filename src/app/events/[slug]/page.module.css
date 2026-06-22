@@ -67,3 +67,27 @@
 .body {
   max-width: 640px;
 }
+
+.relatedHotspots {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.relatedHotspotsHeading {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+}
+
+.relatedHotspotLink {
+  display: block;
+  font-size: 0.9rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: none;
+  padding: 4px 0;
+}

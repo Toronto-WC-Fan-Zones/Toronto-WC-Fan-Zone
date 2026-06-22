@@ -7,9 +7,13 @@ import type { CountryHotspot } from "@/types";
 
 interface CountryHotspotCardProps {
   hotspot: CountryHotspot;
+  eventCount?: number;
 }
 
-export function CountryHotspotCard({ hotspot }: CountryHotspotCardProps) {
+export function CountryHotspotCard({
+  hotspot,
+  eventCount = 0,
+}: CountryHotspotCardProps) {
   return (
     <Link href={`/hotspots/${hotspot.slug}`} className={styles.card}>
       <div className={styles.header}>
@@ -20,6 +24,11 @@ export function CountryHotspotCard({ hotspot }: CountryHotspotCardProps) {
           <span className={styles.country}>{hotspot.country} Fans</span>
           <h3 className={styles.name}>{hotspot.name}</h3>
         </div>
+        {eventCount > 0 && (
+          <span className={styles.eventCount}>
+            {eventCount} event{eventCount !== 1 ? "s" : ""}
+          </span>
+        )}
       </div>
 
       <div className={styles.badges}>

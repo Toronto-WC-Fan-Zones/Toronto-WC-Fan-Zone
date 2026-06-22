@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllEvents, getEventBySlug } from "@/lib/data";
+import { getAllEvents, getEventBySlug, getHotspotsByCountry } from "@/lib/data";
 import { EntryTypeBadge } from "@/components/ui/EntryTypeBadge";
 import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { CountryBadges } from "@/components/ui/CountryBadges";
@@ -47,6 +47,12 @@ export default async function EventDetailPage({ params }: Props) {
     : `${event.neighbourhood} Toronto`;
   const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(mapsQuery)}`;
 
+  const relatedHotspots = event.relatedCountries
+    .flatMap((country) => getHotspotsByCountry(country))
+    .filter(
+      (h, i, arr) => arr.findIndex((other) => other.slug === h.slug) === i
+    );
+
   return (
     <div className={styles.page}>
       <div className="container">
@@ -89,6 +95,23 @@ export default async function EventDetailPage({ params }: Props) {
         </header>
 
         <div className={styles.body}>
+          {relatedHotspots.length > 0 && (
+            <div className={styles.relatedHotspots}>
+              <h2 className={styles.relatedHotspotsHeading}>
+                Related Country Hotspot{relatedHotspots.length !== 1 ? "s" : ""}
+              </h2>
+              {relatedHotspots.map((h) => (
+                <Link
+                  key={h.slug}
+                  href={`/hotspots/${h.slug}`}
+                  className={styles.relatedHotspotLink}
+                >
+                  <span aria-hidden="true">{h.flagEmoji}</span> {h.name} →
+                </Link>
+              ))}
+            </div>
+          )}
+
           <SourceList sources={event.sources} lastChecked={event.lastChecked} />
         </div>
       </div>
