@@ -77,7 +77,12 @@ export async function fetchEventbriteCandidates(): Promise<CandidateSignal[]> {
           rawText: description,
           parsedGuess: {
             name: title,
-            startDateTime: e.start?.local,
+            // Verified live 2026-06-22: e.start.local has no timezone
+            // offset ("2026-06-23T16:00:00") - Date parsing that string
+            // depends on the *server's* runtime timezone, not Toronto's,
+            // so on a UTC server (Vercel's default) every event would
+            // display 4h early. e.start.utc is the unambiguous one.
+            startDateTime: e.start?.utc,
             relatedCountries: extractCountriesFromTitle(title),
           },
           status: "needs_review",

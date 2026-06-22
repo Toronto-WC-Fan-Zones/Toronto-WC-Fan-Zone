@@ -7,6 +7,7 @@ import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { CountryBadges } from "@/components/ui/CountryBadges";
 import { LastChecked } from "@/components/ui/LastChecked";
 import { SourceList } from "@/components/detail/SourceList";
+import { formatTorontoDateTime } from "@/lib/dates";
 import styles from "./page.module.css";
 
 interface Props {
@@ -25,16 +26,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: event.name,
     description: `${event.name} at ${event.venueName ?? event.neighbourhood}, Toronto.`,
   };
-}
-
-function formatEventTime(iso: string): string {
-  return new Date(iso).toLocaleString("en-CA", {
-    weekday: "long",
-    month: "long",
-    day: "numeric",
-    hour: "numeric",
-    minute: "2-digit",
-  });
 }
 
 export default async function EventDetailPage({ params }: Props) {
@@ -73,7 +64,13 @@ export default async function EventDetailPage({ params }: Props) {
           <div className={styles.metaRow}>
             <span className={styles.metaItem}>
               <span aria-hidden="true">🗓</span>{" "}
-              {formatEventTime(event.startDateTime)}
+              {formatTorontoDateTime(event.startDateTime, {
+                weekday: "long",
+                month: "long",
+                day: "numeric",
+                hour: "numeric",
+                minute: "2-digit",
+              })}
             </span>
             <span className={styles.metaItem}>
               <span aria-hidden="true">📍</span>{" "}

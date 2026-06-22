@@ -6,6 +6,7 @@ import { FanZoneCard } from "@/components/cards/FanZoneCard";
 import { FEATURES } from "@/lib/features";
 import { LastChecked } from "@/components/ui/LastChecked";
 import { getFlagEmoji } from "@/lib/countries";
+import { formatTorontoDateTime } from "@/lib/dates";
 import type { OfficialFanZone, CountryHotspot, AreaGuide, CommunityEvent } from "@/types";
 
 interface HomeDashboardProps {
@@ -16,7 +17,7 @@ interface HomeDashboardProps {
 }
 
 function formatEventDay(iso: string): string {
-  return new Date(iso).toLocaleString("en-CA", {
+  return formatTorontoDateTime(iso, {
     weekday: "short",
     month: "short",
     day: "numeric",

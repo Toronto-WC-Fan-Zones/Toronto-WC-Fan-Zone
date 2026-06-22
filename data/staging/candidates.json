@@ -1232,7 +1232,7 @@
     "rawText": "Come watch the  England vs Ghana match in your favourite King Street Pub!",
     "parsedGuess": {
       "name": "World Cup Viewing Party  : England vs Ghana Match",
-      "startDateTime": "2026-06-23T16:00:00",
+      "startDateTime": "2026-06-23T20:00:00.000Z",
       "relatedCountries": [
         "Ghana",
         "England"
@@ -1250,7 +1250,7 @@
     "rawText": "Come watch the Canada vs. Switzerland match in your favourite King Street Pub!",
     "parsedGuess": {
       "name": "World Cup Viewing Party  : Canada vs. Switzerland Match",
-      "startDateTime": "2026-06-24T15:00:00",
+      "startDateTime": "2026-06-24T19:00:00.000Z",
       "relatedCountries": [
         "Canada",
         "Switzerland"
@@ -1268,7 +1268,7 @@
     "rawText": "Come watch the  England vs Panama match in your favourite King Street Pub!",
     "parsedGuess": {
       "name": "World Cup Viewing Party  : England vs Panama Match",
-      "startDateTime": "2026-06-27T19:00:00",
+      "startDateTime": "2026-06-27T23:00:00.000Z",
       "relatedCountries": [
         "Panama",
         "England"
@@ -1286,7 +1286,7 @@
     "rawText": "Catch all the 2026 World Cup action at our ALL-DAY BIG SCREEN WATCH PARTY!",
     "parsedGuess": {
       "name": "ALL-DAY WORLD CUP WATCH PARTY - BIG SCREEN EVENT at FREE TIMES!",
-      "startDateTime": "2026-06-26T15:00:00",
+      "startDateTime": "2026-06-26T19:00:00.000Z",
       "relatedCountries": []
     },
     "status": "needs_review",
@@ -1301,7 +1301,7 @@
     "rawText": "June 21 | 9:00 PM | Fox on John\nNew Zealand vs. Egypt live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: New Zealand vs. Egypt at Fox on John",
-      "startDateTime": "2026-06-21T21:00:00",
+      "startDateTime": "2026-06-22T01:00:00.000Z",
       "relatedCountries": [
         "Egypt",
         "New Zealand"
@@ -1319,7 +1319,7 @@
     "rawText": "June 22 | 1:00 PM | Fox on John\nArgentina vs. Austria live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: Argentina vs. Austria at Fox on John",
-      "startDateTime": "2026-06-22T13:00:00",
+      "startDateTime": "2026-06-22T17:00:00.000Z",
       "relatedCountries": [
         "Argentina",
         "Austria"
@@ -1337,7 +1337,7 @@
     "rawText": "June 22 | 5:00 PM | Fox on John\nFrance vs. Iraq live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: France vs. Iraq at Fox on John",
-      "startDateTime": "2026-06-22T17:00:00",
+      "startDateTime": "2026-06-22T21:00:00.000Z",
       "relatedCountries": [
         "France",
         "Iraq"
@@ -1355,7 +1355,7 @@
     "rawText": "June 22 | 8:00 PM | Fox on John\nNorway vs. Senegal live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: Norway vs. Senegal at Fox on John",
-      "startDateTime": "2026-06-22T20:00:00",
+      "startDateTime": "2026-06-23T00:00:00.000Z",
       "relatedCountries": [
         "Senegal",
         "Norway"
@@ -1373,7 +1373,7 @@
     "rawText": "June 22 | 11:00 PM | Fox on John\nJordan vs. Algeria live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: Jordan vs. Algeria at Fox on John",
-      "startDateTime": "2026-06-22T23:00:00",
+      "startDateTime": "2026-06-23T03:00:00.000Z",
       "relatedCountries": [
         "Algeria",
         "Jordan"
@@ -1391,7 +1391,7 @@
     "rawText": "June 23 | 1:00 PM | Fox on John\nPortugal vs. Uzbekistan live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: Portugal vs. Uzbekistan at Fox on John",
-      "startDateTime": "2026-06-23T13:00:00",
+      "startDateTime": "2026-06-23T17:00:00.000Z",
       "relatedCountries": [
         "Portugal",
         "Uzbekistan"
@@ -1409,7 +1409,7 @@
     "rawText": "June 23 | 4:00 PM | Fox on John\nEngland vs. Ghana live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: England vs. Ghana at Fox on John",
-      "startDateTime": "2026-06-23T16:00:00",
+      "startDateTime": "2026-06-23T20:00:00.000Z",
       "relatedCountries": [
         "Ghana",
         "England"
@@ -1427,7 +1427,7 @@
     "rawText": "June 23 | 7:00 PM | Fox on John\nPanama vs. Croatia live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: Panama vs. Croatia at Fox on John",
-      "startDateTime": "2026-06-23T19:00:00",
+      "startDateTime": "2026-06-23T23:00:00.000Z",
       "relatedCountries": [
         "Croatia",
         "Panama"
@@ -1445,7 +1445,7 @@
     "rawText": "June 23 | 10:00 PM | Fox on John\nColombia vs. DR Congo live on big screens & big towers with great food & game-day energy",
     "parsedGuess": {
       "name": "WORLD CUP SHOWDOWN: Colombia vs. DR Congo at Fox on John",
-      "startDateTime": "2026-06-23T22:00:00",
+      "startDateTime": "2026-06-24T02:00:00.000Z",
       "relatedCountries": [
         "DR Congo",
         "Colombia"
@@ -1463,7 +1463,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Argentina VS Austria | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-22T13:00:00",
+      "startDateTime": "2026-06-22T17:00:00.000Z",
       "relatedCountries": [
         "Argentina",
         "Austria"
@@ -1481,7 +1481,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "France VS Iraq | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-22T17:00:00",
+      "startDateTime": "2026-06-22T21:00:00.000Z",
       "relatedCountries": [
         "France",
         "Iraq"
@@ -1499,7 +1499,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Norway VS Senegal | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-22T20:00:00",
+      "startDateTime": "2026-06-23T00:00:00.000Z",
       "relatedCountries": [
         "Senegal",
         "Norway"
@@ -1517,7 +1517,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Jordan VS Algeria | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-22T23:00:00",
+      "startDateTime": "2026-06-23T03:00:00.000Z",
       "relatedCountries": [
         "Algeria",
         "Jordan"
@@ -1535,7 +1535,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Portugal VS Usbekistan | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-23T13:00:00",
+      "startDateTime": "2026-06-23T17:00:00.000Z",
       "relatedCountries": [
         "Portugal",
         "Usbekistan"
@@ -1553,7 +1553,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "England VS Ghana | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-23T16:00:00",
+      "startDateTime": "2026-06-23T20:00:00.000Z",
       "relatedCountries": [
         "Ghana",
         "England"
@@ -1571,7 +1571,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Panama VS Croatia | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-23T19:00:00",
+      "startDateTime": "2026-06-23T23:00:00.000Z",
       "relatedCountries": [
         "Croatia",
         "Panama"
@@ -1589,7 +1589,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Colombia VS DR Congo | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-23T22:00:00",
+      "startDateTime": "2026-06-24T02:00:00.000Z",
       "relatedCountries": [
         "DR Congo",
         "Colombia"
@@ -1607,7 +1607,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Switzerland VS Canada | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-24T15:00:00",
+      "startDateTime": "2026-06-24T19:00:00.000Z",
       "relatedCountries": [
         "Canada",
         "Switzerland"
@@ -1625,7 +1625,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Scotland VS Brazil | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-24T18:00:00",
+      "startDateTime": "2026-06-24T22:00:00.000Z",
       "relatedCountries": [
         "Brazil",
         "Scotland"
@@ -1643,7 +1643,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "South Africa VS South Korea | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-24T21:00:00",
+      "startDateTime": "2026-06-25T01:00:00.000Z",
       "relatedCountries": [
         "South Africa",
         "South Korea"
@@ -1661,7 +1661,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Czechia VS Mexico | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-24T21:00:00",
+      "startDateTime": "2026-06-25T01:00:00.000Z",
       "relatedCountries": [
         "Mexico",
         "Czechia"
@@ -1679,7 +1679,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Ecuador VS Germany | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-25T16:00:00",
+      "startDateTime": "2026-06-25T20:00:00.000Z",
       "relatedCountries": [
         "Germany",
         "Ecuador"
@@ -1697,7 +1697,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Tunisia VS Netherlands | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-25T19:00:00",
+      "startDateTime": "2026-06-25T23:00:00.000Z",
       "relatedCountries": [
         "Netherlands",
         "Tunisia"
@@ -1715,7 +1715,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Japan VS Sweden | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-25T19:00:00",
+      "startDateTime": "2026-06-25T23:00:00.000Z",
       "relatedCountries": [
         "Japan",
         "Sweden"
@@ -1733,7 +1733,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Türkiye VS USA | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-25T22:00:00",
+      "startDateTime": "2026-06-26T02:00:00.000Z",
       "relatedCountries": [
         "USA",
         "Türkiye"
@@ -1751,7 +1751,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Norway VS France | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-26T15:00:00",
+      "startDateTime": "2026-06-26T19:00:00.000Z",
       "relatedCountries": [
         "France",
         "Norway"
@@ -1769,7 +1769,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Senegal VS Iraq | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-26T15:00:00",
+      "startDateTime": "2026-06-26T19:00:00.000Z",
       "relatedCountries": [
         "Senegal",
         "Iraq"
@@ -1787,7 +1787,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Uruguay VS Spain | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-26T20:00:00",
+      "startDateTime": "2026-06-27T00:00:00.000Z",
       "relatedCountries": [
         "Spain",
         "Uruguay"
@@ -1805,7 +1805,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "New Zealand VS Belgium | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-26T23:00:00",
+      "startDateTime": "2026-06-27T03:00:00.000Z",
       "relatedCountries": [
         "Belgium",
         "New Zealand"
@@ -1823,7 +1823,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Egypt VS Iran | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-26T23:00:00",
+      "startDateTime": "2026-06-27T03:00:00.000Z",
       "relatedCountries": [
         "Egypt",
         "Iran"
@@ -1841,7 +1841,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Panama VS England | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-27T17:00:00",
+      "startDateTime": "2026-06-27T21:00:00.000Z",
       "relatedCountries": [
         "Panama",
         "England"
@@ -1859,7 +1859,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Croatia VS Ghana | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-27T17:00:00",
+      "startDateTime": "2026-06-27T21:00:00.000Z",
       "relatedCountries": [
         "Croatia",
         "Ghana"
@@ -1877,7 +1877,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Colombia VS Portugal | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-27T19:30:00",
+      "startDateTime": "2026-06-27T23:30:00.000Z",
       "relatedCountries": [
         "Portugal",
         "Colombia"
@@ -1895,7 +1895,7 @@
     "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
     "parsedGuess": {
       "name": "Argentina VS Jordan | WORLD CUP WATCH PARTY AT TEDDY BEER",
-      "startDateTime": "2026-06-27T22:00:00",
+      "startDateTime": "2026-06-28T02:00:00.000Z",
       "relatedCountries": [
         "Argentina",
         "Jordan"
