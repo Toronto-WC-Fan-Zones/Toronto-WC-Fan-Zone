@@ -1222,5 +1222,686 @@
     },
     "status": "needs_review",
     "dedupeKey": "082a17f8366bc140fa6e84e81137a24e67145c46"
+  },
+  {
+    "id": "eventbrite-1987794725534",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-viewing-party-england-vs-ghana-match-tickets-1987794725534",
+    "fetchedAt": "2026-06-22T04:17:58.660Z",
+    "rawTitle": "World Cup Viewing Party  : England vs Ghana Match",
+    "rawText": "Come watch the  England vs Ghana match in your favourite King Street Pub!",
+    "parsedGuess": {
+      "name": "World Cup Viewing Party  : England vs Ghana Match",
+      "startDateTime": "2026-06-23T16:00:00",
+      "relatedCountries": [
+        "Ghana",
+        "England"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "950079f59b5a8dbc7e946a2a148270dd5093da14"
+  },
+  {
+    "id": "eventbrite-1987794775684",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-viewing-party-canada-vs-switzerland-match-tickets-1987794775684",
+    "fetchedAt": "2026-06-22T04:17:58.664Z",
+    "rawTitle": "World Cup Viewing Party  : Canada vs. Switzerland Match",
+    "rawText": "Come watch the Canada vs. Switzerland match in your favourite King Street Pub!",
+    "parsedGuess": {
+      "name": "World Cup Viewing Party  : Canada vs. Switzerland Match",
+      "startDateTime": "2026-06-24T15:00:00",
+      "relatedCountries": [
+        "Canada",
+        "Switzerland"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "dc33a0df32782adaeadeafda5e85eb7aa6b59233"
+  },
+  {
+    "id": "eventbrite-1987794924128",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-viewing-party-england-vs-panama-match-tickets-1987794924128",
+    "fetchedAt": "2026-06-22T04:17:58.665Z",
+    "rawTitle": "World Cup Viewing Party  : England vs Panama Match",
+    "rawText": "Come watch the  England vs Panama match in your favourite King Street Pub!",
+    "parsedGuess": {
+      "name": "World Cup Viewing Party  : England vs Panama Match",
+      "startDateTime": "2026-06-27T19:00:00",
+      "relatedCountries": [
+        "Panama",
+        "England"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "c0c416dd91a838626a0ae6f7182fc441a2978b38"
+  },
+  {
+    "id": "eventbrite-1992162693243",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/all-day-world-cup-watch-party-big-screen-event-at-free-times-tickets-1992162693243",
+    "fetchedAt": "2026-06-22T04:17:59.027Z",
+    "rawTitle": "ALL-DAY WORLD CUP WATCH PARTY - BIG SCREEN EVENT at FREE TIMES!",
+    "rawText": "Catch all the 2026 World Cup action at our ALL-DAY BIG SCREEN WATCH PARTY!",
+    "parsedGuess": {
+      "name": "ALL-DAY WORLD CUP WATCH PARTY - BIG SCREEN EVENT at FREE TIMES!",
+      "startDateTime": "2026-06-26T15:00:00",
+      "relatedCountries": []
+    },
+    "status": "needs_review",
+    "dedupeKey": "2959a3eeeccf0089cd8dc68b6a286c7a102d5655"
+  },
+  {
+    "id": "eventbrite-1992166662114",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-new-zealand-vs-egypt-at-fox-on-john-tickets-1992166662114",
+    "fetchedAt": "2026-06-22T04:17:59.706Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: New Zealand vs. Egypt at Fox on John",
+    "rawText": "June 21 | 9:00 PM | Fox on John\nNew Zealand vs. Egypt live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: New Zealand vs. Egypt at Fox on John",
+      "startDateTime": "2026-06-21T21:00:00",
+      "relatedCountries": [
+        "Egypt",
+        "New Zealand"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "b4b89715efbc37a0e7e6b0573ad2384ae33c7e27"
+  },
+  {
+    "id": "eventbrite-1992241960333",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-argentina-vs-austria-at-fox-on-john-tickets-1992241960333",
+    "fetchedAt": "2026-06-22T04:17:59.706Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: Argentina vs. Austria at Fox on John",
+    "rawText": "June 22 | 1:00 PM | Fox on John\nArgentina vs. Austria live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: Argentina vs. Austria at Fox on John",
+      "startDateTime": "2026-06-22T13:00:00",
+      "relatedCountries": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "7268e0e6caf33b2422bf55a602e9edc6b70ad656"
+  },
+  {
+    "id": "eventbrite-1992242058627",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-france-vs-iraq-at-fox-on-john-tickets-1992242058627",
+    "fetchedAt": "2026-06-22T04:17:59.706Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: France vs. Iraq at Fox on John",
+    "rawText": "June 22 | 5:00 PM | Fox on John\nFrance vs. Iraq live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: France vs. Iraq at Fox on John",
+      "startDateTime": "2026-06-22T17:00:00",
+      "relatedCountries": [
+        "France",
+        "Iraq"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "512a432137ce8d6941fd5682cf1e3c2d84838bd2"
+  },
+  {
+    "id": "eventbrite-1992242171966",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-norway-vs-senegal-at-fox-on-john-tickets-1992242171966",
+    "fetchedAt": "2026-06-22T04:17:59.706Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: Norway vs. Senegal at Fox on John",
+    "rawText": "June 22 | 8:00 PM | Fox on John\nNorway vs. Senegal live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: Norway vs. Senegal at Fox on John",
+      "startDateTime": "2026-06-22T20:00:00",
+      "relatedCountries": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "3bf22645e31e931f2fb2e6a9baf3ee239b98d2e2"
+  },
+  {
+    "id": "eventbrite-1992242433749",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-jordan-vs-algeria-at-fox-on-john-tickets-1992242433749",
+    "fetchedAt": "2026-06-22T04:17:59.706Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: Jordan vs. Algeria at Fox on John",
+    "rawText": "June 22 | 11:00 PM | Fox on John\nJordan vs. Algeria live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: Jordan vs. Algeria at Fox on John",
+      "startDateTime": "2026-06-22T23:00:00",
+      "relatedCountries": [
+        "Algeria",
+        "Jordan"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "22fe728cf6abbc668dc7f32a6c04c1fe747a662b"
+  },
+  {
+    "id": "eventbrite-1992242507971",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-portugal-vs-uzbekistan-at-fox-on-john-tickets-1992242507971",
+    "fetchedAt": "2026-06-22T04:17:59.707Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: Portugal vs. Uzbekistan at Fox on John",
+    "rawText": "June 23 | 1:00 PM | Fox on John\nPortugal vs. Uzbekistan live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: Portugal vs. Uzbekistan at Fox on John",
+      "startDateTime": "2026-06-23T13:00:00",
+      "relatedCountries": [
+        "Portugal",
+        "Uzbekistan"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "f082487cac747470584acee13ab95db5949f64ba"
+  },
+  {
+    "id": "eventbrite-1992242586205",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-england-vs-ghana-at-fox-on-john-tickets-1992242586205",
+    "fetchedAt": "2026-06-22T04:17:59.707Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: England vs. Ghana at Fox on John",
+    "rawText": "June 23 | 4:00 PM | Fox on John\nEngland vs. Ghana live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: England vs. Ghana at Fox on John",
+      "startDateTime": "2026-06-23T16:00:00",
+      "relatedCountries": [
+        "Ghana",
+        "England"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "19a47eb2d49309920f9be1b6346eac961ae62b92"
+  },
+  {
+    "id": "eventbrite-1992246206032",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-panama-vs-croatia-at-fox-on-john-tickets-1992246206032",
+    "fetchedAt": "2026-06-22T04:17:59.707Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: Panama vs. Croatia at Fox on John",
+    "rawText": "June 23 | 7:00 PM | Fox on John\nPanama vs. Croatia live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: Panama vs. Croatia at Fox on John",
+      "startDateTime": "2026-06-23T19:00:00",
+      "relatedCountries": [
+        "Croatia",
+        "Panama"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "90a037912c833f97bc3cc24375cf7123b8788117"
+  },
+  {
+    "id": "eventbrite-1992246928192",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/world-cup-showdown-colombia-vs-dr-congo-at-fox-on-john-tickets-1992246928192",
+    "fetchedAt": "2026-06-22T04:17:59.707Z",
+    "rawTitle": "WORLD CUP SHOWDOWN: Colombia vs. DR Congo at Fox on John",
+    "rawText": "June 23 | 10:00 PM | Fox on John\nColombia vs. DR Congo live on big screens & big towers with great food & game-day energy",
+    "parsedGuess": {
+      "name": "WORLD CUP SHOWDOWN: Colombia vs. DR Congo at Fox on John",
+      "startDateTime": "2026-06-23T22:00:00",
+      "relatedCountries": [
+        "DR Congo",
+        "Colombia"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "b430afcfac13cffe612d3fcfed9f89db4f60eab9"
+  },
+  {
+    "id": "eventbrite-1991145978221",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/argentina-vs-austria-world-cup-watch-party-at-teddy-beer-tickets-1991145978221",
+    "fetchedAt": "2026-06-22T04:18:00.215Z",
+    "rawTitle": "Argentina VS Austria | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Argentina VS Austria | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-22T13:00:00",
+      "relatedCountries": [
+        "Argentina",
+        "Austria"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "e8980c301dca7a2c031e2b8b4d9d0525591eabb4"
+  },
+  {
+    "id": "eventbrite-1991146937089",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/france-vs-iraq-world-cup-watch-party-at-teddy-beer-tickets-1991146937089",
+    "fetchedAt": "2026-06-22T04:18:00.215Z",
+    "rawTitle": "France VS Iraq | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "France VS Iraq | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-22T17:00:00",
+      "relatedCountries": [
+        "France",
+        "Iraq"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "37a7b389cf342c60c77337d6684784cf28346f57"
+  },
+  {
+    "id": "eventbrite-1991158392352",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/norway-vs-senegal-world-cup-watch-party-at-teddy-beer-tickets-1991158392352",
+    "fetchedAt": "2026-06-22T04:18:00.215Z",
+    "rawTitle": "Norway VS Senegal | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Norway VS Senegal | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-22T20:00:00",
+      "relatedCountries": [
+        "Senegal",
+        "Norway"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "141a76a97420fc033228e22e467a50735ac87e48"
+  },
+  {
+    "id": "eventbrite-1991158445511",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/jordan-vs-algeria-world-cup-watch-party-at-teddy-beer-tickets-1991158445511",
+    "fetchedAt": "2026-06-22T04:18:00.215Z",
+    "rawTitle": "Jordan VS Algeria | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Jordan VS Algeria | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-22T23:00:00",
+      "relatedCountries": [
+        "Algeria",
+        "Jordan"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "6de3f4e6f4dfb2fa0ef2f254eaf2d84d0499ea84"
+  },
+  {
+    "id": "eventbrite-1991239197041",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/portugal-vs-usbekistan-world-cup-watch-party-at-teddy-beer-tickets-1991239197041",
+    "fetchedAt": "2026-06-22T04:18:00.215Z",
+    "rawTitle": "Portugal VS Usbekistan | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Portugal VS Usbekistan | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-23T13:00:00",
+      "relatedCountries": [
+        "Portugal",
+        "Usbekistan"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "88065bf43ede7487e33bf0a100af5db768ebc944"
+  },
+  {
+    "id": "eventbrite-1991239278284",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/england-vs-ghana-world-cup-watch-party-at-teddy-beer-tickets-1991239278284",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "England VS Ghana | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "England VS Ghana | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-23T16:00:00",
+      "relatedCountries": [
+        "Ghana",
+        "England"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "73e2892d42f41819638c5ae063c1d6f0cac3601f"
+  },
+  {
+    "id": "eventbrite-1991239917195",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/panama-vs-croatia-world-cup-watch-party-at-teddy-beer-tickets-1991239917195",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Panama VS Croatia | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Panama VS Croatia | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-23T19:00:00",
+      "relatedCountries": [
+        "Croatia",
+        "Panama"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "8688da700e0ed7aeb59816ee4b36e666c0d1adff"
+  },
+  {
+    "id": "eventbrite-1991239990414",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/colombia-vs-dr-congo-world-cup-watch-party-at-teddy-beer-tickets-1991239990414",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Colombia VS DR Congo | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Colombia VS DR Congo | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-23T22:00:00",
+      "relatedCountries": [
+        "DR Congo",
+        "Colombia"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "e67ea9a959ce7be09ff4baadd1388d3470755ca5"
+  },
+  {
+    "id": "eventbrite-1991240132840",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/switzerland-vs-canada-world-cup-watch-party-at-teddy-beer-tickets-1991240132840",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Switzerland VS Canada | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Switzerland VS Canada | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-24T15:00:00",
+      "relatedCountries": [
+        "Canada",
+        "Switzerland"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "48a9ef262325cc548fa1d160f9d5189226de4b32"
+  },
+  {
+    "id": "eventbrite-1991240488905",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/scotland-vs-brazil-world-cup-watch-party-at-teddy-beer-tickets-1991240488905",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Scotland VS Brazil | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Scotland VS Brazil | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-24T18:00:00",
+      "relatedCountries": [
+        "Brazil",
+        "Scotland"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "e7ec5351bab7ffeb5771849fc6ea9f9e6927c366"
+  },
+  {
+    "id": "eventbrite-1991240756706",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/south-africa-vs-south-korea-world-cup-watch-party-at-teddy-beer-tickets-1991240756706",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "South Africa VS South Korea | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "South Africa VS South Korea | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-24T21:00:00",
+      "relatedCountries": [
+        "South Africa",
+        "South Korea"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "acd38a7c6198094adb465fca521b1a83e4ae91e1"
+  },
+  {
+    "id": "eventbrite-1991240800838",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/czechia-vs-mexico-world-cup-watch-party-at-teddy-beer-tickets-1991240800838",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Czechia VS Mexico | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Czechia VS Mexico | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-24T21:00:00",
+      "relatedCountries": [
+        "Mexico",
+        "Czechia"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "e01e9988c021378d9883a3df07a17076d2842e19"
+  },
+  {
+    "id": "eventbrite-1991245721556",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/ecuador-vs-germany-world-cup-watch-party-at-teddy-beer-tickets-1991245721556",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Ecuador VS Germany | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Ecuador VS Germany | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-25T16:00:00",
+      "relatedCountries": [
+        "Germany",
+        "Ecuador"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "afe6a34f7486df448e8a659e02e714b0befb9247"
+  },
+  {
+    "id": "eventbrite-1991245835898",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/tunisia-vs-netherlands-world-cup-watch-party-at-teddy-beer-tickets-1991245835898",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Tunisia VS Netherlands | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Tunisia VS Netherlands | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-25T19:00:00",
+      "relatedCountries": [
+        "Netherlands",
+        "Tunisia"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "10f49d4dd01bf0f41d68e44ba5b3f8b40457a683"
+  },
+  {
+    "id": "eventbrite-1991246156858",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/japan-vs-sweden-world-cup-watch-party-at-teddy-beer-tickets-1991246156858",
+    "fetchedAt": "2026-06-22T04:18:00.216Z",
+    "rawTitle": "Japan VS Sweden | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Japan VS Sweden | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-25T19:00:00",
+      "relatedCountries": [
+        "Japan",
+        "Sweden"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "e38e0bdc95291c148dc3312452d91c198a7f308f"
+  },
+  {
+    "id": "eventbrite-1991246178924",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/turkiye-vs-usa-world-cup-watch-party-at-teddy-beer-tickets-1991246178924",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "Türkiye VS USA | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Türkiye VS USA | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-25T22:00:00",
+      "relatedCountries": [
+        "USA",
+        "Türkiye"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "43b19c206d267d03e404af045a7bc98144403204"
+  },
+  {
+    "id": "eventbrite-1991246938195",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/norway-vs-france-world-cup-watch-party-at-teddy-beer-tickets-1991246938195",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "Norway VS France | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Norway VS France | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-26T15:00:00",
+      "relatedCountries": [
+        "France",
+        "Norway"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "1862c9b35a4da71d98e647b677ae008473d111c1"
+  },
+  {
+    "id": "eventbrite-1991247039498",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/senegal-vs-iraq-world-cup-watch-party-at-teddy-beer-tickets-1991247039498",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "Senegal VS Iraq | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Senegal VS Iraq | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-26T15:00:00",
+      "relatedCountries": [
+        "Senegal",
+        "Iraq"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "417e10de1e2624240625bb19b6872e14f8629161"
+  },
+  {
+    "id": "eventbrite-1991247173900",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/uruguay-vs-spain-world-cup-watch-party-at-teddy-beer-tickets-1991247173900",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "Uruguay VS Spain | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Uruguay VS Spain | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-26T20:00:00",
+      "relatedCountries": [
+        "Spain",
+        "Uruguay"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "6944eb8bd855af04e2d44689687c24da68e1be95"
+  },
+  {
+    "id": "eventbrite-1991247224050",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/new-zealand-vs-belgium-world-cup-watch-party-at-teddy-beer-tickets-1991247224050",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "New Zealand VS Belgium | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "New Zealand VS Belgium | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-26T23:00:00",
+      "relatedCountries": [
+        "Belgium",
+        "New Zealand"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "1b4b2867630824dfde2a202bf3ba8e5ebe540dcc"
+  },
+  {
+    "id": "eventbrite-1991247248122",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/egypt-vs-iran-world-cup-watch-party-at-teddy-beer-tickets-1991247248122",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "Egypt VS Iran | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Egypt VS Iran | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-26T23:00:00",
+      "relatedCountries": [
+        "Egypt",
+        "Iran"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "6fb328b5d78f35c16aef9d934c6de8a5ad902d79"
+  },
+  {
+    "id": "eventbrite-1991247349425",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/panama-vs-england-world-cup-watch-party-at-teddy-beer-tickets-1991247349425",
+    "fetchedAt": "2026-06-22T04:18:00.217Z",
+    "rawTitle": "Panama VS England | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Panama VS England | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-27T17:00:00",
+      "relatedCountries": [
+        "Panama",
+        "England"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "e53c66360c20d318ed6a635abe053dc31705d824"
+  },
+  {
+    "id": "eventbrite-1991247440698",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/croatia-vs-ghana-world-cup-watch-party-at-teddy-beer-tickets-1991247440698",
+    "fetchedAt": "2026-06-22T04:18:00.218Z",
+    "rawTitle": "Croatia VS Ghana | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Croatia VS Ghana | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-27T17:00:00",
+      "relatedCountries": [
+        "Croatia",
+        "Ghana"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "1c7826b6df01db67bae33c722585f17175a980f6"
+  },
+  {
+    "id": "eventbrite-1991247456746",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/colombia-vs-portugal-world-cup-watch-party-at-teddy-beer-tickets-1991247456746",
+    "fetchedAt": "2026-06-22T04:18:00.218Z",
+    "rawTitle": "Colombia VS Portugal | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Colombia VS Portugal | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-27T19:30:00",
+      "relatedCountries": [
+        "Portugal",
+        "Colombia"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "0619c9bcc99f5bd61cde772e1cd0886eaa7977ff"
+  },
+  {
+    "id": "eventbrite-1991247513917",
+    "sourceType": "eventbrite",
+    "sourceUrl": "https://www.eventbrite.ca/e/argentina-vs-jordan-world-cup-watch-party-at-teddy-beer-tickets-1991247513917",
+    "fetchedAt": "2026-06-22T04:18:00.218Z",
+    "rawTitle": "Argentina VS Jordan | WORLD CUP WATCH PARTY AT TEDDY BEER",
+    "rawText": "Here at Teddy Beer we're streaming every World Cup game live on our big screens!",
+    "parsedGuess": {
+      "name": "Argentina VS Jordan | WORLD CUP WATCH PARTY AT TEDDY BEER",
+      "startDateTime": "2026-06-27T22:00:00",
+      "relatedCountries": [
+        "Argentina",
+        "Jordan"
+      ]
+    },
+    "status": "needs_review",
+    "dedupeKey": "053b4923b1deb13dcdfb85ecb564c642e448d02e"
   }
 ]
