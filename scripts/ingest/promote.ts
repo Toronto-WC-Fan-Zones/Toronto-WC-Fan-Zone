@@ -38,7 +38,7 @@ function scaffoldCommunityEvent(c: CandidateSignal): string {
   endDateTime: null,
   neighbourhood: ${guess?.neighbourhood ? `"${guess.neighbourhood}"` : todo("neighbourhood")},
   venueName: null,
-  relatedCountry: null,
+  relatedCountries: ${guess?.relatedCountries?.length ? JSON.stringify(guess.relatedCountries) : "[]"},
   entryType: ${todo('"free" | "ticketed" | "reservation" | "walk-in" | "unclear"')},
   sourceSignalId: "${c.id}",
   lastChecked: "${today}",

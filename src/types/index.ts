@@ -176,7 +176,9 @@ export interface CommunityEvent extends TrustMeta {
   endDateTime: string | null;
   neighbourhood: string;
   venueName: string | null;
-  relatedCountry: string | null;
+  // Most real events are a "Team A vs Team B" watch party relevant to fans
+  // of both, not one - empty array means no specific country affinity.
+  relatedCountries: string[];
   entryType: EntryType;
   sourceSignalId: string | null;
 }

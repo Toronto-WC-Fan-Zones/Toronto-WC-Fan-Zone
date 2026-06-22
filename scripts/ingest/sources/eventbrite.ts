@@ -1,5 +1,6 @@
 import { createHash } from "node:crypto";
 import type { CandidateSignal } from "../../../src/types";
+import { extractCountriesFromTitle } from "../../../src/lib/countries";
 
 const EVENTBRITE_TOKEN = process.env.EVENTBRITE_TOKEN;
 
@@ -77,6 +78,7 @@ export async function fetchEventbriteCandidates(): Promise<CandidateSignal[]> {
           parsedGuess: {
             name: title,
             startDateTime: e.start?.local,
+            relatedCountries: extractCountriesFromTitle(title),
           },
           status: "needs_review",
           dedupeKey: createHash("sha1")
