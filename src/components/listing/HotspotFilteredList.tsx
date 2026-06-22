@@ -23,6 +23,7 @@ const EMPTY_FILTERS: FilterState = {
 
 const REGION_ORDER: HotspotRegion[] = [
   "West End",
+  "Etobicoke",
   "Downtown Core",
   "East End",
   "Scarborough",
@@ -31,10 +32,11 @@ const REGION_ORDER: HotspotRegion[] = [
 
 const REGION_DESCRIPTIONS: Record<HotspotRegion, string> = {
   "West End": "Little Portugal, Little Italy, Roncesvalles, and Kensington - Toronto's most passionate European community corridors.",
-  "Downtown Core": "Chinatown, Koreatown, and Kensington Market - diverse, walkable, and central.",
+  "Etobicoke": "Mimico and the Lakeshore strip - a quieter, institution-anchored stretch of southwest Toronto with deep immigrant roots.",
+  "Downtown Core": "Chinatown, Koreatown, Little Tokyo, and Kensington Market - diverse, walkable, and central.",
   "East End": "Greektown, Gerrard India Bazaar, and Little Jamaica - vibrant east-side neighbourhoods with deep cultural roots.",
-  "Scarborough": "Agincourt and Malvern - large East/South Asian and Caribbean communities away from the downtown crowds.",
-  "North York": "North York Centre and Wilson Heights - North African and Iranian community hubs along Yonge and Bathurst.",
+  "Scarborough": "Agincourt, Malvern, and Arab Town - large East/South Asian, Caribbean, and Arab communities away from the downtown crowds.",
+  "North York": "North York Centre, Wilson Heights, and Weston-Jane - North African, Iranian, and West African community hubs.",
 };
 
 function isFiltered(filters: FilterState): boolean {

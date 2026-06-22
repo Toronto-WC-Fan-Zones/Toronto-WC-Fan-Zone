@@ -100,6 +100,7 @@ export interface OfficialFanZone extends TrustMeta {
 
 export type HotspotRegion =
   | "West End"
+  | "Etobicoke"
   | "Downtown Core"
   | "East End"
   | "Scarborough"

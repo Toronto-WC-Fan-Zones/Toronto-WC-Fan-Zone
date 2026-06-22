@@ -181,6 +181,62 @@ const westEnd: CountryHotspot[] = [
   },
 ];
 
+// ─── Etobicoke ─────────────────────────────────────────────────────────────
+
+const etobicoke: CountryHotspot[] = [
+  {
+    slug: "mimico-etobicoke",
+    name: "Mimico / Etobicoke Lakeshore",
+    neighbourhood: "Mimico",
+    region: "Etobicoke",
+    imageSrc: "/images/placeholders/hotspot.svg",
+    country: "Bosnia-Herzegovina",
+    countryCode: "BA",
+    flagEmoji: "🇧🇦",
+    shortDescription:
+      "South Etobicoke's Lakeshore strip is anchored by the Bosnian Islamic Centre on Birmingham Street, a community hub for Toronto's Bosnian diaspora since 1977. Quieter than the city's flagship hotspots, but a genuine, long-standing gathering point for Dragons matches.",
+    crowdRisk: "low",
+    atmosphere:
+      "A quiet, institution-anchored community rather than a bustling commercial strip - this is one mosque and its surrounding community, not a strip of cafes. Expect a smaller, close-knit crowd for Bosnia-Herzegovina matches.",
+    venueType: "community",
+    bestFor: [
+      "Bosnia-Herzegovina fans",
+      "Smaller, close-knit gatherings",
+      "Quieter alternative to downtown hotspots",
+      "Etobicoke residents",
+    ],
+    alternativeSlugs: ["roncesvalles-village", "little-portugal-dundas-west"],
+    entryRequirements: {
+      type: "walk-in",
+      ticketsAvailable: null,
+      reservationGuaranteesEntry: null,
+      dayOfDropAdvisory: false,
+      officialTicketUrl: null,
+      restrictions: [
+        "Community centre hours may be limited outside of organized events",
+      ],
+      arrivalGuidance:
+        "This is a quiet, institution-anchored hotspot, not a packed venue - no need to arrive early. Check the centre's own listings for organized match screenings.",
+      cost: "Free to be in the neighbourhood. Any organized screenings may have their own entry terms.",
+    },
+    lastChecked: "2026-06-22",
+    confidence: "unconfirmed",
+    sources: [
+      {
+        label: "Bosnian Islamic Centre (est. 1977)",
+        url: "https://bictoronto.com/",
+        type: "community",
+      },
+      {
+        label: "Bosnian Canadians - background",
+        url: "https://en.wikipedia.org/wiki/Bosnian_Canadians",
+        type: "community",
+      },
+    ],
+    userSubmitted: false,
+  },
+];
+
 // ─── Downtown Core ───────────────────────────────────────────────────────────
 
 const downtownCore: CountryHotspot[] = [
@@ -311,6 +367,50 @@ const downtownCore: CountryHotspot[] = [
         label: "Community report - June 2026",
         url: "https://www.toronto.ca",
         type: "community",
+      },
+    ],
+    userSubmitted: false,
+  },
+  {
+    slug: "little-tokyo-downtown",
+    name: "Little Tokyo / Dundas Street",
+    neighbourhood: "Little Tokyo",
+    region: "Downtown Core",
+    imageSrc: "/images/placeholders/hotspot.svg",
+    country: "Japan",
+    countryCode: "JP",
+    flagEmoji: "🇯🇵",
+    shortDescription:
+      "A compact, fast-growing strip of Japanese restaurants and cafes on Dundas Street West near Yonge-Dundas Square - not to be confused with the Dundas West of Little Portugal, much further west. A real, walkable hub for Samurai Blue fans downtown.",
+    crowdRisk: "medium",
+    atmosphere:
+      "A tight cluster of izakayas, ramen shops, and cafes that fills up fast on game nights. Younger downtown crowd with genuine community pride for Japan matches.",
+    venueType: "community",
+    bestFor: [
+      "Japan fans",
+      "Downtown, easy-to-reach location",
+      "Restaurant and cafe atmosphere",
+      "Younger crowd",
+    ],
+    alternativeSlugs: ["koreatown-bloor-west", "chinatown-spadina"],
+    entryRequirements: {
+      type: "walk-in",
+      ticketsAvailable: null,
+      reservationGuaranteesEntry: null,
+      dayOfDropAdvisory: false,
+      officialTicketUrl: null,
+      restrictions: ["19+ inside licensed premises", "Street is open to all ages"],
+      arrivalGuidance:
+        "Arrive 30–45 min early for Japan matches - this is a compact strip and seating fills up fast.",
+      cost: "Free to be in the neighbourhood. Food and drinks at venue prices.",
+    },
+    lastChecked: "2026-06-22",
+    confidence: "unconfirmed",
+    sources: [
+      {
+        label: "Little Tokyo neighbourhood guide",
+        url: "https://www.blogto.com/little-tokyo-toronto/",
+        type: "news",
       },
     ],
     userSubmitted: false,
@@ -545,6 +645,50 @@ const scarborough: CountryHotspot[] = [
     ],
     userSubmitted: false,
   },
+  {
+    slug: "arab-town-scarborough",
+    name: "Arab Town / Lawrence Avenue East",
+    neighbourhood: "Arab Town",
+    region: "Scarborough",
+    imageSrc: "/images/placeholders/hotspot.svg",
+    country: "Iraq",
+    countryCode: "IQ",
+    flagEmoji: "🇮🇶",
+    shortDescription:
+      "Toronto's only well-documented Arab commercial strip, along Lawrence Avenue East between Victoria Park and Warden. Pan-Arab in character with around 30 Middle Eastern restaurants and grocers, including Iraqi-owned businesses - a real option for Iraq matches.",
+    crowdRisk: "low",
+    atmosphere:
+      "A market-and-restaurant strip rather than a single iconic venue. Expect a mixed Arab community crowd - genuine, but broader pan-Arab solidarity as much as it is country-specific.",
+    venueType: "outdoor",
+    bestFor: [
+      "Iraq fans",
+      "Broader Arab football community",
+      "Grocery and restaurant strip",
+      "Quieter, less downtown-centric option",
+    ],
+    alternativeSlugs: ["gerrard-india-bazaar", "agincourt-scarborough"],
+    entryRequirements: {
+      type: "walk-in",
+      ticketsAvailable: null,
+      reservationGuaranteesEntry: null,
+      dayOfDropAdvisory: false,
+      officialTicketUrl: null,
+      restrictions: ["All ages welcome outdoors", "19+ inside licensed premises"],
+      arrivalGuidance:
+        "Walk-in friendly. This is a market strip, not a single packed venue, so there's rarely a need to rush.",
+      cost: "Free to be in the neighbourhood. Food and drinks at venue prices.",
+    },
+    lastChecked: "2026-06-22",
+    confidence: "unconfirmed",
+    sources: [
+      {
+        label: "Arab America - Toronto's Little Araby",
+        url: "https://www.arabamerica.com/spending-a-day-enjoying-torontos-little-araby/",
+        type: "news",
+      },
+    ],
+    userSubmitted: false,
+  },
 ];
 
 // ─── North York ───────────────────────────────────────────────────────────────
@@ -638,10 +782,63 @@ const northYork: CountryHotspot[] = [
     ],
     userSubmitted: false,
   },
+  {
+    slug: "weston-road-north-york",
+    name: "Weston Road / Jane Street",
+    neighbourhood: "Weston-Jane",
+    region: "North York",
+    imageSrc: "/images/placeholders/hotspot.svg",
+    country: "Ghana",
+    countryCode: "GH",
+    flagEmoji: "🇬🇭",
+    shortDescription:
+      "The Weston Road and Jane Street corridor, on the North York/Etobicoke border, is the real institutional home of Toronto's roughly 50,000-person Ghanaian community - anchored by the Ghanaian Canadian Multicultural Community Centre and the Ghanaian-Canadian Resource Hub. GhanaFest draws huge crowds nearby every summer.",
+    crowdRisk: "medium",
+    atmosphere:
+      "Genuine community pride backed by real institutions - cultural centres, a Ghanaian-run restaurant and bar, and an annual GhanaFest crowd nearby. Less a single iconic strip and more a real, lived community network for Black Stars matches.",
+    venueType: "community",
+    bestFor: [
+      "Black Stars fans",
+      "Real community institutions",
+      "Quieter than downtown hotspots",
+      "North York / Etobicoke border residents",
+    ],
+    alternativeSlugs: ["wilson-heights-north-york", "little-jamaica-eglinton"],
+    entryRequirements: {
+      type: "walk-in",
+      ticketsAvailable: null,
+      reservationGuaranteesEntry: null,
+      dayOfDropAdvisory: false,
+      officialTicketUrl: null,
+      restrictions: [
+        "Community centre hours may be limited outside of organized events",
+        "19+ inside licensed premises",
+      ],
+      arrivalGuidance:
+        "30–45 min early is plenty. Check community centre listings for any organized Black Stars screenings.",
+      cost: "Free to be in the neighbourhood. Food and drinks at venue prices.",
+    },
+    lastChecked: "2026-06-22",
+    confidence: "unconfirmed",
+    sources: [
+      {
+        label: "CBC - Ghanaian community centre push",
+        url: "https://www.cbc.ca/news/canada/toronto/ghanaian-community-loses-bid-for-community-centre-1.5631882",
+        type: "news",
+      },
+      {
+        label: "GhanaFest Toronto",
+        url: "https://ghanafest.ca/",
+        type: "community",
+      },
+    ],
+    userSubmitted: false,
+  },
 ];
 
 export const hotspots: CountryHotspot[] = [
   ...westEnd,
+  ...etobicoke,
   ...downtownCore,
   ...eastEnd,
   ...scarborough,
