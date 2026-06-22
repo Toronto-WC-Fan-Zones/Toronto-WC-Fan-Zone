@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "ingest": "tsx --env-file-if-exists=.env.local scripts/ingest/index.ts",
+    "review": "tsx --env-file-if-exists=.env.local scripts/ingest/review.ts",
     "promote": "tsx --env-file-if-exists=.env.local scripts/ingest/promote.ts"
   },
   "dependencies": {
