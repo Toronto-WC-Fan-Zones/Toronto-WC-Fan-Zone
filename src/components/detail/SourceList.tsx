@@ -1,4 +1,5 @@
 import styles from "./SourceList.module.css";
+import { formatCalendarDate } from "@/lib/dates";
 import type { SourceInfo } from "@/types";
 
 const TYPE_ICON: Record<SourceInfo["type"], string> = {
@@ -10,14 +11,6 @@ const TYPE_ICON: Record<SourceInfo["type"], string> = {
 interface SourceListProps {
   sources: SourceInfo[];
   lastChecked: string;
-}
-
-function formatDate(iso: string) {
-  return new Date(iso).toLocaleDateString("en-CA", {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
 }
 
 export function SourceList({ sources, lastChecked }: SourceListProps) {
@@ -50,7 +43,7 @@ export function SourceList({ sources, lastChecked }: SourceListProps) {
       </ul>
 
       <p className={styles.disclaimer}>
-        Last checked: {formatDate(lastChecked)} · Information is subject to
+        Last checked: {formatCalendarDate(lastChecked)} · Information is subject to
         change. Always check official sources before you go.
       </p>
     </section>
