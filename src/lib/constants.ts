@@ -1,7 +1,7 @@
 export const SITE_NAME = "Toronto Fan Zones";
 export const SITE_TAGLINE = "Where Toronto comes together for the game.";
 export const SITE_DESCRIPTION =
-  "Find the best places to watch the 2026 FIFA World Cup in Toronto. Official fan zones, country hotspots, and local spots near you.";
+  "Find the best places to watch the 2026 FIFA World Cup in Toronto. Fan zones, country hotspots, and local spots near you.";
 export const SUBMIT_FORM_URL =
   "https://forms.gle/placeholder-toronto-fan-zones-submit";
 

@@ -105,7 +105,7 @@ export default async function AreaDetailPage({ params }: Props) {
           {fanZones.length > 0 && (
             <section>
               <h2 className={styles.sectionHeading}>
-                🏟 Official Fan Zones in This Area
+                🏟 Fan Zones in This Area
               </h2>
               <div className={styles.grid}>
                 {fanZones.map((z) => (

@@ -5,15 +5,17 @@ import { FEATURES } from "@/lib/features";
 const baseNavLinks = [
   { href: "/fan-zones", label: "Fan Zones" },
   { href: "/hotspots", label: "Country Hotspots" },
-  { href: "/events", label: "Events" },
-  { href: "/fan-zones", label: "Games" },
 ];
 
+const eventsLink = { href: "/events", label: "Events" };
 const nearMeLink = { href: "/areas", label: "Near Me" };
 
-const navLinks = FEATURES.nearMe
-  ? [baseNavLinks[0], baseNavLinks[1], baseNavLinks[2], nearMeLink, baseNavLinks[3]]
-  : baseNavLinks;
+const navLinks = [
+  baseNavLinks[0],
+  baseNavLinks[1],
+  ...(FEATURES.watchParties ? [eventsLink] : []),
+  ...(FEATURES.nearMe ? [nearMeLink] : []),
+];
 
 export function SiteHeader() {
   return (

@@ -188,6 +188,13 @@
   gap: 12px;
 }
 
+/* Events - 2 columns; titles are longer than hotspot names */
+.eventsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
 .hotspotCard {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
@@ -199,6 +206,7 @@
   text-decoration: none;
   color: inherit;
   transition: box-shadow 0.15s, transform 0.15s;
+  min-width: 0;
 }
 
 .hotspotCard:hover {
@@ -356,6 +364,10 @@
   .hotspotGrid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .eventsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 768px) {
@@ -384,6 +396,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .eventsGrid {
+    grid-template-columns: 1fr;
+  }
+
   .nearMeGrid {
     grid-template-columns: 1fr;
   }
@@ -399,6 +415,10 @@
   }
 
   .hotspotGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .eventsGrid {
     grid-template-columns: 1fr;
   }
 }

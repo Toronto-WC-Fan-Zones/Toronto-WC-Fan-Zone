@@ -42,7 +42,7 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
               <span className={styles.heroAccent}>for the game.</span>
             </h1>
             <p className={styles.heroSubtitle}>
-              Find official fan zones and country hotspots to catch every
+              Find fan zones and country hotspots to catch every
               match of the 2026 FIFA World Cup™ in Toronto.
             </p>
 
@@ -73,15 +73,15 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
           {/* Right column: photo bleeds to edge */}
           <div className={styles.heroMedia}>
             <Image
-              src="/images/venues/harbourfront.jpg"
-              alt="Harbourfront Centre - outdoor crowd at the waterfront with the CN Tower"
+              src="https://www.smartmeetings.com/wp-content/uploads/2026/05/FIFA-World-Cup-2026-Toronto.jpg"
+              alt="FIFA World Cup 2026 countdown clock at Nathan Phillips Square, Toronto"
               fill
               priority
               sizes="(max-width: 1024px) 100vw, 44vw"
               className={styles.heroMediaImage}
             />
             <div className={styles.heroMediaBadge}>
-              <span>Harbourfront Centre</span>
+              <span>Nathan Phillips Square</span>
             </div>
           </div>
         </div>
@@ -90,11 +90,11 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
       {/* Main content */}
       <div className={`container ${styles.page}`}>
 
-        {/* Official Fan Zones - horizontal card grid */}
+        {/* Fan Zones - horizontal card grid */}
         <section className={styles.section} aria-labelledby="fan-zones-heading">
           <div className={styles.sectionHeader}>
             <h2 id="fan-zones-heading" className={styles.sectionHeading}>
-              Official Fan Zones
+              Fan Zones
             </h2>
             <Link href="/fan-zones" className={styles.viewAll}>
               View all
@@ -143,7 +143,7 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
         </section>
 
         {/* Watch Parties & Events */}
-        {events.length > 0 && (
+        {FEATURES.watchParties && events.length > 0 && (
           <section className={styles.section} aria-labelledby="events-heading">
             <div className={styles.sectionHeader}>
               <h2 id="events-heading" className={styles.sectionHeading}>
@@ -153,7 +153,7 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
                 View all
               </Link>
             </div>
-            <div className={styles.hotspotGrid}>
+            <div className={styles.eventsGrid}>
               {[...events]
                 .sort(
                   (a, b) =>

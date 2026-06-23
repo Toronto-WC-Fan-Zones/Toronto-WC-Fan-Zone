@@ -7,8 +7,12 @@
  *
  * submitSpot: The "Submit a Spot" form links and banners.
  *   Flip to true when submission workflow is ready.
+ *
+ * watchParties: The "Watch Parties & Events" section and /events pages.
+ *   Flip to true when event data is ready to surface publicly.
  */
 export const FEATURES = {
   nearMe: false,
   submitSpot: false,
+  watchParties: false,
 } as const;

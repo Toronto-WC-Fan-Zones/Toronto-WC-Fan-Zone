@@ -12,7 +12,7 @@ export function SiteFooter() {
             <span className={styles.brandName}>⚽ TORONTO FAN ZONES</span>
             <p className={styles.brandDesc}>
               Your guide to watching the 2026 FIFA World Cup™ in Toronto.
-              Official fan zones and country hotspots across the city.
+              Fan zones and country hotspots across the city.
             </p>
             <p className={styles.disclaimer}>
               Information is manually maintained and may change without notice.
@@ -24,7 +24,7 @@ export function SiteFooter() {
           <div>
             <p className={styles.colTitle}>Explore</p>
             <nav className={styles.links} aria-label="Footer navigation">
-              <Link href="/fan-zones">Official Fan Zones</Link>
+              <Link href="/fan-zones">Fan Zones</Link>
               <Link href="/hotspots">Country Hotspots</Link>
               {FEATURES.nearMe && <Link href="/areas">Near Me</Link>}
               {FEATURES.submitSpot && <Link href="/submit">Submit a Spot</Link>}
