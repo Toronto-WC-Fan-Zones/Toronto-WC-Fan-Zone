@@ -8,6 +8,13 @@ const SPECIAL_FLAGS: Record<string, string> = {
   Wales: "\u{1F3F4}\u{E0067}\u{E0062}\u{E0077}\u{E006C}\u{E0073}\u{E007F}",
 };
 
+// flag-icons CSS library subdivision codes for home nations
+const SPECIAL_CODES: Record<string, string> = {
+  England: "gb-eng",
+  Scotland: "gb-sct",
+  Wales: "gb-wls",
+};
+
 const COUNTRY_TO_ISO: Record<string, string> = {
   Mexico: "MX",
   "South Africa": "ZA",
@@ -82,6 +89,14 @@ export function getFlagEmoji(countryName: string): string | null {
   if (SPECIAL_FLAGS[countryName]) return SPECIAL_FLAGS[countryName];
   const iso = COUNTRY_TO_ISO[countryName];
   return iso ? isoToFlagEmoji(iso) : null;
+}
+
+// Returns a flag-icons CSS class suffix (e.g. "pt", "gb-eng") for use with
+// <span class="fi fi-{code}">. Returns null for unrecognized country names.
+export function getCountryCode(countryName: string): string | null {
+  if (SPECIAL_CODES[countryName]) return SPECIAL_CODES[countryName];
+  const iso = COUNTRY_TO_ISO[countryName];
+  return iso ? iso.toLowerCase() : null;
 }
 
 // Title text as it literally appears in real ingested sources - validates

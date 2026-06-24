@@ -12,6 +12,7 @@ import { EntryRequirements } from "@/components/detail/EntryRequirements";
 import { RestrictionsList } from "@/components/detail/RestrictionsList";
 import { SourceList } from "@/components/detail/SourceList";
 import { CommunityEventCard } from "@/components/cards/CommunityEventCard";
+import { FlagIcon } from "@/components/ui/FlagIcon";
 import styles from "./page.module.css";
 
 interface Props {
@@ -42,12 +43,12 @@ export default async function HotspotDetailPage({ params }: Props) {
 
   return (
     <div className={styles.page}>
-      {/* ─── Hero with full-bleed photo (or flag fallback) ─── */}
+      {/* ─── Hero: reduced height, lighter overlay, no badge row ─── */}
       <section className={styles.hero}>
         {hotspot.imageSrc ? (
           <Image
             src={hotspot.imageSrc}
-            alt={`${hotspot.name} - venue photo`}
+            alt={`${hotspot.name} - neighbourhood photo`}
             fill
             priority
             sizes="100vw"
@@ -55,69 +56,63 @@ export default async function HotspotDetailPage({ params }: Props) {
           />
         ) : (
           <div className={styles.heroFlagBg} aria-hidden="true">
-            <span className={styles.heroFlagEmoji}>{hotspot.flagEmoji}</span>
+            <FlagIcon code={hotspot.countryCode} size={160} className={styles.heroFlagEmoji} />
           </div>
         )}
         <div className={styles.heroOverlay} aria-hidden="true" />
 
         <div className={`container ${styles.heroContainer}`}>
           <Link href="/hotspots" className={styles.backLink}>
-            ← Back to all hotspots
+            ← Country Hotspots
           </Link>
           <div className={styles.heroContent}>
-            <div className={styles.heroLeft}>
-              <p className={styles.countryLabel}>
-                <span aria-hidden="true">{hotspot.flagEmoji}</span>{" "}
-                {hotspot.country} Fans
-              </p>
-              <div className={styles.badges}>
-                <EntryTypeBadge type={hotspot.entryRequirements.type} />
-                <CrowdRiskBadge risk={hotspot.crowdRisk} />
-                <ConfidenceBadge confidence={hotspot.confidence} />
-              </div>
-              <h1 className={styles.title}>{hotspot.name}</h1>
-              <p className={styles.neighbourhood}>
-                <span aria-hidden="true">📍</span> {hotspot.neighbourhood}
-              </p>
-              {hotspot.atmosphere && (
-                <p className={styles.description}>{hotspot.atmosphere}</p>
-              )}
-              <div className={styles.heroActions}>
-                <LastChecked date={hotspot.lastChecked} />
-                <a
-                  href={mapsUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={styles.directionsBtn}
-                >
-                  Get Directions →
-                </a>
-              </div>
-            </div>
+            <p className={styles.countryLabel}>
+              <FlagIcon code={hotspot.countryCode} size={16} />
+              {" "}{hotspot.country} Fans
+            </p>
+            <h1 className={styles.title}>{hotspot.name}</h1>
+            <p className={styles.neighbourhood}>
+              <span aria-hidden="true">📍</span> {hotspot.neighbourhood}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* ─── Anchor tab navigation ─── */}
-      <nav className={styles.tabNav} aria-label="Page sections">
-        <div className={`container ${styles.tabNavInner}`}>
-          <a href="#overview" className={styles.tabLink}>Overview</a>
-          <a href="#entry-rules" className={styles.tabLink}>Entry &amp; Rules</a>
-          {relatedEvents.length > 0 && (
-            <a href="#events" className={styles.tabLink}>Events</a>
-          )}
-          <a href="#restrictions" className={styles.tabLink}>Restrictions</a>
-          <a href="#good-to-know" className={styles.tabLink}>Good to Know</a>
+      {/* ─── Below-hero band: badges + actions ─── */}
+      <div className={styles.heroBand}>
+        <div className={`container ${styles.heroBandInner}`}>
+          <div className={styles.heroBandLeft}>
+            <EntryTypeBadge type={hotspot.entryRequirements.type} />
+            <CrowdRiskBadge risk={hotspot.crowdRisk} />
+            <ConfidenceBadge confidence={hotspot.confidence} />
+          </div>
+          <div className={styles.heroBandRight}>
+            <LastChecked date={hotspot.lastChecked} />
+            <a
+              href={mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.directionsBtn}
+            >
+              Get directions →
+            </a>
+          </div>
         </div>
-      </nav>
+      </div>
 
       {/* ─── Body ─── */}
       <div className="container">
         <div className={styles.body}>
           <div className={styles.mainCol}>
+            {hotspot.atmosphere && (
+              <section className={styles.atmosphereSection} id="overview">
+                <p className={styles.atmosphereText}>{hotspot.atmosphere}</p>
+              </section>
+            )}
+
             {hotspot.bestFor.length > 0 && (
-              <section className={styles.bestForSection} id="overview">
-                <h2 className={styles.sectionHeading}>Best For</h2>
+              <section className={styles.bestForSection}>
+                <h2 className={styles.sectionHeading}>Good for</h2>
                 <ul className={styles.bestForList}>
                   {hotspot.bestFor.map((b) => (
                     <li key={b} className={styles.bestForItem}>
@@ -135,7 +130,7 @@ export default async function HotspotDetailPage({ params }: Props) {
             {relatedEvents.length > 0 && (
               <section className={styles.bestForSection} id="events">
                 <h2 className={styles.sectionHeading}>
-                  Upcoming Events for {hotspot.country} Fans
+                  Upcoming events for {hotspot.country} fans
                 </h2>
                 <div className={styles.eventsGrid}>
                   {relatedEvents.map((e) => (

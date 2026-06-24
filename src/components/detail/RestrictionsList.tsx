@@ -11,14 +11,18 @@ export function RestrictionsList({ restrictions }: RestrictionsListProps) {
       aria-labelledby="restrictions-heading"
     >
       <h2 className={styles.heading} id="restrictions-heading">
-        <span aria-hidden="true">⛔</span> Restrictions
+        Restrictions &amp; Rules
       </h2>
 
       {restrictions.length > 0 ? (
         <ul className={styles.list}>
           {restrictions.map((r) => (
             <li key={r} className={styles.item}>
-              <span className={styles.bullet} aria-hidden="true">■</span>
+              <span className={styles.bullet} aria-hidden="true">
+                <svg width="6" height="6" viewBox="0 0 6 6" fill="currentColor" aria-hidden="true">
+                  <circle cx="3" cy="3" r="3" />
+                </svg>
+              </span>
               {r}
             </li>
           ))}

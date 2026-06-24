@@ -12,6 +12,7 @@
     "promote": "tsx --env-file-if-exists=.env.local scripts/ingest/promote.ts"
   },
   "dependencies": {
+    "flag-icons": "^7.5.0",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

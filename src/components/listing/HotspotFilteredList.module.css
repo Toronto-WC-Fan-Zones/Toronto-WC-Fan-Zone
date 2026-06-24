@@ -11,7 +11,7 @@
 .regionList {
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 40px;
   padding-bottom: 32px;
 }
 
@@ -20,16 +20,17 @@
 }
 
 .regionHeader {
-  margin-bottom: 18px;
-  padding-bottom: 14px;
-  border-bottom: 2px solid var(--border-color);
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
 }
 
 .regionTitle {
-  font-size: 1.25rem;
-  font-weight: 800;
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-heading);
   color: var(--text-primary);
   margin-bottom: 4px;
+  letter-spacing: -0.01em;
 }
 
 .regionDesc {

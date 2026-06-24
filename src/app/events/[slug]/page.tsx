@@ -7,6 +7,7 @@ import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { CountryBadges } from "@/components/ui/CountryBadges";
 import { LastChecked } from "@/components/ui/LastChecked";
 import { SourceList } from "@/components/detail/SourceList";
+import { FlagIcon } from "@/components/ui/FlagIcon";
 import { formatTorontoDateTime } from "@/lib/dates";
 import styles from "./page.module.css";
 
@@ -103,7 +104,7 @@ export default async function EventDetailPage({ params }: Props) {
                   href={`/hotspots/${h.slug}`}
                   className={styles.relatedHotspotLink}
                 >
-                  <span aria-hidden="true">{h.flagEmoji}</span> {h.name} →
+                  <FlagIcon code={h.countryCode} size={15} /> {h.name} →
                 </Link>
               ))}
             </div>

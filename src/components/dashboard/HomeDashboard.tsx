@@ -5,7 +5,8 @@ import { FilterChips } from "./FilterChips";
 import { FanZoneCard } from "@/components/cards/FanZoneCard";
 import { FEATURES } from "@/lib/features";
 import { LastChecked } from "@/components/ui/LastChecked";
-import { getFlagEmoji } from "@/lib/countries";
+import { getCountryCode } from "@/lib/countries";
+import { FlagIcon } from "@/components/ui/FlagIcon";
 import { formatTorontoDateTime } from "@/lib/dates";
 import type { OfficialFanZone, CountryHotspot, AreaGuide, CommunityEvent } from "@/types";
 
@@ -124,9 +125,7 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
                 href={`/hotspots/${h.slug}`}
                 className={styles.hotspotCard}
               >
-                <span className={styles.hotspotFlag} aria-hidden="true">
-                  {h.flagEmoji}
-                </span>
+                <FlagIcon code={h.countryCode} size={20} />
                 <div className={styles.hotspotCardBody}>
                   <span className={styles.hotspotName}>{h.name}</span>
                   <span className={styles.hotspotArea}>{h.neighbourhood}</span>
@@ -167,12 +166,14 @@ export function HomeDashboard({ fanZones, hotspots, areas, events }: HomeDashboa
                     href={`/events/${e.slug}`}
                     className={styles.hotspotCard}
                   >
-                    <span className={styles.hotspotFlag} aria-hidden="true">
+                    <span className={styles.hotspotFlag} style={{display: "flex", gap: 3}}>
                       {e.relatedCountries
-                        .map((c) => getFlagEmoji(c))
-                        .filter(Boolean)
+                        .map((c) => getCountryCode(c))
+                        .filter((code): code is string => code !== null)
                         .slice(0, 2)
-                        .join(" ")}
+                        .map((code) => (
+                          <FlagIcon key={code} code={code} size={18} />
+                        ))}
                     </span>
                     <div className={styles.hotspotCardBody}>
                       <span className={styles.hotspotName}>{e.name}</span>

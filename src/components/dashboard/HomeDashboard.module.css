@@ -41,25 +41,20 @@
 }
 
 .heroEyebrow {
-  display: inline-flex;
-  align-items: center;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-  border-radius: 9999px;
-  padding: 5px 12px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.92);
-  margin-bottom: 14px;
-  letter-spacing: 0.02em;
+  display: inline-block;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+  letter-spacing: 0.01em;
 }
 
 .heroTitle {
-  font-size: clamp(2rem, 4.2vw, 3.35rem);
-  font-weight: 800;
-  line-height: 1.06;
-  letter-spacing: -0.02em;
-  margin-bottom: 10px;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  font-weight: 700;
+  line-height: 1.08;
+  letter-spacing: -0.01em;
+  margin-bottom: 14px;
   color: #fff;
 }
 
@@ -69,10 +64,11 @@
 
 .heroSubtitle {
   font-size: 1rem;
-  color: rgba(255, 255, 255, 0.78);
-  line-height: 1.45;
-  margin-bottom: 16px;
-  max-width: 560px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.72);
+  line-height: 1.55;
+  margin-bottom: 20px;
+  max-width: 520px;
 }
 
 .heroSearch {
@@ -158,9 +154,10 @@
 }
 
 .sectionHeading {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.1rem;
+  font-weight: var(--font-weight-heading);
   color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 .viewAll {
@@ -198,20 +195,20 @@
 .hotspotCard {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: 14px;
-  padding: 14px 16px;
+  border-radius: var(--card-radius);
+  padding: 12px 14px;
   display: flex;
   align-items: center;
   gap: 12px;
   text-decoration: none;
   color: inherit;
-  transition: box-shadow 0.15s, transform 0.15s;
+  transition: border-color var(--transition-default), box-shadow var(--transition-default);
   min-width: 0;
 }
 
 .hotspotCard:hover {
-  box-shadow: var(--shadow-card-hover);
-  transform: translateY(-1px);
+  border-color: var(--color-primary);
+  box-shadow: 0 2px 8px rgba(79, 70, 229, 0.08);
 }
 
 .hotspotFlag {
@@ -372,7 +369,7 @@
 
 @media (max-width: 768px) {
   .heroTitle {
-    font-size: clamp(1.85rem, 8vw, 2.4rem);
+    font-size: clamp(1.75rem, 7.5vw, 2.2rem);
   }
 
   .heroSearch {

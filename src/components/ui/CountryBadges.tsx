@@ -1,5 +1,6 @@
 import styles from "./CountryBadges.module.css";
-import { getFlagEmoji } from "@/lib/countries";
+import { getCountryCode } from "@/lib/countries";
+import { FlagIcon } from "@/components/ui/FlagIcon";
 
 interface CountryBadgesProps {
   countries: string[];
@@ -11,14 +12,10 @@ export function CountryBadges({ countries }: CountryBadgesProps) {
   return (
     <div className={styles.list} aria-label="Related countries">
       {countries.map((country) => {
-        const flag = getFlagEmoji(country);
+        const code = getCountryCode(country);
         return (
           <span key={country} className={styles.badge}>
-            {flag && (
-              <span className={styles.flag} aria-hidden="true">
-                {flag}
-              </span>
-            )}
+            {code && <FlagIcon code={code} size={14} />}
             {country}
           </span>
         );

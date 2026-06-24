@@ -15,7 +15,7 @@ export function EntryRequirements({ er }: EntryRequirementsProps) {
       aria-labelledby="entry-requirements-heading"
     >
       <h2 className={styles.heading} id="entry-requirements-heading">
-        <span aria-hidden="true">🎟</span> Entry Requirements
+        Entry &amp; Access
       </h2>
 
       <div className={styles.grid}>

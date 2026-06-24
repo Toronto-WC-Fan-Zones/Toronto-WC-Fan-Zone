@@ -64,12 +64,20 @@
   --max-width: 1200px;
   --content-padding: 24px;
   --section-gap: 64px;
-  --card-radius: 12px;
+  --card-radius: 10px;
   --badge-radius: 9999px;
 
   /* Typography */
-  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     sans-serif;
+  --font-weight-display: 800;
+  --font-weight-heading: 700;
+
+  /* Transitions */
+  --transition-default: 0.15s ease;
+
+  /* Accent border (for hover states) */
+  --border-color-accent: var(--color-primary);
 }
 
 *,

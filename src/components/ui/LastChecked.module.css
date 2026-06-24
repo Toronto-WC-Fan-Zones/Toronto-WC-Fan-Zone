@@ -2,14 +2,16 @@
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: var(--text-muted);
+  opacity: 0.7;
   white-space: nowrap;
 }
 
+/* Dot kept for detail page contexts where staleness is decision-relevant */
 .dot {
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   flex-shrink: 0;
 }

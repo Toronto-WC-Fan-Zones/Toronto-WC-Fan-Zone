@@ -1,8 +1,8 @@
 .box {
-  background: var(--color-grey-bg);
+  background: var(--bg-card);
   border: 1px solid var(--border-color);
-  border-radius: 12px;
-  padding: 20px;
+  border-radius: var(--card-radius);
+  padding: 18px;
   display: flex;
   flex-direction: column;
   gap: 12px;

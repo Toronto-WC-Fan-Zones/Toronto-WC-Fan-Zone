@@ -30,7 +30,7 @@ export function QuickAnswerBox({
 
   return (
     <aside className={styles.box} aria-labelledby="quick-answer-heading">
-      <p className={styles.heading}>Quick Answer</p>
+      <p className={styles.heading}>Key Info</p>
       <p className={styles.title}>{name}</p>
 
       <div className={styles.rows}>

@@ -3,6 +3,7 @@ import styles from "./CountryHotspotCard.module.css";
 import { CrowdRiskBadge } from "@/components/ui/CrowdRiskBadge";
 import { EntryTypeBadge } from "@/components/ui/EntryTypeBadge";
 import { LastChecked } from "@/components/ui/LastChecked";
+import { FlagIcon } from "@/components/ui/FlagIcon";
 import type { CountryHotspot } from "@/types";
 
 interface CountryHotspotCardProps {
@@ -17,12 +18,12 @@ export function CountryHotspotCard({
   return (
     <Link href={`/hotspots/${hotspot.slug}`} className={styles.card}>
       <div className={styles.header}>
-        <span className={styles.flag} aria-hidden="true">
-          {hotspot.flagEmoji}
-        </span>
+        <FlagIcon code={hotspot.countryCode} size={20} />
         <div className={styles.countryInfo}>
-          <span className={styles.country}>{hotspot.country} Fans</span>
           <h3 className={styles.name}>{hotspot.name}</h3>
+          <p className={styles.sub}>
+            {hotspot.country} fans · {hotspot.neighbourhood}
+          </p>
         </div>
         {eventCount > 0 && (
           <span className={styles.eventCount}>
@@ -31,16 +32,17 @@ export function CountryHotspotCard({
         )}
       </div>
 
-      <div className={styles.badges}>
+      {hotspot.atmosphere && (
+        <p className={styles.atmosphere}>{hotspot.atmosphere}</p>
+      )}
+
+      <div className={styles.meta}>
         <EntryTypeBadge type={hotspot.entryRequirements.type} />
         <CrowdRiskBadge risk={hotspot.crowdRisk} />
       </div>
 
-      <p className={styles.neighbourhood}>{hotspot.neighbourhood}</p>
-
       <div className={styles.footer}>
         <LastChecked date={hotspot.lastChecked} />
-        <span className={styles.viewLink}>View hotspot →</span>
       </div>
     </Link>
   );

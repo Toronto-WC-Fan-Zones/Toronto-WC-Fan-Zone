@@ -7,11 +7,7 @@ import {
   getFanZoneBySlug,
   getFanZonesBySlug,
 } from "@/lib/data";
-import { CrowdRiskBadge } from "@/components/ui/CrowdRiskBadge";
-import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
-import { EntryTypeBadge } from "@/components/ui/EntryTypeBadge";
 import { LastChecked } from "@/components/ui/LastChecked";
-import { QuickAnswerBox } from "@/components/detail/QuickAnswerBox";
 import { EntryRequirements } from "@/components/detail/EntryRequirements";
 import { RestrictionsList } from "@/components/detail/RestrictionsList";
 import { SourceList } from "@/components/detail/SourceList";
@@ -26,6 +22,7 @@ import {
   NearbyAlternativesCard,
   type NearbyAlt,
 } from "@/components/detail/NearbyAlternativesCard";
+import { ENTRY_TYPE_LABELS, CROWD_RISK_LABELS } from "@/lib/constants";
 import styles from "./page.module.css";
 
 interface Props {
@@ -44,15 +41,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: zone.name,
     description: zone.shortDescription,
   };
-}
-
-/* Badge colour derived from text content */
-function customBadgeClass(badge: string): string {
-  const l = badge.toLowerCase();
-  if (l.includes("reservation") || l.includes("preferred")) return styles.badgeAmber;
-  if (l.includes("walk-in") || l.includes("allowed")) return styles.badgeGreen;
-  if (l.includes("busy") || l.includes("high crowd")) return styles.badgeOrange;
-  return styles.badgeDefault;
 }
 
 export default async function FanZoneDetailPage({ params }: Props) {
@@ -82,111 +70,104 @@ export default async function FanZoneDetailPage({ params }: Props) {
     })
     .filter(Boolean) as NearbyAlt[];
 
-  const hasRichContent =
-    zone.infoSections && zone.infoSections.length > 0;
+  const hasRichContent = zone.infoSections && zone.infoSections.length > 0;
+
+  const { entryRequirements: er } = zone;
 
   return (
     <div className={styles.page}>
-      {/* ─── White header: thumbnail + title + badges ─── */}
+      {/* ─── Two-column page header: image left, info right ─── */}
       <div className={styles.pageHeader}>
-        <div className="container">
-          <Link href="/fan-zones" className={styles.backLink}>
-            ← Back to all fan zones
-          </Link>
+        <div className={styles.headerGrid}>
+          {zone.imageSrc && (
+            <div className={styles.headerImage}>
+              <Image
+                src={zone.imageSrc}
+                alt={zone.name}
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 400px"
+                className={styles.headerImageImg}
+              />
+            </div>
+          )}
 
-          <div className={styles.headerRow}>
-            {/* Thumbnail */}
-            {zone.imageSrc && (
-              <div className={styles.headerThumb}>
-                <Image
-                  src={zone.imageSrc}
-                  alt={zone.name}
-                  fill
-                  sizes="128px"
-                  className={styles.headerThumbImg}
-                />
-              </div>
+          <div className={styles.headerContent}>
+            <Link href="/fan-zones" className={styles.backLink}>
+              ← Fan Zones
+            </Link>
+
+            <h1 className={styles.headerTitle}>{zone.name}</h1>
+
+            {zone.address && (
+              <p className={styles.headerAddress}>
+                <span aria-hidden="true">📍</span> {zone.address}
+              </p>
             )}
 
-            {/* Info block */}
-            <div className={styles.headerInfo}>
-              <h1 className={styles.headerTitle}>{zone.name}</h1>
-              {zone.address && (
-                <p className={styles.headerAddress}>
-                  <span aria-hidden="true">📍</span> {zone.address}
-                </p>
-              )}
-              {zone.websiteLabel && (
-                <p className={styles.headerVenueLabel}>
-                  <span aria-hidden="true">🛡</span> {zone.websiteLabel}
-                </p>
-              )}
-              <div className={styles.headerBadges}>
-                <EntryTypeBadge type={zone.entryRequirements.type} />
-                {zone.customBadges?.map((b) => (
-                  <span
-                    key={b}
-                    className={`${styles.customBadge} ${customBadgeClass(b)}`}
-                  >
-                    {b}
-                  </span>
-                ))}
-                {!zone.customBadges && (
-                  <>
-                    <CrowdRiskBadge risk={zone.crowdRisk} />
-                    {zone.isOutdoor && (
-                      <span className={styles.customBadge}>🌤 Outdoor</span>
-                    )}
-                    <ConfidenceBadge confidence={zone.confidence} />
-                  </>
-                )}
+            {/* Key facts — the most decision-relevant info at a glance */}
+            <dl className={styles.keyFacts}>
+              <div className={styles.keyFact}>
+                <dt>Entry</dt>
+                <dd>{ENTRY_TYPE_LABELS[er.type]}</dd>
               </div>
+              {er.cost && (
+                <div className={styles.keyFact}>
+                  <dt>Cost</dt>
+                  <dd>{er.cost}</dd>
+                </div>
+              )}
+              <div className={styles.keyFact}>
+                <dt>Crowd</dt>
+                <dd>{CROWD_RISK_LABELS[zone.crowdRisk]}</dd>
+              </div>
+              {er.arrivalGuidance && (
+                <div className={styles.keyFact}>
+                  <dt>Arrive</dt>
+                  <dd>{er.arrivalGuidance.split(".")[0]}</dd>
+                </div>
+              )}
+            </dl>
+
+            <div className={styles.headerActions}>
+              <a
+                href={mapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={styles.mapsBtn}
+                aria-label="Open in Google Maps"
+              >
+                Get directions →
+              </a>
+              {officialSource && (
+                <a
+                  href={officialSource.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.officialBtn}
+                >
+                  Official site ↗
+                </a>
+              )}
             </div>
 
-            {/* Open in Maps button */}
-            <a
-              href={mapsUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.mapsBtn}
-              aria-label="Open in Google Maps"
-            >
-              <span aria-hidden="true">📍</span> Open in Maps
-            </a>
+            <div className={styles.headerMeta}>
+              <LastChecked date={zone.lastChecked} />
+            </div>
           </div>
         </div>
       </div>
 
-      {/* ─── Full-width hero image ─── */}
-      {zone.imageSrc && (
-        <div className={styles.heroImageWrap}>
-          <Image
-            src={zone.imageSrc}
-            alt={`${zone.name} - venue photo`}
-            fill
-            priority
-            sizes="100vw"
-            className={styles.heroImage}
-          />
-        </div>
-      )}
-
-      {/* ─── Body: single column + top cards row ─── */}
+      {/* ─── Body ─── */}
       <div className="container">
         <div className={styles.body}>
 
-          {/* ── Top cards row: useful links + nearby alternatives ── */}
+          {/* ── Sidebar cards: useful links + nearby alternatives ── */}
           {(zone.usefulLinks?.length || nearbyAlts.length || alternatives.length) ? (
             <div className={styles.topCards}>
               {zone.usefulLinks && zone.usefulLinks.length > 0 ? (
                 <UsefulLinksCard links={zone.usefulLinks} />
-              ) : (
-                <QuickAnswerBox
-                  name={zone.name}
-                  entryRequirements={zone.entryRequirements}
-                  officialSourceUrl={officialSource?.url}
-                />
-              )}
+              ) : null}
 
               {nearbyAlts.length > 0 ? (
                 <NearbyAlternativesCard alternatives={nearbyAlts} />
@@ -195,32 +176,17 @@ export default async function FanZoneDetailPage({ params }: Props) {
                   <AlternativesList alternatives={alternatives} />
                 )
               )}
-
-              {/* Last checked - compact inline */}
-              <div className={styles.lastCheckedCard}>
-                <p className={styles.lastCheckedLabel}>
-                  <span aria-hidden="true">ℹ</span> Last checked
-                </p>
-                <LastChecked date={zone.lastChecked} />
-                <p className={styles.lastCheckedNote}>
-                  Info may change. Check official sources before leaving.
-                </p>
-              </div>
             </div>
           ) : null}
 
-          {/* ── Main content (full-width single column) ── */}
+          {/* ── Main content ── */}
           <div className={styles.mainCol}>
-
-            {/* Quick Answer card */}
-            <div className={styles.quickAnswer}>
-              <p className={styles.qaHead}>
-                <span aria-hidden="true">⚡</span> Quick Answer
-              </p>
-              <p className={styles.qaText}>
-                {zone.quickAnswerSummary ?? zone.shortDescription}
-              </p>
-            </div>
+            {/* Before you go — plain prose callout */}
+            {(zone.quickAnswerSummary ?? zone.shortDescription) && (
+              <div className={styles.beforeYouGo}>
+                <p>{zone.quickAnswerSummary ?? zone.shortDescription}</p>
+              </div>
+            )}
 
             {hasRichContent ? (
               <>
@@ -236,7 +202,7 @@ export default async function FanZoneDetailPage({ params }: Props) {
                     <div className={styles.vibeGrid}>
                       {zone.bestFor.length > 0 && (
                         <div className={styles.vibeBlock}>
-                          <h2 className={styles.vibeHeading}>Vibe &amp; Best For</h2>
+                          <h2 className={styles.vibeHeading}>Good for</h2>
                           <ul className={styles.vibeList}>
                             {zone.bestFor.map((b) => (
                               <li key={b} className={styles.vibeItem}>
@@ -249,7 +215,7 @@ export default async function FanZoneDetailPage({ params }: Props) {
                       )}
                       {zone.notIdealFor.length > 0 && (
                         <div className={styles.vibeBlock}>
-                          <h2 className={styles.vibeHeading}>Not Ideal For</h2>
+                          <h2 className={styles.vibeHeading}>Not ideal for</h2>
                           <ul className={styles.vibeList}>
                             {zone.notIdealFor.map((n) => (
                               <li key={n} className={styles.vibeItem}>

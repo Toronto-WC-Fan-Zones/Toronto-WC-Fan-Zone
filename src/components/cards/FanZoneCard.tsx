@@ -28,28 +28,22 @@ export function FanZoneCard({ zone }: FanZoneCardProps) {
       )}
 
       <div className={styles.body}>
-        <div className={styles.badges}>
+        <h3 className={styles.name}>{zone.name}</h3>
+        <p className={styles.neighbourhood}>{zone.neighbourhood}</p>
+
+        <div className={styles.meta}>
           <EntryTypeBadge type={er.type} />
           <CrowdRiskBadge risk={zone.crowdRisk} />
-          {zone.isOutdoor && (
-            <span className={styles.outdoor}>Outdoor</span>
-          )}
         </div>
-
-        <h3 className={styles.name}>{zone.name}</h3>
-
-        <p className={styles.neighbourhood}>{zone.neighbourhood}</p>
 
         {er.arrivalGuidance && (
           <p className={styles.arrivalHint}>
-            <span className={styles.arrivalIcon} aria-hidden="true">⏱</span>
             {er.arrivalGuidance.split(".")[0]}
           </p>
         )}
 
         <div className={styles.footer}>
           <LastChecked date={zone.lastChecked} />
-          <span className={styles.viewLink}>View details →</span>
         </div>
       </div>
     </Link>
