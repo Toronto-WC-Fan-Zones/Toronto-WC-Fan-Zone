@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllEvents, getEventBySlug, getHotspotsByCountry } from "@/lib/data";
+import {
+  getHotspotsByCountry,
+  getPublicEventBySlug,
+  getPublicEvents,
+} from "@/lib/data";
 import { EntryTypeBadge } from "@/components/ui/EntryTypeBadge";
 import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { CountryBadges } from "@/components/ui/CountryBadges";
@@ -9,6 +13,7 @@ import { LastChecked } from "@/components/ui/LastChecked";
 import { SourceList } from "@/components/detail/SourceList";
 import { FlagIcon } from "@/components/ui/FlagIcon";
 import { formatTorontoDateTime } from "@/lib/dates";
+import { FEATURES } from "@/lib/features";
 import styles from "./page.module.css";
 
 interface Props {
@@ -16,12 +21,14 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getAllEvents().map((e) => ({ slug: e.slug }));
+  if (!FEATURES.watchParties) return [];
+  return getPublicEvents().map((e) => ({ slug: e.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  if (!FEATURES.watchParties) return { title: "Event Not Found" };
   const { slug } = await params;
-  const event = getEventBySlug(slug);
+  const event = getPublicEventBySlug(slug);
   if (!event) return { title: "Event Not Found" };
   return {
     title: event.name,
@@ -30,8 +37,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function EventDetailPage({ params }: Props) {
+  if (!FEATURES.watchParties) notFound();
+
   const { slug } = await params;
-  const event = getEventBySlug(slug);
+  const event = getPublicEventBySlug(slug);
   if (!event) notFound();
 
   const mapsQuery = event.venueName

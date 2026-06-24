@@ -12,6 +12,7 @@ import { CountryHotspotCard } from "@/components/cards/CountryHotspotCard";
 import { LastChecked } from "@/components/ui/LastChecked";
 import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { SourceList } from "@/components/detail/SourceList";
+import { FEATURES } from "@/lib/features";
 import styles from "./page.module.css";
 
 interface Props {
@@ -19,10 +20,12 @@ interface Props {
 }
 
 export async function generateStaticParams() {
+  if (!FEATURES.nearMe) return [];
   return getAllAreas().map((a) => ({ slug: a.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  if (!FEATURES.nearMe) return { title: "Area Not Found" };
   const { slug } = await params;
   const area = getAreaBySlug(slug);
   if (!area) return { title: "Area Not Found" };
@@ -33,6 +36,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export default async function AreaDetailPage({ params }: Props) {
+  if (!FEATURES.nearMe) notFound();
+
   const { slug } = await params;
   const area = getAreaBySlug(slug);
   if (!area) notFound();
@@ -129,7 +134,7 @@ export default async function AreaDetailPage({ params }: Props) {
             </section>
           )}
 
-          {fanZones.length === 0 && hotspots.length === 0 && (
+          {fanZones.length === 0 && hotspots.length === 0 && FEATURES.submitSpot && (
             <p className={styles.emptyNote}>
               No specific spots verified in this area yet.{" "}
               <Link href="/submit" className={styles.submitLink}>

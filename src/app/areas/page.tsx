@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { getAllAreas } from "@/lib/data";
 import { AreaFilteredList } from "@/components/listing/AreaFilteredList";
+import { FEATURES } from "@/lib/features";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -10,6 +12,8 @@ export const metadata: Metadata = {
 };
 
 export default function AreasPage() {
+  if (!FEATURES.nearMe) notFound();
+
   const areas = getAllAreas();
 
   return (

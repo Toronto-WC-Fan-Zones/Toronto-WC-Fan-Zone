@@ -52,8 +52,16 @@ export function getAllEvents(): CommunityEvent[] {
   return events;
 }
 
+export function getPublicEvents(): CommunityEvent[] {
+  return events.filter((e) => e.visibility === "public");
+}
+
 export function getEventBySlug(slug: string): CommunityEvent | undefined {
   return events.find((e) => e.slug === slug);
+}
+
+export function getPublicEventBySlug(slug: string): CommunityEvent | undefined {
+  return getPublicEvents().find((e) => e.slug === slug);
 }
 
 // Cross-links events to hotspots by matching country name - no separate
@@ -61,6 +69,12 @@ export function getEventBySlug(slug: string): CommunityEvent | undefined {
 // an event's relatedCountries are already the same string in practice.
 export function getEventsByCountry(country: string): CommunityEvent[] {
   return events.filter((e) =>
+    e.relatedCountries.some((c) => c.toLowerCase() === country.toLowerCase())
+  );
+}
+
+export function getPublicEventsByCountry(country: string): CommunityEvent[] {
+  return getPublicEvents().filter((e) =>
     e.relatedCountries.some((c) => c.toLowerCase() === country.toLowerCase())
   );
 }

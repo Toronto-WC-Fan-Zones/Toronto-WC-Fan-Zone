@@ -42,12 +42,16 @@ function describe(c: CandidateSignal): string {
     : "date unknown";
   const countries: string[] | undefined =
     guess?.relatedCountries?.length ? guess.relatedCountries : guess?.teams;
+  const hints = c.reviewHints?.length
+    ? c.reviewHints.map((hint) => `  \u{1F4DD} ${hint}`)
+    : [];
 
   return [
     `[${c.status}] ${c.id} (${c.sourceType})`,
     `  ${c.rawTitle}`,
     `  \u{1F4C5} ${whenStr}${countries?.length ? `   \u{1F30D} ${countries.join(" vs ")}` : ""}`,
     `  \u{1F517} ${c.sourceUrl}`,
+    ...hints,
   ].join("\n");
 }
 

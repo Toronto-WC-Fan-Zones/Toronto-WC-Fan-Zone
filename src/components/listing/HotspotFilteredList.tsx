@@ -11,6 +11,7 @@ import type { CountryHotspot, HotspotRegion } from "@/types";
 interface HotspotFilteredListProps {
   hotspots: CountryHotspot[];
   eventCounts: Record<string, number>;
+  showEventControls?: boolean;
 }
 
 const EMPTY_FILTERS: FilterState = {
@@ -46,6 +47,7 @@ function isFiltered(filters: FilterState): boolean {
 export function HotspotFilteredList({
   hotspots,
   eventCounts,
+  showEventControls = true,
 }: HotspotFilteredListProps) {
   const [filters, setFilters] = useState<FilterState>(EMPTY_FILTERS);
   const [onlyWithEvents, setOnlyWithEvents] = useState(false);
@@ -69,13 +71,13 @@ export function HotspotFilteredList({
       return false;
     if (filters.crowdRisk && h.crowdRisk !== filters.crowdRisk) return false;
     if (filters.country && h.country !== filters.country) return false;
-    if (onlyWithEvents && !eventCounts[h.slug]) return false;
+    if (showEventControls && onlyWithEvents && !eventCounts[h.slug]) return false;
     return true;
   });
 
-  const showGrouped = !isFiltered(filters) && !onlyWithEvents;
+  const showGrouped = !isFiltered(filters) && !(showEventControls && onlyWithEvents);
 
-  const eventsFilterToggle = (
+  const eventsFilterToggle = showEventControls ? (
     <label className={styles.eventsFilterToggle}>
       <input
         type="checkbox"
@@ -84,7 +86,7 @@ export function HotspotFilteredList({
       />
       Only show hotspots with upcoming events
     </label>
-  );
+  ) : null;
 
   if (showGrouped) {
     const byRegion = REGION_ORDER.reduce<Record<string, CountryHotspot[]>>(

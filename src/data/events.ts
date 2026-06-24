@@ -16,6 +16,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["Canada", "Switzerland"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1987794775684",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -38,6 +41,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["England", "Ghana"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1987794725534",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -60,6 +66,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["England", "Panama"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1987794924128",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -82,6 +91,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["Portugal", "Uzbekistan"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1991239197041",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -104,6 +116,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["Colombia", "Congo DR"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1991239990414",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -126,6 +141,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["Scotland", "Brazil"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1991240488905",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -148,6 +166,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["Ecuador", "Germany"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1991245721556",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [
@@ -170,6 +191,9 @@ export const events: CommunityEvent[] = [
     relatedCountries: ["Japan", "Sweden"],
     entryType: "ticketed",
     sourceSignalId: "eventbrite-1991246156858",
+    visibility: "shelved",
+    venueCategory: "licensed_venue",
+    shelvedReason: "alcohol_venue_guardrails_pending",
     lastChecked: "2026-06-22",
     confidence: "unconfirmed",
     sources: [

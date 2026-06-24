@@ -169,6 +169,20 @@ export type CommunityEventType =
   | "march"
   | "other";
 
+export type EventVisibility = "public" | "shelved";
+
+export type VenueCategory =
+  | "licensed_venue"
+  | "restaurant"
+  | "community_space"
+  | "outdoor"
+  | "official"
+  | "unknown";
+
+export type ShelvedReason =
+  | "alcohol_venue_guardrails_pending"
+  | "needs_review";
+
 export interface CommunityEvent extends TrustMeta {
   slug: string;
   name: string;
@@ -182,6 +196,9 @@ export interface CommunityEvent extends TrustMeta {
   relatedCountries: string[];
   entryType: EntryType;
   sourceSignalId: string | null;
+  visibility: EventVisibility;
+  venueCategory: VenueCategory;
+  shelvedReason?: ShelvedReason;
 }
 
 export interface CandidateSignal {
@@ -200,4 +217,5 @@ export interface CandidateSignal {
   parsedGuess: Partial<OfficialFanZone | CountryHotspot | CommunityEvent | Game>;
   status: "needs_review" | "approved" | "rejected" | "published";
   dedupeKey: string; // hash(sourceType + external id) - keeps reruns idempotent
+  reviewHints?: string[];
 }

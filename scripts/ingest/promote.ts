@@ -20,6 +20,10 @@ function todo(label: string): string {
   return `/* TODO: ${label} */ undefined`;
 }
 
+function quoted(value: string): string {
+  return `"${String(value).replace(/\\/g, "\\\\").replace(/"/g, '\\"')}"`;
+}
+
 // Only enough fields are filled in from the candidate's parsedGuess to save
 // typing - everything that needs a human judgment call (confidence beyond
 // "unconfirmed", entryType, eventType, groupStage, crowd risk) stays a TODO.
@@ -29,10 +33,27 @@ function scaffoldCommunityEvent(c: CandidateSignal): string {
   const name = guess?.name ?? c.rawTitle;
   const slug = slugify(name);
   const today = new Date().toISOString().slice(0, 10);
+  const defaultShelved =
+    c.sourceType === "reddit" || c.sourceType === "eventbrite";
+  const visibility = guess?.visibility
+    ? quoted(guess.visibility)
+    : defaultShelved
+      ? '"shelved"'
+      : todo('"public" | "shelved"');
+  const venueCategory = guess?.venueCategory
+    ? quoted(guess.venueCategory)
+    : defaultShelved
+      ? '"licensed_venue"'
+      : todo('"licensed_venue" | "restaurant" | "community_space" | "outdoor" | "official" | "unknown"');
+  const shelvedReason = guess?.shelvedReason
+    ? quoted(guess.shelvedReason)
+    : defaultShelved
+      ? '"alcohol_venue_guardrails_pending"'
+      : todo('"alcohol_venue_guardrails_pending" | "needs_review" | undefined');
 
   return `{
   slug: "${slug}",
-  name: "${String(name).replace(/"/g, '\\"')}",
+  name: ${quoted(name)},
   eventType: ${todo('"watch-party" | "screening" | "street-festival" | "march" | "other"')},
   startDateTime: ${guess?.startDateTime ? `"${guess.startDateTime}"` : todo("ISO datetime")},
   endDateTime: null,
@@ -41,6 +62,9 @@ function scaffoldCommunityEvent(c: CandidateSignal): string {
   relatedCountries: ${guess?.relatedCountries?.length ? JSON.stringify(guess.relatedCountries) : "[]"},
   entryType: ${todo('"free" | "ticketed" | "reservation" | "walk-in" | "unclear"')},
   sourceSignalId: "${c.id}",
+  visibility: ${visibility},
+  venueCategory: ${venueCategory},
+  shelvedReason: ${shelvedReason},
   lastChecked: "${today}",
   confidence: "unconfirmed",
   sources: [{ label: "${c.sourceType}", url: "${c.sourceUrl}", type: "community" }],

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import { getAllEvents } from "@/lib/data";
+import { notFound } from "next/navigation";
+import { getPublicEvents } from "@/lib/data";
 import { EventFilteredList } from "@/components/listing/EventFilteredList";
+import { FEATURES } from "@/lib/features";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -10,7 +12,9 @@ export const metadata: Metadata = {
 };
 
 export default function EventsPage() {
-  const events = getAllEvents();
+  if (!FEATURES.watchParties) notFound();
+
+  const events = getPublicEvents();
 
   return (
     <div className={styles.page}>

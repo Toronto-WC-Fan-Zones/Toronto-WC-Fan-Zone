@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import { getAllHotspots, getEventsByCountry } from "@/lib/data";
+import { getAllHotspots, getPublicEventsByCountry } from "@/lib/data";
 import { HotspotFilteredList } from "@/components/listing/HotspotFilteredList";
+import { FEATURES } from "@/lib/features";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -11,9 +12,11 @@ export const metadata: Metadata = {
 
 export default function HotspotsPage() {
   const hotspots = getAllHotspots();
-  const eventCounts = Object.fromEntries(
-    hotspots.map((h) => [h.slug, getEventsByCountry(h.country).length])
-  );
+  const eventCounts = FEATURES.watchParties
+    ? Object.fromEntries(
+        hotspots.map((h) => [h.slug, getPublicEventsByCountry(h.country).length])
+      )
+    : {};
 
   return (
     <div className={styles.page}>
@@ -26,7 +29,11 @@ export default function HotspotsPage() {
           </p>
         </header>
 
-        <HotspotFilteredList hotspots={hotspots} eventCounts={eventCounts} />
+        <HotspotFilteredList
+          hotspots={hotspots}
+          eventCounts={eventCounts}
+          showEventControls={FEATURES.watchParties}
+        />
       </div>
     </div>
   );

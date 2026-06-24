@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import styles from "./page.module.css";
 import { SUBMIT_FORM_URL } from "@/lib/constants";
+import { FEATURES } from "@/lib/features";
 
 export const metadata: Metadata = {
   title: "Submit a Spot",
@@ -9,6 +11,8 @@ export const metadata: Metadata = {
 };
 
 export default function SubmitPage() {
+  if (!FEATURES.submitSpot) notFound();
+
   return (
     <div className={styles.page}>
       <div className="container">

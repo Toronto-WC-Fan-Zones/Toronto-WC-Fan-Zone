@@ -2,7 +2,11 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
-import { getAllHotspots, getHotspotBySlug, getEventsByCountry } from "@/lib/data";
+import {
+  getAllHotspots,
+  getHotspotBySlug,
+  getPublicEventsByCountry,
+} from "@/lib/data";
 import { CrowdRiskBadge } from "@/components/ui/CrowdRiskBadge";
 import { ConfidenceBadge } from "@/components/ui/ConfidenceBadge";
 import { EntryTypeBadge } from "@/components/ui/EntryTypeBadge";
@@ -13,6 +17,7 @@ import { RestrictionsList } from "@/components/detail/RestrictionsList";
 import { SourceList } from "@/components/detail/SourceList";
 import { CommunityEventCard } from "@/components/cards/CommunityEventCard";
 import { FlagIcon } from "@/components/ui/FlagIcon";
+import { FEATURES } from "@/lib/features";
 import styles from "./page.module.css";
 
 interface Props {
@@ -39,7 +44,9 @@ export default async function HotspotDetailPage({ params }: Props) {
   if (!hotspot) notFound();
 
   const mapsUrl = `https://maps.google.com/?q=${encodeURIComponent(hotspot.name + " Toronto")}`;
-  const relatedEvents = getEventsByCountry(hotspot.country);
+  const relatedEvents = FEATURES.watchParties
+    ? getPublicEventsByCountry(hotspot.country)
+    : [];
 
   return (
     <div className={styles.page}>
